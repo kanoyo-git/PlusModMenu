@@ -27,6 +27,8 @@ internal sealed class Speedometer : MonoBehaviour
 
 	public string Text => _numbers.Length > 0 ? _numbers[_numbers.Length - 1].text : "";
 
+	internal static Sprite? Frame => _overlay;
+
 	public static Speedometer? Create(PlayerManager player, Func<float> speed)
 	{
 		var hud = Singleton<CoreGameManager>.Instance.GetHud(player.playerNumber);
@@ -140,15 +142,14 @@ internal sealed class Speedometer : MonoBehaviour
 			var rect = source.textureRect;
 			var width = (int)rect.width;
 			var height = (int)rect.height;
-			var target = RenderTexture.GetTemporary(source.texture.width, source.texture.height, 0, RenderTextureFormat.ARGB32);
-			var previous = RenderTexture.active;
-			Graphics.Blit(source.texture, target);
-			RenderTexture.active = target;
-			var copy = new Texture2D(width, height, TextureFormat.RGBA32, mipChain: false) { filterMode = FilterMode.Point };
-			copy.ReadPixels(new Rect(rect.x, rect.y, width, height), 0, 0);
-			RenderTexture.active = previous;
-			RenderTexture.ReleaseTemporary(target);
+			var (fromTop, upsideDown) = ReadBackLayout();
+			var bottom = fromTop ? source.texture.height - (int)rect.y - height : (int)rect.y;
+			var copy = ReadBack(source.texture, new RectInt((int)rect.x, bottom, width, height));
 			var pixels = copy.GetPixels32();
+			if (upsideDown)
+			{
+				FlipRows(pixels, width, height);
+			}
 			for (var top = 3; top <= 16 && top < height; top++)
 			{
 				var y = height - 1 - top;
@@ -175,6 +176,46 @@ internal sealed class Speedometer : MonoBehaviour
 		{
 			Debugger.Warning("Speedometer: couldn't redraw the staminometer caption: " + e.Message);
 			return null;
+		}
+	}
+
+	private static Texture2D ReadBack(Texture texture, RectInt rect)
+	{
+		var target = RenderTexture.GetTemporary(texture.width, texture.height, 0, RenderTextureFormat.ARGB32);
+		var previous = RenderTexture.active;
+		Graphics.Blit(texture, target);
+		RenderTexture.active = target;
+		var copy = new Texture2D(rect.width, rect.height, TextureFormat.RGBA32, mipChain: false) { filterMode = FilterMode.Point };
+		copy.ReadPixels(new Rect(rect.x, rect.y, rect.width, rect.height), 0, 0);
+		RenderTexture.active = previous;
+		RenderTexture.ReleaseTemporary(target);
+		return copy;
+	}
+
+	private static (bool FromTop, bool UpsideDown) ReadBackLayout()
+	{
+		var probe = new Texture2D(1, 2, TextureFormat.RGBA32, mipChain: false) { filterMode = FilterMode.Point };
+		probe.SetPixels32(new[] { new Color32(255, 0, 0, 255), new Color32(0, 0, 255, 255) });
+		probe.Apply();
+		var lowest = ReadBack(probe, new RectInt(0, 0, 1, 1));
+		var both = ReadBack(probe, new RectInt(0, 0, 1, 2));
+		static bool Blue(Color32 c) => c.b > c.r;
+		var layout = (Blue(lowest.GetPixels32()[0]), Blue(both.GetPixels32()[0]));
+		Destroy(probe);
+		Destroy(lowest);
+		Destroy(both);
+		Debugger.Log($"Speedometer: GPU copy rows from top {layout.Item1}, upside down {layout.Item2} ({SystemInfo.graphicsDeviceType}).");
+		return layout;
+	}
+
+	private static void FlipRows(Color32[] pixels, int width, int height)
+	{
+		var row = new Color32[width];
+		for (var y = 0; y < height / 2; y++)
+		{
+			Array.Copy(pixels, y * width, row, 0, width);
+			Array.Copy(pixels, (height - 1 - y) * width, pixels, y * width, width);
+			Array.Copy(row, 0, pixels, (height - 1 - y) * width, width);
 		}
 	}
 
