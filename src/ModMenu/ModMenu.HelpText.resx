@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ZESTY_BAR_STAMINA_MULTIPLIER_TEXT" xml:space="preserve"><value>The stamina multiplier modifier allows you to control how much extra stamina you get, after eating a Zesty Bar.</value></data>
+  <data name="MAX_EVENT_TIME_TITLE" xml:space="preserve"><value>Max. event time</value></data>
+  <data name="MIDI_PITCH_TITLE" xml:space="preserve"><value>Pitch</value></data>
+  <data name="PLAYER_HEIGHT_TITLE" xml:space="preserve"><value>Height</value></data>
+  <data name="FOURTY_TWO_TEXT" xml:space="preserve"><value>With 42 on, every answer counts as right, as if you answered 42: any balloon put into a Math Machine, the count of a Balloon Buster and the second balloon of a Match.</value></data>
+  <data name="DETENTION_TIME_INCREASE_TEXT" xml:space="preserve"><value>The detention time increase modifier allows you to control how much time gets added to the detention time when getting caught by Principal of the Thing.</value></data>
+  <data name="MAX_WHIRLPOOLS_TEXT" xml:space="preserve"><value>This modifier adjusts how many whirlpools can be active at any given time, while the flood event is occuring.</value></data>
+  <data name="MAX_STAY_TIME_TEXT" xml:space="preserve"><value>The maximum stay time modifier manipulates the maximum amount of time for Cloudy Copter to blow air.</value></data>
+  <data name="MAX_TIME_ACTIVE_TITLE" xml:space="preserve"><value>Max. time active</value></data>
+  <data name="SWING_DOOR_LOCK_TIME_TEXT" xml:space="preserve"><value>The lock time modifier allows you to control how long swing doors will be locked.</value></data>
+  <data name="VECTOR3_CORRUPTION_TEXT" xml:space="preserve"><value>The Vector3 corruption modifier slightly shifts a Vector3's values (x, y and z) during construction.
+
+&lt;b&gt;THIS MODIFIER CAN RENDER YOUR GAME SESSION UNUSABLE! USE AT YOUR OWN DISCRETION!&lt;/b&gt;</value></data>
+  <data name="MAX_FLIPPERS_TEXT" xml:space="preserve"><value>This modifier adjusts how many flippers can be spawned, while the gravity event occurs.</value></data>
+  <data name="BSODA_LIFE_SPAN_TITLE" xml:space="preserve"><value>Life span</value></data>
+  <data name="MAX_HALLTIME_TEXT" xml:space="preserve"><value>The maximum halltime modifier manipulates how long It's a Bully can stand in a hallway, before getting bored.</value></data>
+  <data name="FIRST_PRIZE_CRAZY_TIME_TITLE" xml:space="preserve"><value>First Prize crazy time</value></data>
+  <data name="SPEED_TITLE" xml:space="preserve"><value>Speed</value></data>
+  <data name="MIN_FLIPPERS_TEXT" xml:space="preserve"><value>This modifier adjusts how many flippers must be spawned, while the gravity event occurs.</value></data>
+  <data name="SAMPLE_RATE_TITLE" xml:space="preserve"><value>Sample rate</value></data>
+  <data name="MIDI_SPEED_TEXT" xml:space="preserve"><value>This modifier adjusts the speed of the current MIDI song.
+
+Closing the lock allows you to enforce the value at all times.</value></data>
+  <data name="DRUM_BANK_TEXT" xml:space="preserve"><value>SoundFonts usually contain multiple so-called "banks", that contain different sets of samples to use for playing music.
+This modifier allows you to choose a different bank to use for a song's drums.</value></data>
+  <data name="MOVEMENT_MULTIPLIER_TITLE" xml:space="preserve"><value>Movement multiplier</value></data>
+  <data name="FOG_MAX_DIST_TEXT" xml:space="preserve"><value>The fog maximum distance modifier manipulates how far away from the camera, the fog gets to its maximum strength.</value></data>
+  <data name="GOTTA_SWEEP_MIN_COOLDOWN_TEXT" xml:space="preserve"><value>The minimum cooldown modifier manipulates the minimum amount of time that has to pass, until Gotta Sweep can sweep the schoolhouse again.</value></data>
+  <data name="INVISIBLE_TEXT" xml:space="preserve"><value>The visibility modifier allows you to control whether or not the character should be seen by the player. This does not affect how the character interacts with anything.</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER_TITLE" xml:space="preserve"><value>Ignores Player Trigger</value></data>
+  <data name="CAMERA_FOV_TITLE" xml:space="preserve"><value>Camera FOV</value></data>
+  <data name="INITIAL_RESPAWN_TIME_TITLE" xml:space="preserve"><value>Initial spawn delay</value></data>
+  <data name="MIN_EVENT_TIME_TITLE" xml:space="preserve"><value>Min. event time</value></data>
+  <data name="PLAYTIME_COOLDOWN_TEXT" xml:space="preserve"><value>The cooldown modifier manipulates how much time has to pass, until Playtime wants to play again.</value></data>
+  <data name="BEANS_COOLDOWN_TEXT" xml:space="preserve"><value>The cooldown modifier manipulates how long Beans has to wait, until he is allowed to shot another piece of gum.</value></data>
+  <data name="TELEPORT_PLAYER_TO_CHARACTER_TEXT" xml:space="preserve"><value>Allows you to teleport the player to the currently selected instance of a specific character.
+
+NOTE: Using this through the teleporter menu will teleport the player to first created instance.</value></data>
+  <data name="FIRST_PRIZE_CRAZY_TIME_TEXT" xml:space="preserve"><value>The crazy time modifier allows you to control how long First Prize will uncontrollably spin around, when using the scissors on it.</value></data>
+  <data name="SPEED_TEXT" xml:space="preserve"><value>The speed modifier manipulates the movement speed of a specific character.</value></data>
+  <data name="GUM_SPEED_TITLE" xml:space="preserve"><value>Gum speed</value></data>
+  <data name="ROTATION_SPEED_MULTIPLIER_TEXT" xml:space="preserve"><value>The "rotation speed multiplier" modifier manipulates to quickly First Prize can rotate towards its current target.</value></data>
+  <data name="FOG_START_DIST_TITLE" xml:space="preserve"><value>Fog start distance</value></data>
+  <data name="CLASS_TIMER_LENGTH_TITLE" xml:space="preserve"><value>Class timer length</value></data>
+  <data name="APPRAISAL_TIME_TEXT" xml:space="preserve"><value>This modifier allows you to change how long Baldi will stay "pleased", after correctly solving a MathMachine problem.</value></data>
+  <data name="MIDI_LOOP_TEXT" xml:space="preserve"><value>This modifier specifies whether or not the current MIDI song loops.
+
+Closing the lock allows you to enforce the value at all times.</value></data>
+  <data name="EVENT_START_TITLE" xml:space="preserve"><value>Start event</value></data>
+  <data name="DISCO_MAX_COOLDOWN_TEXT" xml:space="preserve"><value>The max. cooldown modifier adjusts the maximum amount of time that can pass, before the lights must be recolored again.</value></data>
+  <data name="DEAF_TEXT" xml:space="preserve"><value>The deaf modifier allows you to control whether or not characters react to your actions by hearing them.</value></data>
+  <data name="MIN_WHIRLPOOLS_TITLE" xml:space="preserve"><value>Min. whirlpools</value></data>
+  <data name="MAX_RESPAWN_TIME_TEXT" xml:space="preserve"><value>This modifier adjusts how many seconds can pass, before the flippers can respawn.</value></data>
+  <data name="INFINITE_STAMINA_TITLE" xml:space="preserve"><value>Infinite stamina</value></data>
+  <data name="ACTIVATION_TIME_TITLE" xml:space="preserve"><value>Activation time</value></data>
+  <data name="AUDIO_VOMIT_TEXT" xml:space="preserve"><value>The audio vomit modifier randomizes all audio cues.</value></data>
+  <data name="BIT_CRUSHER_TITLE" xml:space="preserve"><value>Bit crusher</value></data>
+  <data name="ROTATION_SPEED_MULTIPLIER_TITLE" xml:space="preserve"><value>Rotation speed multiplier</value></data>
+  <data name="NAMETAG_TIMER_TEXT" xml:space="preserve"><value>The timer modifier allows you to control how long the nametag gets applied to the player.</value></data>
+  <data name="DEBUG_MODE_TEXT" xml:space="preserve"><value>Shows the mod's debug panel in the top left corner: the seed and the floor, the cell under the player (its walls, navigation, room), the floor's event plan with the time of each event, and Baldi's anger and speed.
+
+Plus stores the game's debug flag in the save but no longer reads it, so the mod gives it this panel.</value></data>
+  <data name="OVERRIDE_JUMPROPE_VALUES_TEXT" xml:space="preserve"><value>This modifier forces Playtime to use your defined custom jumprope values.</value></data>
+  <data name="MIN_STAY_TIME_TITLE" xml:space="preserve"><value>Min. stay time</value></data>
+  <data name="TAPE_ANTI_HEARING_TIME_TEXT" xml:space="preserve"><value>The anti hearing time modifier allows you to control how long Baldi will not react to any sounds created by the player.</value></data>
+  <data name="MIN_HALL_LENGTH_TITLE" xml:space="preserve"><value>Min. Hall Length</value></data>
+  <data name="ALLOW_ON_ANY_WALL_TEXT" xml:space="preserve"><value>This modifier allows you to place the Portal Poster on walls that the game considers invalid.</value></data>
+  <data name="MAX_STAY_TIME_TITLE" xml:space="preserve"><value>Max. stay time</value></data>
+  <data name="HOTKEYS_TEXT" xml:space="preserve"><value>Hotkeys allow you to bind certain ModMenu actions to specific keys.
+
+Hotkeys can have multiple states and they'll be cycled through when using the bound key.
+
+&lt;b&gt;How to create a hotkey&lt;/b&gt;
+1) Click on "Create new Hotkey"
+2) Change the ModMenu values, to the values you want them to be after pressing it
+3) Click on "Save Hotkey State"
+4) Repeat steps 2 and 3 for however many states you want to have on the Hotkey
+5) Click on "Save Hotkey" and give your Hotkey a name
+6) Click on "Save"
+7) Click on "Hotkey: None" in the new Hotkey group and press whatever key you want to use.</value></data>
+  <data name="CHALKLES_LOCK_TIME_TEXT" xml:space="preserve"><value>This modifier adjusts how long the player will be stuck in Chalkles' room.</value></data>
+  <data name="SWAP_TIME_TITLE" xml:space="preserve"><value>Swap time</value></data>
+  <data name="ZESTY_BAR_STAMINA_MULTIPLIER_TITLE" xml:space="preserve"><value>Stamina multiplier</value></data>
+  <data name="OVERRIDE_VERTEX_GLITCHING_TEXT" xml:space="preserve"><value>The override vertex glitching modifier, causes NULL's vertex glitch effect to apply to the currently played background music.
+Note: This option applies to any MIDI notes, instead of the specific events that are used during NULL's bossfight.</value></data>
+  <data name="ALLOW_ON_ANY_WALL_TITLE" xml:space="preserve"><value>Allow On Any Wall</value></data>
+  <data name="INSTRUMENT_BANK_TEXT" xml:space="preserve"><value>SoundFonts usually contain multiple so-called "banks", that contain different sets of samples to use for playing music.
+This modifier allows you to choose a different bank to use for a song's general instruments.</value></data>
+  <data name="JUMPS_TITLE" xml:space="preserve"><value>Jumps</value></data>
+  <data name="GLITCH_INTENSITY_TITLE" xml:space="preserve"><value>Glitch intensity</value></data>
+  <data name="DEAF_TITLE" xml:space="preserve"><value>Deaf</value></data>
+  <data name="SILENT_TITLE" xml:space="preserve"><value>Silent</value></data>
+  <data name="BULLY_MIN_COOLDOWN_TEXT" xml:space="preserve"><value>The minimum cooldown modifier manipulates how much time must pass, until It's a Bully is allowed to stand in a hallway again.</value></data>
+  <data name="FOG_STRENGTH_TEXT" xml:space="preserve"><value>The fog strength modifier manipulates the "thickness" of the fog, that is used by the fog event.</value></data>
+  <data name="MIN_RESPAWN_TIME_TEXT" xml:space="preserve"><value>This modifier adjusts how many seconds must have passed, before the flippers can respawn.</value></data>
+  <data name="MOVEMENT_MULTIPLIER_TEXT" xml:space="preserve"><value>This modifier adjusts the multiplier that's applied to the player, while the flood event is occuring.</value></data>
+  <data name="MIN_FLIPPERS_TITLE" xml:space="preserve"><value>Min. flippers</value></data>
+  <data name="VELOCITY_START_TITLE" xml:space="preserve"><value>Starting velocity</value></data>
+  <data name="ENABLED_TEXT" xml:space="preserve"><value>The enabled modifier allows you to control whether or not a character should currently be in the school house, without completely removing it.</value></data>
+  <data name="DESPAWN_TEXT" xml:space="preserve"><value>The despawn modifier destroys a specific instance, or all existing instances of a character.</value></data>
+  <data name="SCALE_TEXT" xml:space="preserve"><value>The scale modifier manipulates the size of a character.</value></data>
+  <data name="MUSIC_CORRUPTION_TEXT" xml:space="preserve"><value>This modifier changes whether or not the MIDI notes get replaced various audio clips from the game.
+
+Closing the lock allows you to enforce the value at all times.</value></data>
+  <data name="WIND_FORCE_SPEED_TEXT" xml:space="preserve"><value>This modifier adjusts how hard Cloudy Copter blows wind.</value></data>
+  <data name="VIDEO_DIARRHEA_MIN_COOLDOWN_TEXT" xml:space="preserve"><value>The min. cooldown modifier adjusts the minimum amount of time that has to pass, before the materials can be shuffled again.</value></data>
+  <data name="MAX_EVENT_TIME_TEXT" xml:space="preserve"><value>The maximum event time modifier allows to to control how long an event can be active at most.</value></data>
+  <data name="CLOWN_VOMIT_ON_SPRITES_TITLE" xml:space="preserve"><value>Clown vomit on sprites</value></data>
+  <data name="CLASS_TIMER_LENGTH_TEXT" xml:space="preserve"><value>The class timer length modifier manipulates how much time you have to get to Mrs. Pomp's class, before she gets hostile.</value></data>
+  <data name="BLIND_TEXT" xml:space="preserve"><value>The blindness modifier allows you to control whether or not a character can see the player or any actions performed by either the player or other characters.</value></data>
+  <data name="AUTHENTIC_MODE_TEXT" xml:space="preserve"><value>The Authentic Mode modifier changes whether or not the authentic mode overlay is enabled.
+
+This is equivalent to typing 10181996 into the YCTP.
+
+Note: Toggling this during an active game session may cause side-effects.</value></data>
+  <data name="ENVIRONMENT_TIMESCALE_TEXT" xml:space="preserve"><value>The environment timescale modifier allows you to control how quickly the world processes around you.
+This includes things like events, doors, etc.</value></data>
+  <data name="MIN_TIME_ACTIVE_TEXT" xml:space="preserve"><value>The minimum time active modifier manipulates the minimum amount of time Gotta Sweep will keep sweeping the schoolhouse, before going back into his resting state.</value></data>
+  <data name="LIGHT_COLOR_TITLE" xml:space="preserve"><value>Light color</value></data>
+  <data name="CORRUPTION_STRENGTH_TITLE" xml:space="preserve"><value>Corruption strength</value></data>
+  <data name="SHOW_ENTITY_DISTANCE_TITLE" xml:space="preserve"><value>Show entity distance</value></data>
+  <data name="SHOW_ENTITY_DISTANCE_TEXT" xml:space="preserve"><value>The show entity distance modifier allows you to see how far away you are from a character.
+This option requires Entity GPS to be enabled.</value></data>
+  <data name="BLIND_TITLE" xml:space="preserve"><value>Blind</value></data>
+  <data name="RISING_SPEED_TEXT" xml:space="preserve"><value>This modifier adjusts how quickly the water rises, when the flood event starts.</value></data>
+  <data name="CAMERA_MODE_TITLE" xml:space="preserve"><value>Camera mode</value></data>
+  <data name="VECTOR2_CORRUPTION_TITLE" xml:space="preserve"><value>Vector2 corruption</value></data>
+  <data name="BIG_OL_BOOTS_TIMER_TEXT" xml:space="preserve"><value>The timer modifier manipulates how long the player will wear the Big Ol' Boots.</value></data>
+  <data name="ACTIVATION_TIME_TEXT" xml:space="preserve"><value>This modifier adjusts how long the player needs to be in a room, before Chalkles locks the room.</value></data>
+  <data name="SCRABBLE_TITLE" xml:space="preserve"><value>Scrabble</value></data>
+  <data name="CORRUPTION_STRENGTH_TEXT" xml:space="preserve"><value>The corruption strength modifier adjusts how severe the corruption will be.
+
+&lt;b&gt;HIGHER VALUES ARE MORE LIKELY TO RENDER YOUR SESSION UNUSABLE!&lt;/b&gt;</value></data>
+  <data name="GUILT_TIME_TEXT" xml:space="preserve"><value>The guilt time modifiers changes how long a character will be marked as guilty for breaking a rule.</value></data>
+  <data name="MAX_PRESSURE_TEXT" xml:space="preserve"><value>The maximum pressure modifier allows you to control how much pressure is allowed to build up between the grappling hook and the player, before the grappling hook's line snaps.</value></data>
+  <data name="CHALK_ERASER_TIMER_TEXT" xml:space="preserve"><value>The timer modifier allows you to control how long a chalk-cloud will exist in the world, before getting destroyed.</value></data>
+  <data name="BSODA_LIFE_SPAN_TEXT" xml:space="preserve"><value>The life span modifier allows you to control how long a BSODA will exist in the world, before getting destroyed.</value></data>
+  <data name="CAMERA_FOV_TEXT" xml:space="preserve"><value>the camera FOV modifier allows you to manipulate the field of view of the player camera.</value></data>
+  <data name="MIN_EVENT_TIME_TEXT" xml:space="preserve"><value>The minimum event time modifier allows you to control the minimum amount of time a specific event must be active.</value></data>
+  <data name="EVENT_STOP_TITLE" xml:space="preserve"><value>Stop event</value></data>
+  <data name="DEBUG_MODE_TITLE" xml:space="preserve"><value>Debug Mode</value></data>
+  <data name="VIDEO_DIARRHEA_MAX_COOLDOWN_TITLE" xml:space="preserve"><value>Max. cooldown</value></data>
+  <data name="CLOWN_VOMIT_ON_ENVIRONMENT_TEXT" xml:space="preserve"><value>The clown vomit modifier enables the shader glitching effect from the early access version of Baldi's Basics Plus. This modifier applies to the environment (walls, floors, furniture, etc.)</value></data>
+  <data name="BREAK_RULE_TEXT" xml:space="preserve"><value>The rule breaker modifier allows you to mark any character as guilty of breaking a certain rule. This will cause Principal to target the character and put them into his office.
+
+New rules can be defined in the Principal's modifiers.</value></data>
+  <data name="SWEEP_POWER_MULTIPLIER_TEXT" xml:space="preserve"><value>The sweep power multiplier modifier manipulates the amount of force that's applied to any characters that are being swept by Gotta Sweep.</value></data>
+  <data name="OVERRIDE_JUMPROPE_VALUES_TITLE" xml:space="preserve"><value>Override jumprope values</value></data>
+  <data name="LIGHT_STRENGTH_TITLE" xml:space="preserve"><value>Light strength</value></data>
+  <data name="MIN_WHIRLPOOLS_TEXT" xml:space="preserve"><value>This modifier adjusts how many whirlpools must be active at any given time, while the flood event is occuring.</value></data>
+  <data name="INFINITE_ITEMS_TEXT" xml:space="preserve"><value>The infinite items modifier allows you use an item infinitely.</value></data>
+  <data name="GUM_SPEED_TEXT" xml:space="preserve"><value>The gum speed modifier manipulates how fast a piece of gum travels, after being spit out.</value></data>
+  <data name="MAX_STAMINA_TITLE" xml:space="preserve"><value>Max. stamina</value></data>
+  <data name="VIDEO_DIARRHEA_TEXT" xml:space="preserve"><value>The video diarrhea modifier garbles the materials of all currently existing elements in the scene.
+Disabling this option, will not reset all materials to their original state. The entire scene must be restarted, for that to happen.</value></data>
+  <data name="VIDEO_DIARRHEA_TITLE" xml:space="preserve"><value>Video diarrhea</value></data>
+  <data name="MAX_RESPAWN_TIME_TITLE" xml:space="preserve"><value>Max. respawn time</value></data>
+  <data name="MIN_HALL_LENGTH_TEXT" xml:space="preserve"><value>The min. hall length modifier changes the minimum length a hallway has to have, to be considered a valid blowing point by Cloudy Copter.</value></data>
+  <data name="JUMPS_TEXT" xml:space="preserve"><value>The jumps modifier manipulates how many times you have to jump when caught by Playtime.
+Playtime will stop counting above 10 jumps, because of missing voicelines.
+
+NOTE: This value will only be used, if "Override jumprope values" is enabled.</value></data>
+  <data name="SCRABBLE_TEXT" xml:space="preserve"><value>The scrabble modifier scrambles all text in the scene randomly.
+For best effect, enable this setting before entering a game scene.
+Disabling this option will not revert the text to its original content.</value></data>
+  <data name="SUPER_HOT_TITLE" xml:space="preserve"><value>SUPER HOT</value></data>
+  <data name="SHOW_FPS_TEXT" xml:space="preserve"><value>The show fps modifier displays a small, basic frame counter in the top left of your screen.</value></data>
+  <data name="SHOW_FPS_TITLE" xml:space="preserve"><value>Show fps</value></data>
+  <data name="SWING_DOOR_LOCK_TIME_TITLE" xml:space="preserve"><value>Lock time</value></data>
+  <data name="FOG_COLOR_TEXT" xml:space="preserve"><value>The fog color modifier manipulates the fog color, that is used by the fog event.</value></data>
+  <data name="BSODA_VELOCITY_TEXT" xml:space="preserve"><value>The velocity modifier manipulates how fast a BSODA will travel.</value></data>
+  <data name="MIDI_SPEED_TITLE" xml:space="preserve"><value>Speed</value></data>
+  <data name="GOTTA_SWEEP_MAX_COOLDOWN_TEXT" xml:space="preserve"><value>The maximum cooldown modifier manipulates the maximum amount of time that can pass, until Gotta Sweep can sweep the schoolhouse again.</value></data>
+  <data name="DISABLE_HUD_TEXT" xml:space="preserve"><value>The disable HUD modifier allows you to hide the on-screen elements like the inventory, Staminometer, etc.</value></data>
+  <data name="FOG_MAX_DIST_TITLE" xml:space="preserve"><value>Fog max. distance</value></data>
+  <data name="FOURTY_TWO_TITLE" xml:space="preserve"><value>42</value></data>
+  <data name="BIT_DEPTH_TITLE" xml:space="preserve"><value>Bit depth</value></data>
+  <data name="SELECT_SONG_TEXT" xml:space="preserve"><value>The song modifier allows you to select a song from the game to play.
+
+Closing the lock on the dropdown prevents the base game from playing (or stopping) songs manually.</value></data>
+  <data name="NOCLIP_TEXT" xml:space="preserve"><value>The noclip modifier allows you to control whether or not walls and other barricades can be moved through.</value></data>
+  <data name="FOG_START_DIST_TEXT" xml:space="preserve"><value>The fog start distance modifier manipulates how far away from the camera the fog begins.</value></data>
+  <data name="CAMERA_MODE_TEXT" xml:space="preserve"><value>The camera mode modifier allows you to control how the camera is allowed to move.
+Locked means the camera can only be moved on one axis.
+Unlocked means the camera be moved on two axis.</value></data>
+  <data name="LIGHT_STRENGTH_TEXT" xml:space="preserve"><value>This modifier adjusts how strong the character's light is, during the 'Lights Out' fun setting.</value></data>
+  <data name="ALARM_TIMER_MULTIPLIER_TITLE" xml:space="preserve"><value>Alarm timer multiplier</value></data>
+  <data name="GOTTA_SWEEP_MIN_COOLDOWN_TITLE" xml:space="preserve"><value>Min. cooldown</value></data>
+  <data name="EMITS_LIGHT_DURING_LIGHTS_OUT_TEXT" xml:space="preserve"><value>This modifier changes whether or not a character carries a light source, when the 'Lights Out' mode is active.</value></data>
+  <data name="BULLY_MAX_COOLDOWN_TEXT" xml:space="preserve"><value>The maximum cooldown modifier manipulates how much time can pass at most, until It's a Bully is allowed to stand in a hallway again.</value></data>
+  <data name="INVISIBLE_TITLE" xml:space="preserve"><value>Invisible</value></data>
+  <data name="CLOWN_VOMIT_ON_ENVIRONMENT_TITLE" xml:space="preserve"><value>Clown vomit on environment</value></data>
+  <data name="JUMP_HEIGHT_MULTIPLIER_TEXT" xml:space="preserve"><value>The jump height multiplier modifier manipulates how high the player jumps during Playtime's jumprope minigame.
+
+NOTE: This value will only be used, if "Override jumprope values" is enabled.</value></data>
+  <data name="CLEAN_UP_BALLOONS_TEXT" xml:space="preserve"><value>This modifier allows you to remove all currently existing balloons, spawned by the party event.</value></data>
+  <data name="GOTTA_SWEEP_MAX_COOLDOWN_TITLE" xml:space="preserve"><value>Max. cooldown</value></data>
+  <data name="DISABLE_HUD_TITLE" xml:space="preserve"><value>Disable HUD</value></data>
+  <data name="SAMPLE_RATE_TEXT" xml:space="preserve"><value>The sample rate modifier adjusts the number of samples of audio that are taken per second when the audio is being played back. A higher sample rate means that more samples are taken per second, which can result in a higher quality audio recording.</value></data>
+  <data name="EMITS_LIGHT_DURING_LIGHTS_OUT_TITLE" xml:space="preserve"><value>Emits light during Lights Out</value></data>
+  <data name="EVENT_START_TEXT" xml:space="preserve"><value>The start event modifier allows you to create a new instance of a specific event.</value></data>
+  <data name="INFINITE_STAMINA_TEXT" xml:space="preserve"><value>The infinite stamina modifier allows you to control whether or not you use up stamina, while running.</value></data>
+  <data name="SWEEP_MOVEMENT_MULTIPLIER_TITLE" xml:space="preserve"><value>Sweep movement multiplier</value></data>
+  <data name="VECTOR3_CORRUPTION_TITLE" xml:space="preserve"><value>Vector3 corruption</value></data>
+  <data name="VELOCITY_INCREASE_TITLE" xml:space="preserve"><value>Velocity increase</value></data>
+  <data name="MAX_STAMINA_TEXT" xml:space="preserve"><value>The maximum stamina modifier allows you to control how much stamina the player can naturally have at most.</value></data>
+  <data name="ENABLED_TITLE" xml:space="preserve"><value>Enabled</value></data>
+  <data name="GUM_MOVEMENT_MULTIPLIER_TEXT" xml:space="preserve"><value>This modifier adjusts the multiplier that's applied either the player or other characters, when they're hit by Beans' gum.</value></data>
+  <data name="FOG_STRENGTH_TITLE" xml:space="preserve"><value>Fog strength</value></data>
+  <data name="MAX_TIME_ACTIVE_TEXT" xml:space="preserve"><value>The maximum time active modifier manipulates the maximum amount of time Gotta Sweep will keep sweeping the schoolhouse, before going back into his resting state.</value></data>
+  <data name="INITIAL_RESPAWN_TIME_TEXT" xml:space="preserve"><value>This modifier adjusts how many seconds need to pass, before the flippers can spawn.</value></data>
+  <data name="INFINITE_ITEMS_TITLE" xml:space="preserve"><value>Infinite items</value></data>
+  <data name="APPLE_TIMER_TEXT" xml:space="preserve"><value>The timer modifier manipulates how long Baldi will take to eat the apple.</value></data>
+  <data name="MIDI_PITCH_TEXT" xml:space="preserve"><value>This modifier adjusts the pitch of the current MIDI song.
+
+Closing the lock allows you to enforce the value at all times.</value></data>
+  <data name="ADD_NEW_RULE_TEXT" xml:space="preserve"><value>The rule modifiers allow you to manipulate which rules Principal will scold someone for. If you're using a mod that adds additional rules, then you can add them here as well.
+
+NOTE: The names of the rules are their internal IDs. You need to figure out which ID a mod uses, to add that to the list.</value></data>
+  <data name="SILENT_TEXT" xml:space="preserve"><value>The silence modifier allows you to control whether or not a character will play any kind of sounds.</value></data>
+  <data name="RISING_SPEED_TITLE" xml:space="preserve"><value>Rising speed</value></data>
+  <data name="SLAP_SPEED_TITLE" xml:space="preserve"><value>Slap Speed</value></data>
+  <data name="EVENT_STOP_TEXT" xml:space="preserve"><value>The stop event modifier allows you to stop all currently running instance of a specific event type.</value></data>
+  <data name="VIDEO_DIARRHEA_MAX_COOLDOWN_TEXT" xml:space="preserve"><value>The max. cooldown modifier adjusts the maximum amount of time that can pass, before the materials must be shuffled again.</value></data>
+  <data name="APPLE_TIMER_TITLE" xml:space="preserve"><value>Timer</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER_TEXT" xml:space="preserve"><value>The "ignores player trigger" modifier allows you to control whether or not the character can directly interact with the player upon touching them.</value></data>
+  <data name="DISCO_TITLE" xml:space="preserve"><value>Disco</value></data>
+  <data name="GUM_STUCK_TIME_TITLE" xml:space="preserve"><value>Gum stuck time</value></data>
+  <data name="CLOWN_VOMIT_ON_SPRITES_TEXT" xml:space="preserve"><value>The clown vomit modifier enables the shader glitching effect from the early access version of Baldi's Basics Plus. This modifier applies to sprites (characters, plants, balloons, etc.)</value></data>
+  <data name="MAX_PRESSURE_TITLE" xml:space="preserve"><value>Max. pressure</value></data>
+  <data name="NPC_TIMESCALE_TITLE" xml:space="preserve"><value>NPC timescale</value></data>
+  <data name="NPC_TIMESCALE_TEXT" xml:space="preserve"><value>The npc timescale modifier allows you to control how quickly characters are processing.</value></data>
+  <data name="FOG_COLOR_TITLE" xml:space="preserve"><value>Fog color</value></data>
+  <data name="JUMPROPE_SPEED_MULTIPLIER_TEXT" xml:space="preserve"><value>The jumprope speed modifier manipulates how fast the jumprope moves.
+
+NOTE: This value will only be used, if "Override jumprope values" is enabled.</value></data>
+  <data name="CHALKLES_LOCK_TIME_TITLE" xml:space="preserve"><value>Lock time</value></data>
+  <data name="TELEPORT_CHARACTER_TO_PLAYER_TEXT" xml:space="preserve"><value>Allows you to teleport a specific instance or all existing instances of a character to the player.
+
+NOTE: Using this through the teleporter menu will teleport all existing instances of a character to the player.</value></data>
+  <data name="VELOCITY_START_TEXT" xml:space="preserve"><value>The starting velocity modifier allows you to control how much force gets applied to the player, immediately after getting hooked.</value></data>
+  <data name="DETENTION_TIME_INCREASE_TITLE" xml:space="preserve"><value>Detention time increase</value></data>
+  <data name="APPRAISAL_TIME_TITLE" xml:space="preserve"><value>Appraisal time</value></data>
+  <data name="BIT_DEPTH_TEXT" xml:space="preserve"><value>The bit depth modifier adjusts the number of bits used to represent the amplitude of each sample in an audio recording. A higher bit depth means that more bits are used to represent each sample, which can result in a higher dynamic range and higher quality audio.</value></data>
+  <data name="SLAP_SPEED_TEXT" xml:space="preserve"><value>The slap speed modifier manipulates Baldi's slap cooldown timer.</value></data>
+  <data name="SCALE_TITLE" xml:space="preserve"><value>Scale</value></data>
+  <data name="PLAYTIME_COOLDOWN_TITLE" xml:space="preserve"><value>Cooldown</value></data>
+  <data name="JUMP_HEIGHT_MULTIPLIER_TITLE" xml:space="preserve"><value>Jump height multiplier</value></data>
+  <data name="MIN_RESPAWN_TIME_TITLE" xml:space="preserve"><value>Min. respawn time</value></data>
+  <data name="BIT_CRUSHER_TEXT" xml:space="preserve"><value>The bit crusher modifier forces all audio to adhere to the specified audio parameters.</value></data>
+  <data name="SWEEP_POWER_MULTIPLIER_TITLE" xml:space="preserve"><value>Sweep power</value></data>
+  <data name="LIGHT_COLOR_TEXT" xml:space="preserve"><value>This modifier allows you to change the color of a character's light source, used by the 'Lights Out' fun setting.</value></data>
+  <data name="NOCLIP_TITLE" xml:space="preserve"><value>Noclip</value></data>
+  <data name="DISCO_TEXT" xml:space="preserve"><value>The disco modifier randomizes the colors of all available lights in the scene.</value></data>
+  <data name="BEANS_COOLDOWN_TITLE" xml:space="preserve"><value>Cooldown</value></data>
+  <data name="AUTHENTIC_MODE_TITLE" xml:space="preserve"><value>Authentic Mode</value></data>
+  <data name="LIGHTS_OUT_TITLE" xml:space="preserve"><value>Lights Out</value></data>
+  <data name="JUMPROPE_SPEED_MULTIPLIER_TITLE" xml:space="preserve"><value>Jumprope speed multiplier</value></data>
+  <data name="CLEAN_UP_BALLOONS_TITLE" xml:space="preserve"><value>Clean up balloons</value></data>
+  <data name="MIDI_SOUNDFONT_TEXT" xml:space="preserve"><value>The SoundFont modifier allows you to choose a custom "style" of sounds, that are used whenever the game plays a MIDI song.
+The modifier currently only supports SoundFonts in the .sf2 format.
+
+Place new SoundFonts in this directory: &lt;i&gt;{0}&lt;/i&gt;</value></data>
+  <data name="AUDIO_VOMIT_TITLE" xml:space="preserve"><value>Audio vomit</value></data>
+  <data name="DISCO_MIN_COOLDOWN_TEXT" xml:space="preserve"><value>The min. cooldown modifier adjusts the minimum amount of time that has to pass, before the lights can be recolored again.</value></data>
+  <data name="BALLOON_COUNT_TEXT" xml:space="preserve"><value>This modifier adjusts how many balloons get spawned in the Principal's office, when the party event occurs.</value></data>
+  <data name="BSODA_VELOCITY_TITLE" xml:space="preserve"><value>Velocity</value></data>
+  <data name="MIRROR_MODE_TITLE" xml:space="preserve"><value>Mirrored</value></data>
+  <data name="ENTITY_GPS_TITLE" xml:space="preserve"><value>Entity GPS</value></data>
+  <data name="MUSIC_CORRUPTION_TITLE" xml:space="preserve"><value>Music Corruption</value></data>
+  <data name="SWAP_TIME_TEXT" xml:space="preserve"><value>The swap time modifier manipulates after how much time the clown vomit will be shuffled again.</value></data>
+  <data name="ALARM_TIMER_MULTIPLIER_TEXT" xml:space="preserve"><value>The alarm timer multiplier modifier allows you to control how quickly the time on the alarm clock runs out.</value></data>
+  <data name="RESET_DELAY_TITLE" xml:space="preserve"><value>Reset delay</value></data>
+  <data name="MAX_FLIPPERS_TITLE" xml:space="preserve"><value>Max. flippers</value></data>
+  <data name="MAX_WHIRLPOOLS_TITLE" xml:space="preserve"><value>Max. whirlpools</value></data>
+  <data name="WIND_FORCE_SPEED_TITLE" xml:space="preserve"><value>Wind force speed</value></data>
+  <data name="MIRROR_MODE_TEXT" xml:space="preserve"><value>This modifier allows you to toggle the "Mirrored" mode during gameplay.
+
+NOTE: Enabling this setting will enforce it in the current and subsequent levels. To stop that, disable the setting in the ModMenu.</value></data>
+  <data name="RESET_DELAY_TEXT" xml:space="preserve"><value>This modifier changes how long it takes until Mrs. Pomp will target the player again.</value></data>
+  <data name="MAX_HALLTIME_TITLE" xml:space="preserve"><value>Max. halltime</value></data>
+  <data name="OVERRIDE_VERTEX_GLITCHING_TITLE" xml:space="preserve"><value>Override vertex glitching</value></data>
+  <data name="MAX_HEIGHT_TITLE" xml:space="preserve"><value>Max. height</value></data>
+  <data name="MIN_STAY_TIME_TEXT" xml:space="preserve"><value>The maximum stay time modifier manipulates the minimum amount of time for Cloudy Copter to blow air.</value></data>
+  <data name="GLITCH_INTENSITY_TEXT" xml:space="preserve"><value>The glitch intensity modifier manipulates how far the individual verticies move, with every MIDI event.</value></data>
+  <data name="VECTOR2_CORRUPTION_TEXT" xml:space="preserve"><value>The Vector2 corruption modifier slightly shifts a Vector2's values (x and y) during construction.
+
+&lt;b&gt;THIS MODIFIER CAN RENDER YOUR GAME SESSION UNUSABLE! USE AT YOUR OWN DISCRETION!&lt;/b&gt;</value></data>
+  <data name="MIDI_LOOP_TITLE" xml:space="preserve"><value>Loop</value></data>
+  <data name="SWEEP_MOVEMENT_MULTIPLIER_TEXT" xml:space="preserve"><value>The sweep movement multiplier modifier manipulates how fast an entity can move freely, while riding Gotta Sweep.</value></data>
+  <data name="BALLOON_COUNT_TITLE" xml:space="preserve"><value>Balloon count</value></data>
+  <data name="LIGHTS_OUT_TEXT" xml:space="preserve"><value>This modifier allows you to toggle the "Lights Out" mode during gameplay.
+
+NOTE: Enabling this setting will enforce it in the current and subsequent levels. To stop that, disable the setting in the ModMenu.</value></data>
+  <data name="COLLECT_NOTEBOOKS_TEXT" xml:space="preserve"><value>This option allows you add a specific amount of notebooks to your current total.
+This will not collect any of the existing notebooks on the current floor, they can still be collected to add to the current total.
+
+NOTE: This option is influenced by the &lt;b&gt;YCTP Behaviour&lt;/b&gt; modifier.</value></data>
+  <data name="MAX_HEIGHT_TEXT" xml:space="preserve"><value>This modifier adjusts how far the water rises, when the flood event starts.</value></data>
+  <data name="PLAYER_HEIGHT_TEXT" xml:space="preserve"><value>The height modifier allows you to control how high or low the player camera should be.</value></data>
+  <data name="TAPE_ANTI_HEARING_TIME_TITLE" xml:space="preserve"><value>Anti hearing time</value></data>
+  <data name="ENVIRONMENT_TIMESCALE_TITLE" xml:space="preserve"><value>Environment timescale</value></data>
+  <data name="VIDEO_DIARRHEA_MIN_COOLDOWN_TITLE" xml:space="preserve"><value>Min. cooldown</value></data>
+  <data name="SUPER_HOT_TEXT" xml:space="preserve"><value>The SUPER HOT modifier makes it so time moves, when you move.</value></data>
+  <data name="MIN_TIME_ACTIVE_TITLE" xml:space="preserve"><value>Min. time active</value></data>
+  <data name="GUM_STUCK_TIME_TEXT" xml:space="preserve"><value>This modifier adjusts how long a character gets affected by Beans' gum, when hit by it.</value></data>
+  <data name="ENTITY_GPS_TEXT" xml:space="preserve"><value>The entity GPS modifier allows you to see the locations of all existing characters through the walls, by showing their names below them.</value></data>
+  <data name="SPAWN_TEXT" xml:space="preserve"><value>The spawn modifier allows you to create a specific amount of new instances of the selected character at the player's current position.
+The spawned instances will always be inactive by default, until the player is far enough away from the spawned character.
+The distance the player needs can be controlled in the &lt;b&gt;Settings&lt;/b&gt; by changing the &lt;b&gt;Character Activation Distance&lt;/b&gt; option.</value></data>
+  <data name="GUM_MOVEMENT_MULTIPLIER_TITLE" xml:space="preserve"><value>Gum movement multiplier</value></data>
+    <data name="WD_NOSQUEE_TIMER_TEXT" xml:space="preserve"><value>The timer modifier allows you to control how long the area around the player stays silenced after using WD-NoSquee.</value></data>
+  <data name="WD_NOSQUEE_SILENCE_RADIUS_TITLE" xml:space="preserve"><value>Silence radius</value></data>
+  <data name="WD_NOSQUEE_SILENCE_RADIUS_TEXT" xml:space="preserve"><value>The silence radius modifier allows you to control how many tiles around the player get silenced by WD-NoSquee.</value></data>
+  <data name="LANGUAGE_TEXT" xml:space="preserve"><value>Auto picks Russian when the CyrillicPlus mod is installed and English otherwise.</value></data>
+  <data name="HL1_MOVEMENT_TITLE" xml:space="preserve"><value>HL1 Movement</value></data>
+  <data name="HL1_MOVEMENT_TEXT" xml:space="preserve"><value>Half-Life 1 (WON) movement: bunnyhopping without a speed cap, autojump while the left mouse button is held, ducking, picking up items, small furniture and decorations with the pick up key, and a yes clip through walls with something in the hands. Unlocks the camera and replaces the staminometer with a speedometer.</value></data>
+  <data name="GOD_MODE_TITLE" xml:space="preserve"><value>God Mode</value></data>
+  <data name="GOD_MODE_TEXT" xml:space="preserve"><value>Baldi can't catch you (the game's own invincibility flag), and neither can the lethal touch of Classic, Yet Again. He doesn't take your apple either.</value></data>
+  <data name="YTP_TEXT" xml:space="preserve"><value>Your YTP. Setting it doesn't count towards the floor's total and isn't multiplied.</value></data>
+  <data name="LIVES_TEXT" xml:space="preserve"><value>Lives left in this run.</value></data>
+  <data name="GRADE_TEXT" xml:space="preserve"><value>The grade the game gives you, from A+ to F-.</value></data>
+  <data name="NPC_MAP_ARROWS_TITLE" xml:space="preserve"><value>Show characters on the map</value></data>
+  <data name="NPC_MAP_ARROWS_TEXT" xml:space="preserve"><value>Arrows for every character on the map, like the Stealthy challenge shows the Principal: Baldi in green, the others in red.</value></data>
+  <data name="REVEAL_MAP_TEXT" xml:space="preserve"><value>Fills in every tile of the map, like the map from Johnny's shop.</value></data>
+  <data name="OPEN_LOCKED_ROOMS_TEXT" xml:space="preserve"><value>Removes the padlocks of the locked rooms, as if you'd used the keys.</value></data>
+  <data name="OPEN_ALL_EXITS_TEXT" xml:space="preserve"><value>Every elevator opens for leaving and none is out of order. The notebooks don't count as collected.</value></data>
+  <data name="FINISH_FLOOR_TEXT" xml:space="preserve"><value>Ends the floor as if you'd taken an elevator. Not on the last floor of the story.</value></data>
+  <data name="USE_FIXED_SEED_TITLE" xml:space="preserve"><value>Scene manager uses this seed</value></data>
+  <data name="USE_FIXED_SEED_TEXT" xml:space="preserve"><value>Floors loaded from the scene manager are built from the seed below instead of a random one, so the same seed gives the same school.</value></data>
+  <data name="FIXED_SEED_TITLE" xml:space="preserve"><value>Seed</value></data>
+  <data name="FIXED_SEED_TEXT" xml:space="preserve"><value>The seed for the scene manager and for the button below. The game builds floor N from seed + N.</value></data>
+  <data name="CURRENT_SEED_TEXT" xml:space="preserve"><value>The seed of this run, as the elevator screen shows it. Click to copy it into the field above.</value></data>
+  <data name="APPLY_SEED_TO_NEXT_FLOORS_TEXT" xml:space="preserve"><value>Sets the run's seed to the one above. This floor stays as it is; the next ones are built from the new seed.</value></data>
+  <data name="REFLEX_COOLDOWN_TITLE" xml:space="preserve"><value>Cooldown</value></data>
+  <data name="REFLEX_COOLDOWN_TEXT" xml:space="preserve"><value>Seconds after a test before Dr. Reflex can test you again.</value></data>
+  <data name="REFLEX_REWARD_TITLE" xml:space="preserve"><value>Reward</value></data>
+  <data name="REFLEX_REWARD_TEXT" xml:space="preserve"><value>YTP a test starts with; every miss takes the penalty off.</value></data>
+  <data name="REFLEX_PENALTY_TITLE" xml:space="preserve"><value>Penalty per miss</value></data>
+  <data name="REFLEX_PENALTY_TEXT" xml:space="preserve"><value>YTP taken off the reward for every miss or slow answer.</value></data>
+  <data name="THE_TEST_FOG_TIME_TITLE" xml:space="preserve"><value>Blindness time</value></data>
+  <data name="THE_TEST_FOG_TIME_TEXT" xml:space="preserve"><value>Seconds the fog lasts after The Test blinds you.</value></data>
+  <data name="THE_TEST_EXPLODE_CHANCE_TITLE" xml:space="preserve"><value>Explode chance</value></data>
+  <data name="THE_TEST_EXPLODE_CHANCE_TEXT" xml:space="preserve"><value>Chance (0 to 1) that The Test blows up instead of blinding you.</value></data>
+  <data name="THE_TEST_FLEE_SPEED_TITLE" xml:space="preserve"><value>Flee speed</value></data>
+  <data name="THE_TEST_FLEE_SPEED_TEXT" xml:space="preserve"><value>How fast The Test runs away once it has blinded you.</value></data>
+  <data name="LOCKDOWN_MIN_DOORS_TITLE" xml:space="preserve"><value>Min. doors</value></data>
+  <data name="LOCKDOWN_MIN_DOORS_TEXT" xml:space="preserve"><value>The fewest lockdown doors the event puts in the hallways (0–50).</value></data>
+  <data name="LOCKDOWN_MAX_DOORS_TITLE" xml:space="preserve"><value>Max. doors</value></data>
+  <data name="LOCKDOWN_MAX_DOORS_TEXT" xml:space="preserve"><value>The most lockdown doors the event puts in the hallways. A floor with few hallways gets fewer.</value></data>
+  <data name="MYSTERY_ROOM_START_TEXT" xml:space="preserve"><value>Opens the mystery room again. The room is built with the floor, so this works only on a floor that was generated with one.</value></data>
+  <data name="TIME_OUT_ANGER_RATE_TITLE" xml:space="preserve"><value>Anger interval</value></data>
+  <data name="TIME_OUT_ANGER_RATE_TEXT" xml:space="preserve"><value>How often, in seconds, Baldi gets angrier while the school is closed.</value></data>
+  <data name="TIME_OUT_ANGER_AMOUNT_TITLE" xml:space="preserve"><value>Anger added</value></data>
+  <data name="TIME_OUT_ANGER_AMOUNT_TEXT" xml:space="preserve"><value>How much anger Baldi gets each time.</value></data>
+  <data name="TIME_OUT_LIGHT_RATE_TITLE" xml:space="preserve"><value>Lights interval</value></data>
+  <data name="TIME_OUT_LIGHT_RATE_TEXT" xml:space="preserve"><value>How often, in seconds, one more hallway light dims.</value></data>
+  <data name="TIME_OUT_START_TEXT" xml:space="preserve"><value>Closes the school now: Baldi keeps getting angrier and the lights go out. The game has no way to end it; it lasts until the floor ends.</value></data>
+  <data name="BALDER_SPAWN_RATE_TITLE" xml:space="preserve"><value>Spawn interval</value></data>
+  <data name="BALDER_SPAWN_RATE_TEXT" xml:space="preserve"><value>How often, in seconds, a balder comes out of each spawner room.</value></data>
+  <data name="STUDENT_TOTAL_FOLLOWERS_TITLE" xml:space="preserve"><value>Students</value></data>
+  <data name="STUDENT_TOTAL_FOLLOWERS_TEXT" xml:space="preserve"><value>How many students follow the leader of the crowd (0–512).</value></data>
+  <data name="STUDENT_PUSH_SPEED_TITLE" xml:space="preserve"><value>Push speed</value></data>
+  <data name="STUDENT_PUSH_SPEED_TEXT" xml:space="preserve"><value>How hard the crowd pushes the player and the characters it runs into.</value></data>
+  <data name="STICKER_SLOT_TEXT" xml:space="preserve"><value>The sticker in this slot. Stickers that change the floor's generation (more items, a bigger map) take effect from the next floor.</value></data>
+  <data name="STICKER_GLUE_TEXT" xml:space="preserve"><value>A glued slot keeps its sticker from floor to floor, as with the Glue Stick.</value></data>
+  <data name="STICKER_ADD_TEXT" xml:space="preserve"><value>Puts the chosen sticker into the sticker book; apply it from there in the Pitstop.</value></data>
+  <data name="GRAVITY_GUN_DESC" xml:space="preserve"><value>Gravity Gun
+Use: lift the furniture in front of you (lockers, desks, tables) or throw what you hold. E puts it down, the mouse wheel held down turns it. It isn't used up.</value></data>
+  <data name="USE_ITEMS_ANYWHERE_TITLE" xml:space="preserve"><value>Use items anywhere</value></data>
+  <data name="USE_ITEMS_ANYWHERE_TEXT" xml:space="preserve"><value>Items can be used where the game forbids them: in the Pitstop and Johnny's store, out of bounds.</value></data>
+  <data name="GRAVITY_GUN_ON_MAP_TITLE" xml:space="preserve"><value>Gravity gun on the map</value></data>
+  <data name="GRAVITY_GUN_ON_MAP_TEXT" xml:space="preserve"><value>Every new floor has a Gravity Gun among its items. Use it to lift any furniture (lockers, desks, tables) and again to throw it; the pick up key (E) puts it down, and holding the mouse wheel and moving the mouse turns it. Activities, notebooks, doors and elevators stay in place.</value></data>
+  <data name="GIVE_GRAVITY_GUN_TEXT" xml:space="preserve"><value>Puts a Gravity Gun into the inventory.</value></data>
+  <data name="SOLVE_ALL_ACTIVITIES_TEXT" xml:space="preserve"><value>Every math machine, balloon buster and match on the floor is solved right, as if by the player: points, Baldi's pause, the notebooks appear.</value></data>
+  <data name="FREE_STORE_TITLE" xml:space="preserve"><value>Free store</value></data>
+  <data name="FREE_STORE_TEXT" xml:space="preserve"><value>A 100% sale on everything in Johnny's store: items, sticker packs, the map, the glue stick and the restock cost 0 YTP.</value></data>
+  <data name="MINIGAME_AUTO_WIN_TITLE" xml:space="preserve"><value>Auto-win minigames</value></data>
+  <data name="MINIGAME_AUTO_WIN_TEXT" xml:space="preserve"><value>A field trip minigame (Campfire Frenzy, Picnic Panic) is won perfectly as soon as its title is over: the perfect bonus, the win screen and the trip's items. Replays from the high score table are played as usual.</value></data>
+  <data name="FAST_ELEVATOR_TITLE" xml:space="preserve"><value>Fast elevator</value></data>
+  <data name="FAST_ELEVATOR_TEXT" xml:space="preserve"><value>The elevator between floors runs eight times faster: the zoom, the doors, the results board and the waits before the next floor.</value></data>
+</root>

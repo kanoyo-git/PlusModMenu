@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="GUM_MOVEMENT_MULTIPLIER_PLAYER" xml:space="preserve"><value>Скорость в жвачке (игрок)</value></data>
+  <data name="CHARACTERS" xml:space="preserve"><value>Персонажи</value></data>
+  <data name="DISABLE_HUD" xml:space="preserve"><value>Скрыть интерфейс</value></data>
+  <data name="TELEPORTER" xml:space="preserve"><value>Телепорт</value></data>
+  <data name="SELECT_SONG" xml:space="preserve"><value>Песня</value></data>
+  <data name="SELECT_ITEM" xml:space="preserve"><value>Выбери предмет</value></data>
+  <data name="PORTAL_POSTER" xml:space="preserve"><value>Portal Poster</value></data>
+  <data name="BIT_CRUSHER" xml:space="preserve"><value>Bit Crusher</value></data>
+  <data name="DEBUG_MODE" xml:space="preserve"><value>Режим отладки</value></data>
+  <data name="MIN_COOLDOWN" xml:space="preserve"><value>Мин. перезарядка</value></data>
+  <data name="ARTS_AND_CRAFTERS" xml:space="preserve"><value>Arts and Crafters</value></data>
+  <data name="PRESETS" xml:space="preserve"><value>Пресеты</value></data>
+  <data name="PRESET_NAME" xml:space="preserve"><value>Название пресета</value></data>
+  <data name="FOURTY_TWO" xml:space="preserve"><value>42</value></data>
+  <data name="ENTITY_GPS" xml:space="preserve"><value>GPS сущностей</value></data>
+  <data name="GUM_MOVEMENT_MULTIPLIER_NPC" xml:space="preserve"><value>Скорость в жвачке (NPC)</value></data>
+  <data name="TRIPPY_MODIFIERS" xml:space="preserve"><value>Безумные эффекты</value></data>
+  <data name="ANTI_HEARING_TIME" xml:space="preserve"><value>Время без слуха</value></data>
+  <data name="ENVIRONMENT_TIMESCALE" xml:space="preserve"><value>Скорость окружения</value></data>
+  <data name="VELOCITY" xml:space="preserve"><value>Скорость</value></data>
+  <data name="LANGUAGE" xml:space="preserve"><value>Язык</value></data>
+  <data name="WIND_FORCE_SPEED" xml:space="preserve"><value>Сила ветра</value></data>
+  <data name="AUTHENTIC_MODE" xml:space="preserve"><value>Аутентичный режим</value></data>
+  <data name="APPRAISAL_TIME" xml:space="preserve"><value>Время оценки</value></data>
+  <data name="JUMP_HEIGHT_MULTIPLIER" xml:space="preserve"><value>Множитель высоты прыжка</value></data>
+  <data name="LIGHTS_OUT" xml:space="preserve"><value>Отключение света</value></data>
+  <data name="COLLECT_NOTEBOOKS" xml:space="preserve"><value>Собрать тетради</value></data>
+  <data name="LIFE_SPAN" xml:space="preserve"><value>Время жизни</value></data>
+  <data name="OTHER_MODIFIERS" xml:space="preserve"><value>Прочее</value></data>
+  <data name="NOTEBOOKS" xml:space="preserve"><value>Тетради</value></data>
+  <data name="LOCK_TIME" xml:space="preserve"><value>Время блокировки</value></data>
+  <data name="REFRESH_HOTKEYS" xml:space="preserve"><value>Обновить список</value></data>
+  <data name="TELEPORT_PLAYER_TO_NOTEBOOK" xml:space="preserve"><value>Игрока к тетради</value></data>
+  <data name="MAX_STAY_TIME" xml:space="preserve"><value>Макс. время на месте</value></data>
+  <data name="PLAYER_DATA" xml:space="preserve"><value>Данные игрока</value></data>
+  <data name="CAMERA" xml:space="preserve"><value>Камера</value></data>
+  <data name="CANCEL" xml:space="preserve"><value>Отмена</value></data>
+  <data name="WD_NO_SQUEE" xml:space="preserve"><value>WD-NoSquee</value></data>
+  <data name="CHARACTER_ACTIVATION_DISTANCE" xml:space="preserve"><value>Дистанция активации персонажей</value></data>
+  <data name="NEW_INSTANCES" xml:space="preserve"><value>Сколько создать</value></data>
+  <data name="DEFAULT" xml:space="preserve"><value>По умолчанию</value></data>
+  <data name="NOCLIP" xml:space="preserve"><value>Noclip</value></data>
+  <data name="NOTICE" xml:space="preserve"><value>Внимание</value></data>
+  <data name="RISING_SPEED" xml:space="preserve"><value>Скорость подъёма</value></data>
+  <data name="DETENTION_TIME_INCREASE" xml:space="preserve"><value>Прибавка к наказанию</value></data>
+  <data name="SCRABBLE" xml:space="preserve"><value>Scrabble</value></data>
+  <data name="ADD_NEW_RULE" xml:space="preserve"><value>Новое правило</value></data>
+  <data name="ACTIVATION_TIME" xml:space="preserve"><value>Время активации</value></data>
+  <data name="INFINITE_STAMINA" xml:space="preserve"><value>Бесконечная выносливость</value></data>
+  <data name="GAMEPLAY_MODIFIERS" xml:space="preserve"><value>Геймплей</value></data>
+  <data name="CLEAN_UP_BALLOONS" xml:space="preserve"><value>Убрать шарики</value></data>
+  <data name="HOTKEY__KEY" xml:space="preserve"><value>Клавиша: {0}</value></data>
+  <data name="HOTKEY_NAME" xml:space="preserve"><value>Название горячей клавиши</value></data>
+  <data name="FACULTY_NAMETAG" xml:space="preserve"><value>Faculty Nametag</value></data>
+  <data name="EVENT_STOP" xml:space="preserve"><value>Остановить событие</value></data>
+  <data name="CAMERA_MODE_UNLOCKED" xml:space="preserve"><value>Свободная (3D)</value></data>
+  <data name="MOVEMENT_MULTIPLIER" xml:space="preserve"><value>Множитель скорости</value></data>
+  <data name="GUILT_TIME" xml:space="preserve"><value>Время вины</value></data>
+  <data name="CHALKLES" xml:space="preserve"><value>Chalkles</value></data>
+  <data name="PRINCIPAL_OF_THE_THING" xml:space="preserve"><value>Principal of the Thing</value></data>
+  <data name="HEIGHT" xml:space="preserve"><value>Высота</value></data>
+  <data name="VELOCITY_START" xml:space="preserve"><value>Начальная скорость</value></data>
+  <data name="AUDIO_VOMIT" xml:space="preserve"><value>Звуковая каша</value></data>
+  <data name="CLOWN_VOMIT_ON_SPRITES" xml:space="preserve"><value>Клоунская рвота на спрайтах</value></data>
+  <data name="SCENE_MODIFIERS" xml:space="preserve"><value>Сцены</value></data>
+  <data name="CLOWN_VOMIT_ON_ENVIRONMENT" xml:space="preserve"><value>Клоунская рвота на окружении</value></data>
+  <data name="MIN_TIME_ACTIVE" xml:space="preserve"><value>Мин. время работы</value></data>
+  <data name="THE_TEST" xml:space="preserve"><value>The Test</value></data>
+  <data name="RESTORE_DEFAULT_VALUES_WARNING_TEXT" xml:space="preserve"><value>Все настройки, какие получится, вернутся к значениям по умолчанию.
+Настройки самого меню не затрагиваются.
+
+&lt;b&gt;Точно продолжить?&lt;/b&gt;</value></data>
+  <data name="MRS_POMP" xml:space="preserve"><value>Mrs. Pomp</value></data>
+  <data name="VERTEX_GLITCHING" xml:space="preserve"><value>Дрожание вершин</value></data>
+  <data name="DESPAWN_ALL_INSTANCES" xml:space="preserve"><value>Убрать всех</value></data>
+  <data name="MIN_WHIRLPOOLS" xml:space="preserve"><value>Мин. водоворотов</value></data>
+  <data name="MIN_RESPAWN_TIME" xml:space="preserve"><value>Мин. время появления</value></data>
+  <data name="ALLOW_ON_ANY_WALL" xml:space="preserve"><value>На любую стену</value></data>
+  <data name="MAX_WHIRLPOOLS" xml:space="preserve"><value>Макс. водоворотов</value></data>
+  <data name="REMOVE" xml:space="preserve"><value>Удалить</value></data>
+  <data name="DIRTY_CHALK_ERASER" xml:space="preserve"><value>Dirty Chalk Eraser</value></data>
+  <data name="GRAPPLING_HOOK" xml:space="preserve"><value>Grappling Hook</value></data>
+  <data name="STAMINA_MULTIPLIER" xml:space="preserve"><value>Множитель выносливости</value></data>
+  <data name="ALARM_TIMER_MULTIPLIER" xml:space="preserve"><value>Множитель таймера Alarm Clock</value></data>
+  <data name="MAX_STAMINA" xml:space="preserve"><value>Макс. выносливость</value></data>
+  <data name="OVERRIDE_JUMPROPE_VALUES" xml:space="preserve"><value>Свои значения скакалки</value></data>
+  <data name="SILENT" xml:space="preserve"><value>Бесшумный</value></data>
+  <data name="MAX_HEIGHT" xml:space="preserve"><value>Макс. высота</value></data>
+  <data name="LIGHT_COLOR" xml:space="preserve"><value>Цвет света</value></data>
+  <data name="INVISIBLE" xml:space="preserve"><value>Невидимый</value></data>
+  <data name="SPECIAL" xml:space="preserve"><value>Особые</value></data>
+  <data name="MIN_HALL_LENGTH" xml:space="preserve"><value>Мин. длина коридора</value></data>
+  <data name="MIDI_SOUNDFONT" xml:space="preserve"><value>SoundFont для MIDI</value></data>
+  <data name="MUSIC_CORRUPTION" xml:space="preserve"><value>Порча музыки</value></data>
+  <data name="NOTEBOOK__INDEX" xml:space="preserve"><value>Тетрадь {0}</value></data>
+  <data name="EMITS_LIGHT_DURING_LIGHTS_OUT" xml:space="preserve"><value>Светится без света</value></data>
+  <data name="GUM_STUCK_TIME" xml:space="preserve"><value>Время в жвачке</value></data>
+  <data name="RULE_TO_BREAK" xml:space="preserve"><value>Нарушенное правило</value></data>
+  <data name="MAX_HALLTIME" xml:space="preserve"><value>Макс. время в коридоре</value></data>
+  <data name="SETTINGS" xml:space="preserve"><value>Основные</value></data>
+  <data name="DRUM_BANK" xml:space="preserve"><value>Банк ударных</value></data>
+  <data name="SLAP_SPEED" xml:space="preserve"><value>Скорость шлепков</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER" xml:space="preserve"><value>Не реагирует на игрока</value></data>
+  <data name="RULE_ID" xml:space="preserve"><value>ID правила</value></data>
+  <data name="SAVE_CURRENT_PRESET" xml:space="preserve"><value>Сохранить текущие настройки</value></data>
+  <data name="BALDIS_LEAST_FAVORITE_TAPE" xml:space="preserve"><value>Baldi's Least Favorite Tape</value></data>
+  <data name="SECRETS" xml:space="preserve"><value>Секреты</value></data>
+  <data name="NPC_TIMESCALE" xml:space="preserve"><value>Скорость NPC</value></data>
+  <data name="ROTATION_SPEED_MULTIPLIER" xml:space="preserve"><value>Множитель скорости поворота</value></data>
+  <data name="STOP_MUSIC" xml:space="preserve"><value>Остановить музыку</value></data>
+  <data name="SELECTED_INSTANCE" xml:space="preserve"><value>Выбранный</value></data>
+  <data name="SONG__TYPE_CLIP" xml:space="preserve"><value>{0} (запись)</value></data>
+  <data name="SONG__TYPE_MIDI" xml:space="preserve"><value>{0} (MIDI)</value></data>
+  <data name="TELEPORT_PLAYER_TO_SELECTED_INSTANCE" xml:space="preserve"><value>Игрока к выбранному</value></data>
+  <data name="MAX_COOLDOWN" xml:space="preserve"><value>Макс. перезарядка</value></data>
+  <data name="MAX_EVENT_TIME" xml:space="preserve"><value>Макс. длительность события</value></data>
+  <data name="CORRUPTION_STRENGTH" xml:space="preserve"><value>Сила порчи</value></data>
+  <data name="REFRESH_PRESETS" xml:space="preserve"><value>Обновить список</value></data>
+  <data name="MODMENU_KEY__KEY" xml:space="preserve"><value>Клавиша меню: {0}</value></data>
+  <data name="INFINITE_ITEMS" xml:space="preserve"><value>Бесконечные предметы</value></data>
+  <data name="GENERAL" xml:space="preserve"><value>Общее</value></data>
+  <data name="REFRESH_SOUNDFONT_LIST" xml:space="preserve"><value>Обновить список SoundFont</value></data>
+  <data name="GRAVITY_EVENT" xml:space="preserve"><value>Событие гравитации</value></data>
+  <data name="MAX_FLIPPERS" xml:space="preserve"><value>Макс. переворачивателей</value></data>
+  <data name="PLAY_SELECTED_SONG" xml:space="preserve"><value>Включить песню</value></data>
+  <data name="BIT_DEPTH" xml:space="preserve"><value>Разрядность</value></data>
+  <data name="CAMERA_MODE" xml:space="preserve"><value>Режим камеры</value></data>
+  <data name="FOG_EVENT" xml:space="preserve"><value>Событие тумана</value></data>
+  <data name="FOG_STRENGTH" xml:space="preserve"><value>Плотность тумана</value></data>
+  <data name="RULER_EVENT" xml:space="preserve"><value>Сломанная линейка</value></data>
+  <data name="FOG_COLOR" xml:space="preserve"><value>Цвет тумана</value></data>
+  <data name="MIN_STAY_TIME" xml:space="preserve"><value>Мин. время на месте</value></data>
+  <data name="SAFETY_SCISSORS" xml:space="preserve"><value>Safety Scissors</value></data>
+  <data name="SWAP_TIME" xml:space="preserve"><value>Время обмена</value></data>
+  <data name="CLASS_TIMER_LENGTH" xml:space="preserve"><value>Длина урока</value></data>
+  <data name="INSTANCE_EDITOR" xml:space="preserve"><value>Экземпляры</value></data>
+  <data name="TELEPORT_CHARACTER_TO_PLAYER" xml:space="preserve"><value>Персонажа к игроку</value></data>
+  <data name="SAVE_HOTKEY" xml:space="preserve"><value>Сохранить клавишу</value></data>
+  <data name="MAX_TIME_ACTIVE" xml:space="preserve"><value>Макс. время работы</value></data>
+  <data name="ADD" xml:space="preserve"><value>Добавить</value></data>
+  <data name="EXITS" xml:space="preserve"><value>Выходы</value></data>
+  <data name="FIRST_PRIZE" xml:space="preserve"><value>1st Prize</value></data>
+  <data name="APPLE" xml:space="preserve"><value>Apple</value></data>
+  <data name="DISCO" xml:space="preserve"><value>Диско</value></data>
+  <data name="GUILT" xml:space="preserve"><value>Вина</value></data>
+  <data name="BEANS" xml:space="preserve"><value>Beans</value></data>
+  <data name="BALDI" xml:space="preserve"><value>Baldi</value></data>
+  <data name="BLIND" xml:space="preserve"><value>Слепой</value></data>
+  <data name="BSODA" xml:space="preserve"><value>BSODA</value></data>
+  <data name="CLOSE" xml:space="preserve"><value>Закрыть</value></data>
+  <data name="OTHER" xml:space="preserve"><value>Другие</value></data>
+  <data name="JUMPS" xml:space="preserve"><value>Прыжки</value></data>
+  <data name="LIGHT_STRENGTH" xml:space="preserve"><value>Яркость света</value></data>
+  <data name="TIMER" xml:space="preserve"><value>Таймер</value></data>
+  <data name="GUM_SPEED" xml:space="preserve"><value>Скорость жвачки</value></data>
+  <data name="RULES" xml:space="preserve"><value>Правила</value></data>
+  <data name="TELEPORT_PLAYER_TO_EXIT" xml:space="preserve"><value>Игрока к выходу</value></data>
+  <data name="SPEED" xml:space="preserve"><value>Скорость</value></data>
+  <data name="SPAWN" xml:space="preserve"><value>Создать</value></data>
+  <data name="SCALE" xml:space="preserve"><value>Размер</value></data>
+  <data name="EVENT_START" xml:space="preserve"><value>Запустить событие</value></data>
+  <data name="DESPAWN_SELECTED_INSTANCE" xml:space="preserve"><value>Убрать выбранного</value></data>
+  <data name="SCENE_MANAGER" xml:space="preserve"><value>Менеджер сцен</value></data>
+  <data name="DELETE_HOTKEY" xml:space="preserve"><value>Удалить клавишу</value></data>
+  <data name="VIDEO_DIARRHEA" xml:space="preserve"><value>Видеопонос</value></data>
+  <data name="BALLOON_COUNT" xml:space="preserve"><value>Число шариков</value></data>
+  <data name="VECTOR2_CORRUPTION" xml:space="preserve"><value>Порча Vector2</value></data>
+  <data name="TELEPORT_NOTEBOOK_TO_PLAYER" xml:space="preserve"><value>Тетрадь к игроку</value></data>
+  <data name="SWINGING_DOOR_LOCK" xml:space="preserve"><value>Swinging Door Lock</value></data>
+  <data name="FOG_MAX_DIST" xml:space="preserve"><value>Дальняя граница</value></data>
+  <data name="CREATE_NEW_PRESET" xml:space="preserve"><value>Новый пресет</value></data>
+  <data name="TELEPORT_PLAYER_TO_CHARACTER" xml:space="preserve"><value>Игрока к персонажу</value></data>
+  <data name="INSTRUMENT_BANK" xml:space="preserve"><value>Банк инструментов</value></data>
+  <data name="WAITING_FOR_INPUT__TIME" xml:space="preserve"><value>Нажми клавишу... ({0})</value></data>
+  <data name="MUSIC_MANAGER" xml:space="preserve"><value>Музыка</value></data>
+  <data name="INVENTORY_SLOT_EDITOR" xml:space="preserve"><value>Слоты инвентаря</value></data>
+  <data name="HOTKEYS" xml:space="preserve"><value>Горячие клавиши</value></data>
+  <data name="SWEEP_MOVEMENT_MULTIPLIER" xml:space="preserve"><value>Скорость при сметании</value></data>
+  <data name="PLAYTIME" xml:space="preserve"><value>Playtime</value></data>
+  <data name="ITEM_MODIFIERS" xml:space="preserve"><value>Предметы</value></data>
+  <data name="COLLECT" xml:space="preserve"><value>Собрать</value></data>
+  <data name="CLOWN_VOMIT" xml:space="preserve"><value>Клоунская рвота</value></data>
+  <data name="COOLDOWN" xml:space="preserve"><value>Перезарядка</value></data>
+  <data name="CREATE_NEW_HOTKEY" xml:space="preserve"><value>Новая горячая клавиша</value></data>
+  <data name="SHOW_ENTITY_DISTANCE" xml:space="preserve"><value>Показывать расстояние</value></data>
+  <data name="EXIT__INDEX" xml:space="preserve"><value>Выход {0}</value></data>
+  <data name="PRESET_CONTROL_PANEL" xml:space="preserve"><value>Управление</value></data>
+  <data name="MAX_PRESSURE" xml:space="preserve"><value>Макс. давление</value></data>
+  <data name="MAX_RESPAWN_TIME" xml:space="preserve"><value>Макс. время появления</value></data>
+  <data name="MIN_FLIPPERS" xml:space="preserve"><value>Мин. переворачивателей</value></data>
+  <data name="ALARM_CLOCK" xml:space="preserve"><value>Alarm Clock</value></data>
+  <data name="PARTY_EVENT" xml:space="preserve"><value>Вечеринка</value></data>
+  <data name="SOUNDFONT" xml:space="preserve"><value>SoundFont</value></data>
+  <data name="ENABLED" xml:space="preserve"><value>Включён</value></data>
+  <data name="CAMERA_MODE_LOCKED" xml:space="preserve"><value>Фиксированная (2D)</value></data>
+  <data name="AUDIO_MODIFIERS" xml:space="preserve"><value>Звук</value></data>
+  <data name="CAMERA_FOV" xml:space="preserve"><value>Угол обзора</value></data>
+  <data name="FULLBRIGHT" xml:space="preserve"><value>Full Bright</value></data>
+  <data name="TELEPORT_SELECTED_INSTANCE_TO_PLAYER" xml:space="preserve"><value>Выбранного к игроку</value></data>
+  <data name="MIRROR_MODE" xml:space="preserve"><value>Зеркальный режим</value></data>
+  <data name="FIRST_PRIZE_CRAZY_TIME" xml:space="preserve"><value>Время безумия 1st Prize</value></data>
+  <data name="SUPER_HOT" xml:space="preserve"><value>SUPER HOT</value></data>
+  <data name="INITIAL_RESPAWN_TIME" xml:space="preserve"><value>Задержка первого появления</value></data>
+  <data name="OVERRIDE_VERTEX_GLITCHING" xml:space="preserve"><value>Своё дрожание вершин</value></data>
+  <data name="RESTORE_DEFAULT_VALUES" xml:space="preserve"><value>Сбросить всё</value></data>
+  <data name="VELOCITY_INCREASE" xml:space="preserve"><value>Прибавка скорости</value></data>
+  <data name="SAVE_HOTKEY_STATE" xml:space="preserve"><value>Запомнить шаг</value></data>
+  <data name="CHARACTER_MODIFIERS" xml:space="preserve"><value>Персонажи</value></data>
+  <data name="SHOW_FPS" xml:space="preserve"><value>Показывать FPS</value></data>
+  <data name="GLITCH_INTENSITY" xml:space="preserve"><value>Сила глитча</value></data>
+  <data name="FOG_START_DIST" xml:space="preserve"><value>Ближняя граница</value></data>
+  <data name="ITS_A_BULLY" xml:space="preserve"><value>It's a Bully</value></data>
+  <data name="TELEPORT_ALL_INSTANCES_TO_PLAYER" xml:space="preserve"><value>Всех к игроку</value></data>
+  <data name="VECTOR3_CORRUPTION" xml:space="preserve"><value>Порча Vector3</value></data>
+  <data name="BIG_OL_BOOTS" xml:space="preserve"><value>Big Ol' Boots</value></data>
+  <data name="FUN_SETTINGS" xml:space="preserve"><value>Забавные настройки</value></data>
+  <data name="TIMESCALE" xml:space="preserve"><value>Скорость времени</value></data>
+  <data name="FLOOD_EVENT" xml:space="preserve"><value>Наводнение</value></data>
+  <data name="MOVEMENT" xml:space="preserve"><value>Движение</value></data>
+  <data name="MIDI_SPEED" xml:space="preserve"><value>Темп</value></data>
+  <data name="MIDI_PITCH" xml:space="preserve"><value>Высота тона</value></data>
+  <data name="PLAYER_MODIFIERS" xml:space="preserve"><value>Игрок</value></data>
+  <data name="GOTTA_SWEEP" xml:space="preserve"><value>Gotta Sweep</value></data>
+  <data name="RESET_DELAY" xml:space="preserve"><value>Задержка сброса</value></data>
+  <data name="HOTKEY_CONTROL_PANEL" xml:space="preserve"><value>Управление</value></data>
+  <data name="CLOUDY_COPTER" xml:space="preserve"><value>Cloudy Copter</value></data>
+  <data name="HOTKEY_INFORMATION" xml:space="preserve"><value>Что записано</value></data>
+  <data name="MIN_EVENT_TIME" xml:space="preserve"><value>Мин. длительность события</value></data>
+  <data name="HOTKEY_NO_RECORDABLE_CHANGES_NOTICE" xml:space="preserve"><value>С прошлого шага ничего не изменилось, записывать нечего.</value></data>
+  <data name="ENERGY_FLAVORED_ZESTY_BAR" xml:space="preserve"><value>Energy Flavored Zesty Bar</value></data>
+  <data name="EVENT_MODIFIERS" xml:space="preserve"><value>События</value></data>
+  <data name="BREAK_RULE" xml:space="preserve"><value>Нарушить правило</value></data>
+  <data name="SWEEP_POWER_MULTIPLIER" xml:space="preserve"><value>Сила сметания</value></data>
+  <data name="JUMPROPE_SPEED_MULTIPLIER" xml:space="preserve"><value>Скорость скакалки</value></data>
+  <data name="EDIT_SLOT__INDEX" xml:space="preserve"><value>Слот {0}</value></data>
+  <data name="DEAF" xml:space="preserve"><value>Глухой</value></data>
+  <data name="MIDI" xml:space="preserve"><value>MIDI</value></data>
+  <data name="NONE" xml:space="preserve"><value>Нет</value></data>
+  <data name="SAVE" xml:space="preserve"><value>Сохранить</value></data>
+  <data name="SAMPLE_RATE" xml:space="preserve"><value>Частота дискретизации</value></data>
+  <data name="MIDI_LOOP" xml:space="preserve"><value>Повтор</value></data>
+    <data name="SILENCE_RADIUS" xml:space="preserve"><value>Радиус тишины</value></data>
+  <data name="MAIN_FLOORS" xml:space="preserve"><value>Основные этажи</value></data>
+  <data name="ENDLESS_MODE" xml:space="preserve"><value>Бесконечный режим</value></data>
+  <data name="CHALLENGES" xml:space="preserve"><value>Испытания</value></data>
+  <data name="NOT_AVAILABLE_NOW" xml:space="preserve"><value>Сейчас недоступно.</value></data>
+  <data name="ALL_CHARACTERS" xml:space="preserve"><value>Все персонажи</value></data>
+  <data name="ALL_ITEMS" xml:space="preserve"><value>Все предметы</value></data>
+  <data name="PAGE_RANGE" xml:space="preserve"><value>{0}–{1} из {2}</value></data>
+  <data name="PAGE_INDEX" xml:space="preserve"><value>{0} из {1}</value></data>
+  <data name="RESET_PAGE" xml:space="preserve"><value>Сбросить страницу</value></data>
+  <data name="DEFAULT_VALUE" xml:space="preserve"><value>По умолчанию: {0}</value></data>
+  <data name="CLICK_TO_RESET" xml:space="preserve"><value>Нажми, чтобы вернуть ({0})</value></data>
+  <data name="SEARCH_PLACEHOLDER" xml:space="preserve"><value>Поиск по всем настройкам...</value></data>
+  <data name="SEARCH_RESULTS" xml:space="preserve"><value>Найдено: {0}</value></data>
+  <data name="SEARCH_RESULTS_LIMITED" xml:space="preserve"><value>Первые {0} из {1}</value></data>
+  <data name="SEARCH_NOTHING" xml:space="preserve"><value>Ничего не найдено.</value></data>
+  <data name="SEARCH_HINT" xml:space="preserve"><value>Нажми на название, чтобы открыть страницу.</value></data>
+  <data name="MENU_SETTINGS" xml:space="preserve"><value>Настройки меню</value></data>
+  <data name="LOAD_PRESET" xml:space="preserve"><value>Загрузить</value></data>
+  <data name="DELETE_PRESET_CONFIRM" xml:space="preserve"><value>Удалить пресет «{0}»?</value></data>
+  <data name="DELETE_HOTKEY_CONFIRM" xml:space="preserve"><value>Удалить горячую клавишу «{0}»?</value></data>
+  <data name="HOTKEY_NOT_RECORDING" xml:space="preserve"><value>Сначала начни запись горячей клавиши.</value></data>
+  <data name="LANGUAGE_AUTO" xml:space="preserve"><value>Авто</value></data>
+  <data name="LANGUAGE_ENGLISH" xml:space="preserve"><value>English</value></data>
+  <data name="LANGUAGE_RUSSIAN" xml:space="preserve"><value>Русский</value></data>
+  <data name="RUSSIAN_NEEDS_CYRILLICPLUS" xml:space="preserve"><value>Для русского нужен CyrillicPlus</value></data>
+  <data name="RUSSIAN_NEEDS_CYRILLICPLUS_TEXT" xml:space="preserve"><value>В шрифтах игры нет русских букв. Установи мод CyrillicPlus в BepInEx/plugins и перезапусти игру, а до тех пор меню будет на английском.</value></data>
+  <data name="VALUE_ON" xml:space="preserve"><value>Вкл</value></data>
+  <data name="VALUE_OFF" xml:space="preserve"><value>Выкл</value></data>
+  <data name="HL1_MOVEMENT" xml:space="preserve"><value>HL1 Movement</value></data>
+  <data name="HL1_DUCK_KEY__KEY" xml:space="preserve"><value>Присед: {0}</value></data>
+  <data name="HL1_USE_KEY__KEY" xml:space="preserve"><value>Взять: {0}</value></data>
+  <data name="HL1_UNAVAILABLE" xml:space="preserve"><value>Выключено, пока включён HL1 Movement</value></data>
+  <data name="JUMP_KEY__KEY" xml:space="preserve"><value>Прыжок: {0}</value></data>
+  <data name="BIND_HINT" xml:space="preserve"><value>Правый клик — назначить клавишу</value></data>
+  <data name="BIND_KEY__KEY" xml:space="preserve"><value>Клавиша: {0} (правый клик — сменить)</value></data>
+  <data name="BIND_WAITING__TIME" xml:space="preserve"><value>Нажми клавишу ({0}), Esc — сбросить</value></data>
+  <data name="SURVIVAL" xml:space="preserve"><value>Выживание</value></data>
+  <data name="WORLD" xml:space="preserve"><value>Мир</value></data>
+  <data name="MAP" xml:space="preserve"><value>Карта</value></data>
+  <data name="DOORS_AND_WINDOWS" xml:space="preserve"><value>Двери и окна</value></data>
+  <data name="FLOOR" xml:space="preserve"><value>Этаж</value></data>
+  <data name="SEED" xml:space="preserve"><value>Сид</value></data>
+  <data name="GOD_MODE" xml:space="preserve"><value>Режим бога</value></data>
+  <data name="YTP" xml:space="preserve"><value>YTP</value></data>
+  <data name="LIVES" xml:space="preserve"><value>Жизни</value></data>
+  <data name="GRADE" xml:space="preserve"><value>Оценка</value></data>
+  <data name="NPC_MAP_ARROWS" xml:space="preserve"><value>Персонажи на карте</value></data>
+  <data name="REVEAL_MAP" xml:space="preserve"><value>Открыть всю карту</value></data>
+  <data name="OPEN_ALL_DOORS" xml:space="preserve"><value>Открыть все двери</value></data>
+  <data name="LOCK_ALL_DOORS" xml:space="preserve"><value>Запереть все двери</value></data>
+  <data name="UNLOCK_ALL_DOORS" xml:space="preserve"><value>Отпереть все двери</value></data>
+  <data name="BREAK_ALL_WINDOWS" xml:space="preserve"><value>Разбить все окна</value></data>
+  <data name="OPEN_LOCKED_ROOMS" xml:space="preserve"><value>Открыть запертые комнаты</value></data>
+  <data name="OPEN_ALL_EXITS" xml:space="preserve"><value>Открыть все выходы</value></data>
+  <data name="FINISH_FLOOR" xml:space="preserve"><value>Закончить этаж</value></data>
+  <data name="USE_FIXED_SEED" xml:space="preserve"><value>Менеджер сцен берёт этот сид</value></data>
+  <data name="FIXED_SEED" xml:space="preserve"><value>Сид</value></data>
+  <data name="CURRENT_SEED__SEED" xml:space="preserve"><value>Текущий сид: {0}</value></data>
+  <data name="CURRENT_SEED_NONE" xml:space="preserve"><value>Текущий сид: игры нет</value></data>
+  <data name="APPLY_SEED_TO_NEXT_FLOORS" xml:space="preserve"><value>Сид для следующих этажей</value></data>
+  <data name="DR_REFLEX" xml:space="preserve"><value>Dr. Reflex</value></data>
+  <data name="REFLEX_REWARD" xml:space="preserve"><value>Награда (YTP)</value></data>
+  <data name="REFLEX_PENALTY" xml:space="preserve"><value>Штраф за промах (YTP)</value></data>
+  <data name="THE_TEST_FOG_TIME" xml:space="preserve"><value>Время слепоты</value></data>
+  <data name="THE_TEST_EXPLODE_CHANCE" xml:space="preserve"><value>Шанс взрыва</value></data>
+  <data name="THE_TEST_FLEE_SPEED" xml:space="preserve"><value>Скорость бегства</value></data>
+  <data name="LOCKDOWN_EVENT" xml:space="preserve"><value>Карантин</value></data>
+  <data name="MYSTERY_ROOM_EVENT" xml:space="preserve"><value>Таинственная комната</value></data>
+  <data name="TIME_OUT_EVENT" xml:space="preserve"><value>Время вышло</value></data>
+  <data name="BALDER_DASH_EVENT" xml:space="preserve"><value>BalderDash</value></data>
+  <data name="STUDENT_SHUFFLE_EVENT" xml:space="preserve"><value>Толпа учеников</value></data>
+  <data name="LOCKDOWN_MIN_DOORS" xml:space="preserve"><value>Мин. дверей</value></data>
+  <data name="LOCKDOWN_MAX_DOORS" xml:space="preserve"><value>Макс. дверей</value></data>
+  <data name="TIME_OUT_ANGER_RATE" xml:space="preserve"><value>Гнев раз в (с)</value></data>
+  <data name="TIME_OUT_ANGER_AMOUNT" xml:space="preserve"><value>Прибавка гнева</value></data>
+  <data name="TIME_OUT_LIGHT_RATE" xml:space="preserve"><value>Свет гаснет раз в (с)</value></data>
+  <data name="BALDER_SPAWN_RATE" xml:space="preserve"><value>Появление раз в (с)</value></data>
+  <data name="STUDENT_TOTAL_FOLLOWERS" xml:space="preserve"><value>Учеников</value></data>
+  <data name="STUDENT_PUSH_SPEED" xml:space="preserve"><value>Сила толчка</value></data>
+  <data name="STICKERS" xml:space="preserve"><value>Стикеры</value></data>
+  <data name="STICKER_SLOTS" xml:space="preserve"><value>Наклеенные стикеры</value></data>
+  <data name="STICKER_INVENTORY" xml:space="preserve"><value>Альбом стикеров</value></data>
+  <data name="STICKER_SLOT" xml:space="preserve"><value>Слот {0}</value></data>
+  <data name="STICKER_GLUE" xml:space="preserve"><value>Клей на слоте {0}</value></data>
+  <data name="STICKER_NONE" xml:space="preserve"><value>Нет</value></data>
+  <data name="STICKER_TO_ADD" xml:space="preserve"><value>Стикер</value></data>
+  <data name="STICKER_ADD" xml:space="preserve"><value>Добавить в альбом</value></data>
+  <data name="STICKER_OPEN_PACKS" xml:space="preserve"><value>Открыть все паки</value></data>
+  <data name="GRAVITY_GUN" xml:space="preserve"><value>Gravity Gun</value></data>
+  <data name="USE_ITEMS_ANYWHERE" xml:space="preserve"><value>Предметы где угодно</value></data>
+  <data name="GRAVITY_GUN_ON_MAP" xml:space="preserve"><value>Gravity Gun на карте</value></data>
+  <data name="GIVE_GRAVITY_GUN" xml:space="preserve"><value>Выдать Gravity Gun</value></data>
+  <data name="SOLVE_ALL_ACTIVITIES" xml:space="preserve"><value>Решить все задачи</value></data>
+  <data name="FREE_STORE" xml:space="preserve"><value>Бесплатный магазин</value></data>
+  <data name="JOHNNYS_STORE" xml:space="preserve"><value>Магазин Джонни</value></data>
+  <data name="TOGGLE_ON" xml:space="preserve"><value>вкл</value></data>
+  <data name="TOGGLE_OFF" xml:space="preserve"><value>выкл</value></data>
+  <data name="FIELD_TRIPS" xml:space="preserve"><value>Экскурсии</value></data>
+  <data name="MINIGAME_AUTO_WIN" xml:space="preserve"><value>Автовин мини-игр</value></data>
+  <data name="CLASSES" xml:space="preserve"><value>Классы</value></data>
+  <data name="TELEPORT_PLAYER_TO_CLASS" xml:space="preserve"><value>Игрока в класс</value></data>
+  <data name="CLASS__INDEX" xml:space="preserve"><value>Класс {0}</value></data>
+  <data name="ELEVATOR" xml:space="preserve"><value>Лифт</value></data>
+  <data name="FAST_ELEVATOR" xml:space="preserve"><value>Быстрый лифт</value></data>
+  <data name="KEPT_TOAST__NAME" xml:space="preserve"><value>{0}: сохранено навсегда</value></data>
+  <data name="UNKEPT_TOAST__NAME" xml:space="preserve"><value>{0}: больше не сохраняется</value></data>
+  <data name="KEEP_HINT" xml:space="preserve"><value>Alt+клик: оставить включённым после перезапуска</value></data>
+  <data name="KEPT_HINT" xml:space="preserve"><value>Остаётся включённым после перезапуска (Alt+клик — убрать)</value></data>
+  <data name="OLD_FILES_LEFT_TEXT" xml:space="preserve"><value>В BepInEx/plugins остались файлы старой версии Plus Mod Menu или оригинального ModMenu. Теперь мод — одна PlusModMenu.dll: удалите эти файлы и перезапустите игру:
+{0}</value></data>
+</root>

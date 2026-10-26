@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>PlusModMenu</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../PlusModMenu.Core/PlusModMenu.Core.csproj" Private="false" />
+    <ProjectReference Include="../PlusModMenu.Hooks/PlusModMenu.Hooks.csproj" Private="false" />
+    <ProjectReference Include="../PlusModMenu.Codegen/PlusModMenu.Codegen.csproj" Private="false" />
+    <ProjectReference Include="../PlusModMenu.Api/PlusModMenu.Api.csproj" Private="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="content.tgz" />
+    <EmbeddedResource Include="content.tgz" LogicalName="content.tgz" />
+    <None Remove="nfo" />
+    <EmbeddedResource Include="nfo" LogicalName="nfo" />
+    <None Remove="ModMenu.modmenu_icon.png" />
+    <EmbeddedResource Include="ModMenu.modmenu_icon.png" LogicalName="ModMenu.modmenu_icon.png" />
+    <EmbeddedResource Include="ModMenu.gravity_gun_large.png" LogicalName="ModMenu.gravity_gun_large.png" />
+    <EmbeddedResource Include="ModMenu.gravity_gun_small.png" LogicalName="ModMenu.gravity_gun_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="ModMenu.Strings.resx" LogicalName="ModMenu.Strings.resources" />
+    <EmbeddedResource Update="ModMenu.HelpText.resx" LogicalName="ModMenu.HelpText.resources" />
+    <EmbeddedResource Update="ClassicYetAgain/ClassicYetAgain.Strings.resx" LogicalName="ClassicYetAgain.Strings.resources" />
+    <EmbeddedResource Update="ClassicYetAgain/ClassicYetAgain.HelpText.resx" LogicalName="ClassicYetAgain.HelpText.resources" />
+    <EmbeddedResource Update="ModMenu.Strings.ru.resx" WithCulture="false" LogicalName="ModMenu.Strings.ru.resources" />
+    <EmbeddedResource Update="ModMenu.HelpText.ru.resx" WithCulture="false" LogicalName="ModMenu.HelpText.ru.resources" />
+    <EmbeddedResource Update="ClassicYetAgain/ClassicYetAgain.Strings.ru.resx" WithCulture="false" LogicalName="ClassicYetAgain.Strings.ru.resources" />
+    <EmbeddedResource Update="ClassicYetAgain/ClassicYetAgain.HelpText.ru.resx" WithCulture="false" LogicalName="ClassicYetAgain.HelpText.ru.resources" />
+  </ItemGroup>
+</Project>

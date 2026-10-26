@@ -1,0 +1,26 @@
+<Project>
+  <Target Name="CheckGamePath" BeforeTargets="ResolveAssemblyReferences" Condition="'$(IsGameMod)' == 'true' and '$(GamePath)' == ''">
+    <Error Text="Set the game folder: dotnet build -c Release -p:GamePath=&quot;/path/to/Baldi's Basics Plus&quot;" />
+  </Target>
+  <Target Name="MergeToDist" AfterTargets="Build" Condition="'$(IsGameMod)' == 'true' and '$(MSBuildProjectName)' == 'ModMenu'">
+    <PropertyGroup>
+      <_Dotnet>$(DOTNET_HOST_PATH)</_Dotnet>
+      <_Dotnet Condition="'$(_Dotnet)' == ''">dotnet</_Dotnet>
+      <_Src>$(MSBuildThisFileDirectory)src</_Src>
+      <_Merged>$(DistPath)/PlusModMenu.dll</_Merged>
+    </PropertyGroup>
+    <ItemGroup>
+      <_MergeInput Include="$(TargetPath)" />
+      <_MergeInput Include="$(_Src)/PlusModMenu.Api/bin/$(Configuration)/PlusModMenu.Api.dll;$(_Src)/PlusModMenu.Hooks/bin/$(Configuration)/PlusModMenu.Hooks.dll;$(_Src)/PlusModMenu.Codegen/bin/$(Configuration)/PlusModMenu.Codegen.dll;$(_Src)/PlusModMenu.Core/bin/$(Configuration)/PlusModMenu.Core.dll" />
+      <_MergeInput Include="$(LibPath)/Newtonsoft.Json.dll;$(LibPath)/Unity.SharpZipLib.dll" />
+      <_StaleDist Include="$(DistPath)/*" Exclude="$(_Merged)" />
+    </ItemGroup>
+    <MakeDir Directories="$(DistPath)" />
+    <Delete Files="@(_StaleDist)" />
+    <Exec Command="&quot;$(_Dotnet)&quot; tool restore" WorkingDirectory="$(MSBuildThisFileDirectory)" StandardOutputImportance="low" />
+    <Exec WorkingDirectory="$(MSBuildThisFileDirectory)" StandardOutputImportance="low" IgnoreStandardErrorWarningFormat="true"
+          Command="&quot;$(_Dotnet)&quot; tool run ilrepack -- /union /ndebug /internalizeassembly:Newtonsoft.Json /internalizeassembly:Unity.SharpZipLib /lib:&quot;$(LibPath)&quot; /lib:&quot;$(ManagedPath)&quot; /lib:&quot;$(BepInExCorePath)&quot; /out:&quot;$(_Merged)&quot; @(_MergeInput->'&quot;%(FullPath)&quot;', ' ')" />
+    <Delete Files="$(DistPath)/PlusModMenu.pdb;$(DistPath)/PlusModMenu.dll.config" />
+    <Copy SourceFiles="$(_Merged)" DestinationFolder="$(GamePath)/BepInEx/plugins" SkipUnchangedFiles="true" Condition="'$(DeployToGame)' == 'true'" />
+  </Target>
+</Project>

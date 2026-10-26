@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ENFORCE_SELECTED_SKYBOX" xml:space="preserve"><value>Enforce Selected Skybox</value></data>
+  <data name="ACTIVATE_IN_SPOOP_MODE" xml:space="preserve"><value>Activate in Spoop-Mode</value></data>
+  <data name="CAMERA" xml:space="preserve"><value>Camera</value></data>
+  <data name="ADD_DETENTION_TIME" xml:space="preserve"><value>Add Detention Time</value></data>
+  <data name="CUSTOM_DETENTION_TIMES" xml:space="preserve"><value>Custom Detention Times</value></data>
+  <data name="JUMP_ANYWHERE" xml:space="preserve"><value>Jump Anywhere</value></data>
+  <data name="REMOVE" xml:space="preserve"><value>✕</value></data>
+  <data name="PLAYTIME_DELIVERY_SERVICE" xml:space="preserve"><value>Playtime Delivery Service</value></data>
+  <data name="SILENT" xml:space="preserve"><value>Silent</value></data>
+  <data name="SKYBOX" xml:space="preserve"><value>Skybox</value></data>
+  <data name="INVISIBLE" xml:space="preserve"><value>Invisible</value></data>
+  <data name="HAPPY_BALDI" xml:space="preserve"><value>Happy Baldi</value></data>
+  <data name="EARTHQUAKE" xml:space="preserve"><value>Earthquake</value></data>
+  <data name="SLENDER_BALDI" xml:space="preserve"><value>Slender Baldi</value></data>
+  <data name="MOVES_WHILE_BEING_LOOKED_AT" xml:space="preserve"><value>Moves while being looked at</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER" xml:space="preserve"><value>Ignores Player Trigger</value></data>
+  <data name="CUSTOM_JEALOUSY" xml:space="preserve"><value>Custom Jealousy</value></data>
+  <data name="RANDOMIZE_CHARACTER_POSITIONS" xml:space="preserve"><value>Randomize Character Positions</value></data>
+  <data name="OVERRIDE_JEALOUSY" xml:space="preserve"><value>Override Jealousy</value></data>
+  <data name="AGGRESSIVE_PLAYTIME" xml:space="preserve"><value>Aggressive Playtime</value></data>
+  <data name="ADD_NEW_CAMERA" xml:space="preserve"><value>Add New Camera</value></data>
+  <data name="GENERAL" xml:space="preserve"><value>General</value></data>
+  <data name="STORMY_NIGHT" xml:space="preserve"><value>Stormy Night</value></data>
+  <data name="LETHAL_TOUCH" xml:space="preserve"><value>Lethal Touch</value></data>
+  <data name="BLIND" xml:space="preserve"><value>Blind</value></data>
+  <data name="OTHER" xml:space="preserve"><value>Other</value></data>
+  <data name="SPEED" xml:space="preserve"><value>Speed</value></data>
+  <data name="SCALE" xml:space="preserve"><value>Scale</value></data>
+  <data name="SLAP_SPEED_RANDOMIZER" xml:space="preserve"><value>Slap Speed Randomizer</value></data>
+  <data name="DECEPTION" xml:space="preserve"><value>Deception</value></data>
+  <data name="ENABLE_PLAYER_CAMERA" xml:space="preserve"><value>Enable Player Camera</value></data>
+  <data name="CAMERAS" xml:space="preserve"><value>Cameras</value></data>
+  <data name="SKYBOX_COLOR" xml:space="preserve"><value>Skybox Color</value></data>
+  <data name="LETHAL_TOUCH_ON_GUM_WAD" xml:space="preserve"><value>Lethal Touch on Gum Wad</value></data>
+  <data name="DETENTION_TIME__INDEX" xml:space="preserve"><value>Detention Time {0}</value></data>
+  <data name="CAMERA_MODIFIERS" xml:space="preserve"><value>Cameras</value></data>
+  <data name="EARTHQUAKE_STRENGTH" xml:space="preserve"><value>Earthquake Strength</value></data>
+  <data name="ENABLED" xml:space="preserve"><value>Enabled</value></data>
+  <data name="FLIPAROO" xml:space="preserve"><value>Fliparoo</value></data>
+  <data name="RANDOMIZE_ITEM_POSITIONS" xml:space="preserve"><value>Randomize Item Positions</value></data>
+    <data name="CAMERA__INDEX" xml:space="preserve"><value>Camera {0}</value></data>
+  <data name="REMOVE_CAMERA__INDEX" xml:space="preserve"><value>Remove camera {0}</value></data>
+  <data name="REMOVE_DETENTION_TIME__INDEX" xml:space="preserve"><value>Remove detention time {0}</value></data>
+</root>

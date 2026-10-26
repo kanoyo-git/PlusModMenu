@@ -1,0 +1,44 @@
+<Project>
+  <PropertyGroup>
+    <ManagedPath>$(GamePath)/BALDI_Data/Managed</ManagedPath>
+    <BepInExCorePath>$(GamePath)/BepInEx/core</BepInExCorePath>
+    <LibPath>$(MSBuildThisFileDirectory)lib</LibPath>
+    <DistPath>$(MSBuildThisFileDirectory)dist/PlusModMenu</DistPath>
+
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>annotations</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <RootNamespace />
+    <ImplicitUsings>disable</ImplicitUsings>
+    <DebugType>portable</DebugType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <IsGameMod Condition="'$(IsGameMod)' == ''">true</IsGameMod>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <NoStdLib>true</NoStdLib>
+    <NoCompilerStandardLib>true</NoCompilerStandardLib>
+    <NoWarn>$(NoWarn);CS0108;CS0114;CS0162;CS0168;CS0169;CS0219;CS0414;CS0436;CS0618;CS0649;CS0659;CS0661;CS1998;CS8632;CS8618;CS8600;CS8601;CS8602;CS8603;CS8604;CS8625;CS8669</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(IsGameMod)' == 'true'">
+    <Reference Include="$(ManagedPath)/mscorlib.dll" Private="false" />
+    <Reference Include="$(ManagedPath)/netstandard.dll" Private="false" />
+    <Reference Include="$(ManagedPath)/System.dll" Private="false" />
+    <Reference Include="$(ManagedPath)/System.Core.dll" Private="false" />
+    <Reference Include="$(ManagedPath)/System.Runtime.Serialization.dll" Private="false" />
+    <Reference Include="$(ManagedPath)/System.Xml.dll" Private="false" />
+    <Reference Include="$(ManagedPath)/UnityEngine*.dll" Private="false" />
+    <Reference Include="$(ManagedPath)/Unity.TextMeshPro.dll" Private="false" />
+    <Reference Include="$(ManagedPath)/Assembly-CSharp.dll" Private="false" />
+    <Reference Include="$(ManagedPath)/Rewired_Core.dll" Private="false" />
+    <Reference Include="$(BepInExCorePath)/BepInEx.dll" Private="false" />
+    <Reference Include="$(BepInExCorePath)/0Harmony.dll" Private="false" />
+    <Reference Include="$(BepInExCorePath)/Mono.Cecil.dll" Private="false" />
+    <Reference Include="$(BepInExCorePath)/MonoMod.Utils.dll" Private="false" />
+    <Reference Include="$(LibPath)/Newtonsoft.Json.dll" Private="false" />
+    <Reference Include="$(LibPath)/Unity.SharpZipLib.dll" Private="false" />
+  </ItemGroup>
+</Project>

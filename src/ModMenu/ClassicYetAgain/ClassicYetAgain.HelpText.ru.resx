@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="LETHAL_TOUCH_ON_GUM_WAD_TEXT" xml:space="preserve"><value>«Смертельное касание» Beans действует и на его жвачку.</value></data>
+  <data name="RANDOMIZE_ITEM_POSITIONS_TITLE" xml:space="preserve"><value>Перемешать предметы</value></data>
+  <data name="SPEED_TITLE" xml:space="preserve"><value>Скорость</value></data>
+  <data name="LETHAL_TOUCH_ON_GUM_WAD_TITLE" xml:space="preserve"><value>Смертельная жвачка</value></data>
+  <data name="EARTHQUAKE_STRENGTH_TEXT" xml:space="preserve"><value>Насколько сильно трясётся камера, когда включено землетрясение.</value></data>
+  <data name="CUSTOM_JEALOUSY_TITLE" xml:space="preserve"><value>Своя ревность</value></data>
+  <data name="INVISIBLE_TEXT" xml:space="preserve"><value>Видит ли игрок этого персонажа. На то, как персонаж себя ведёт, это не влияет.</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER_TITLE" xml:space="preserve"><value>Не реагирует на игрока</value></data>
+  <data name="AGGRESSIVE_PLAYTIME_TITLE" xml:space="preserve"><value>Агрессивная Playtime</value></data>
+  <data name="EARTHQUAKE_TITLE" xml:space="preserve"><value>Землетрясение</value></data>
+  <data name="FLIPAROO_TITLE" xml:space="preserve"><value>Fliparoo</value></data>
+  <data name="SPEED_TEXT" xml:space="preserve"><value>Скорость передвижения персонажа.</value></data>
+  <data name="DECEPTION_TITLE" xml:space="preserve"><value>Обман</value></data>
+  <data name="ENABLE_PLAYER_CAMERA_TEXT" xml:space="preserve"><value>Возвращает вид на камеру игрока, если включена другая камера.</value></data>
+  <data name="ACTIVATE_IN_SPOOP_MODE_TITLE" xml:space="preserve"><value>Включать в Spoop-режиме</value></data>
+  <data name="CUSTOM_JEALOUSY_TEXT" xml:space="preserve"><value>После скольких тетрадей Arts and Crafters начинает ревновать и нападает на игрока.
+Работает, только если включено «Заменить ревность».</value></data>
+  <data name="EARTHQUAKE_TEXT" xml:space="preserve"><value>Камера трясётся, как при землетрясении.</value></data>
+  <data name="SKYBOX_COLOR_TEXT" xml:space="preserve"><value>Оттенок текущего неба.</value></data>
+  <data name="SILENT_TITLE" xml:space="preserve"><value>Бесшумный</value></data>
+  <data name="STORMY_NIGHT_TITLE" xml:space="preserve"><value>Грозовая ночь</value></data>
+  <data name="SLENDER_BALDI_TEXT" xml:space="preserve"><value>Happy Baldi становится тем, кого нужно избегать: он двигается, когда игрок его не видит.</value></data>
+  <data name="ENABLED_TEXT" xml:space="preserve"><value>Есть ли персонаж сейчас в школе. Выключение прячет его, но не удаляет совсем.</value></data>
+  <data name="SCALE_TEXT" xml:space="preserve"><value>Размер персонажа.</value></data>
+  <data name="BLIND_TEXT" xml:space="preserve"><value>Видит ли персонаж игрока и то, что делают игрок и другие персонажи.</value></data>
+  <data name="LETHAL_TOUCH_TITLE" xml:space="preserve"><value>Смертельное касание</value></data>
+  <data name="BLIND_TITLE" xml:space="preserve"><value>Слепой</value></data>
+  <data name="OVERRIDE_JEALOUSY_TEXT" xml:space="preserve"><value>Arts and Crafters начинает ревновать после заданного тобой числа тетрадей. Если выключено, всё как в обычной игре.</value></data>
+  <data name="ACTIVATE_IN_SPOOP_MODE_TEXT" xml:space="preserve"><value>Включается ли персонаж сам, когда игра переходит в Spoop-режим.</value></data>
+  <data name="LETHAL_TOUCH_TEXT" xml:space="preserve"><value>Касание персонажа убивает, даже если обычно он так не умеет.</value></data>
+  <data name="ENFORCE_SELECTED_SKYBOX_TITLE" xml:space="preserve"><value>Закрепить выбранное небо</value></data>
+  <data name="JUMP_ANYWHERE_TEXT" xml:space="preserve"><value>Прыгать можно когда угодно, а не только в мини-игре со скакалкой Playtime. Прыжок — на клавишу прыжка (по умолчанию левая кнопка мыши), не на E.</value></data>
+  <data name="RANDOMIZE_CHARACTER_POSITIONS_TEXT" xml:space="preserve"><value>Случайно меняет местами всех персонажей в школе.</value></data>
+  <data name="SLENDER_BALDI_TITLE" xml:space="preserve"><value>Slender Baldi</value></data>
+  <data name="ENFORCE_SELECTED_SKYBOX_TEXT" xml:space="preserve"><value>Смена сцены не сбрасывает выбранное небо.</value></data>
+  <data name="SKYBOX_COLOR_TITLE" xml:space="preserve"><value>Цвет неба</value></data>
+  <data name="RANDOMIZE_ITEM_POSITIONS_TEXT" xml:space="preserve"><value>Случайно меняет местами все предметы в школе.</value></data>
+  <data name="MOVES_WHILE_BEING_LOOKED_AT_TITLE" xml:space="preserve"><value>Двигается, когда на него смотрят</value></data>
+  <data name="AGGRESSIVE_PLAYTIME_TEXT" xml:space="preserve"><value>Playtime убивает, если ты ошибся в прыжке через скакалку.</value></data>
+  <data name="INVISIBLE_TITLE" xml:space="preserve"><value>Невидимый</value></data>
+  <data name="ENABLED_TITLE" xml:space="preserve"><value>Включён</value></data>
+  <data name="SLAP_SPEED_RANDOMIZER_TEXT" xml:space="preserve"><value>Пауза Baldi между ударами линейкой каждый раз случайная.</value></data>
+  <data name="RANDOMIZE_CHARACTER_POSITIONS_TITLE" xml:space="preserve"><value>Перемешать персонажей</value></data>
+  <data name="SILENT_TEXT" xml:space="preserve"><value>Издаёт ли персонаж хоть какие-то звуки.</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER_TEXT" xml:space="preserve"><value>Может ли персонаж что-то сделать с игроком, когда касается его.</value></data>
+  <data name="DECEPTION_TEXT" xml:space="preserve"><value>Перемешивает спрайты всех существующих персонажей.</value></data>
+  <data name="SCALE_TITLE" xml:space="preserve"><value>Размер</value></data>
+  <data name="OVERRIDE_JEALOUSY_TITLE" xml:space="preserve"><value>Заменить ревность</value></data>
+  <data name="PLAYTIME_DELIVERY_SERVICE_TITLE" xml:space="preserve"><value>Доставка от Playtime</value></data>
+  <data name="FLIPAROO_TEXT" xml:space="preserve"><value>Переворачивает камеру вверх ногами.
+Работает не так, как событие гравитации.</value></data>
+  <data name="ENABLE_PLAYER_CAMERA_TITLE" xml:space="preserve"><value>Вернуть камеру игрока</value></data>
+  <data name="EARTHQUAKE_STRENGTH_TITLE" xml:space="preserve"><value>Сила землетрясения</value></data>
+  <data name="CUSTOM_DETENTION_TIMES_TEXT" xml:space="preserve"><value>Точное время наказания за каждый раз, когда тебя ловят.</value></data>
+  <data name="CUSTOM_DETENTION_TIMES_TITLE" xml:space="preserve"><value>Своё время наказания</value></data>
+  <data name="PLAYTIME_DELIVERY_SERVICE_TEXT" xml:space="preserve"><value>После мини-игры со скакалкой Playtime приносит тебе случайный предмет.</value></data>
+  <data name="JUMP_ANYWHERE_TITLE" xml:space="preserve"><value>Прыжок где угодно</value></data>
+  <data name="SLAP_SPEED_RANDOMIZER_TITLE" xml:space="preserve"><value>Случайная скорость шлепков</value></data>
+  <data name="STORMY_NIGHT_TEXT" xml:space="preserve"><value>В школе полная темнота, только изредка её освещают молнии.</value></data>
+  <data name="MOVES_WHILE_BEING_LOOKED_AT_TEXT" xml:space="preserve"><value>Двигается ли Happy Baldi, пока игрок на него смотрит.
+
+Работает, только если включён «Slender Baldi».</value></data>
+  </root>

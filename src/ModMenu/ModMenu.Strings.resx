@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="GUM_MOVEMENT_MULTIPLIER_PLAYER" xml:space="preserve"><value>Gum Movement Multiplier (Player)</value></data>
+  <data name="CHARACTERS" xml:space="preserve"><value>Characters</value></data>
+  <data name="DISABLE_HUD" xml:space="preserve"><value>Disable HUD</value></data>
+  <data name="TELEPORTER" xml:space="preserve"><value>Teleporter</value></data>
+  <data name="SELECT_SONG" xml:space="preserve"><value>Song</value></data>
+  <data name="SELECT_ITEM" xml:space="preserve"><value>Select Item</value></data>
+  <data name="PORTAL_POSTER" xml:space="preserve"><value>Portal Poster</value></data>
+  <data name="BIT_CRUSHER" xml:space="preserve"><value>Bit Crusher</value></data>
+  <data name="DEBUG_MODE" xml:space="preserve"><value>Debug Mode</value></data>
+  <data name="MIN_COOLDOWN" xml:space="preserve"><value>Min. Cooldown</value></data>
+  <data name="ARTS_AND_CRAFTERS" xml:space="preserve"><value>Arts and Crafters</value></data>
+  <data name="PRESETS" xml:space="preserve"><value>Presets</value></data>
+  <data name="PRESET_NAME" xml:space="preserve"><value>Preset Name</value></data>
+  <data name="FOURTY_TWO" xml:space="preserve"><value>42</value></data>
+  <data name="ENTITY_GPS" xml:space="preserve"><value>Entity GPS</value></data>
+  <data name="GUM_MOVEMENT_MULTIPLIER_NPC" xml:space="preserve"><value>Gum Movement Multiplier (NPC)</value></data>
+  <data name="TRIPPY_MODIFIERS" xml:space="preserve"><value>Trippy Modifiers</value></data>
+  <data name="ANTI_HEARING_TIME" xml:space="preserve"><value>Anti-Hearing Time</value></data>
+  <data name="ENVIRONMENT_TIMESCALE" xml:space="preserve"><value>Environment Timescale</value></data>
+  <data name="VELOCITY" xml:space="preserve"><value>Velocity</value></data>
+  <data name="LANGUAGE" xml:space="preserve"><value>Language</value></data>
+  <data name="WIND_FORCE_SPEED" xml:space="preserve"><value>Wind Force Speed</value></data>
+  <data name="AUTHENTIC_MODE" xml:space="preserve"><value>Authentic Mode</value></data>
+  <data name="APPRAISAL_TIME" xml:space="preserve"><value>Appraisal Time</value></data>
+  <data name="JUMP_HEIGHT_MULTIPLIER" xml:space="preserve"><value>Jump Height Multiplier</value></data>
+  <data name="LIGHTS_OUT" xml:space="preserve"><value>Lights Out</value></data>
+  <data name="COLLECT_NOTEBOOKS" xml:space="preserve"><value>Collect Notebooks</value></data>
+  <data name="LIFE_SPAN" xml:space="preserve"><value>Life Span</value></data>
+  <data name="OTHER_MODIFIERS" xml:space="preserve"><value>Other</value></data>
+  <data name="NOTEBOOKS" xml:space="preserve"><value>Notebooks</value></data>
+  <data name="LOCK_TIME" xml:space="preserve"><value>Lock Time</value></data>
+  <data name="REFRESH_HOTKEYS" xml:space="preserve"><value>Refresh Hotkeys</value></data>
+  <data name="TELEPORT_PLAYER_TO_NOTEBOOK" xml:space="preserve"><value>Teleport Player to Notebook</value></data>
+  <data name="MAX_STAY_TIME" xml:space="preserve"><value>Max. Stay Time</value></data>
+  <data name="PLAYER_DATA" xml:space="preserve"><value>Player Data</value></data>
+  <data name="CAMERA" xml:space="preserve"><value>Camera</value></data>
+  <data name="CANCEL" xml:space="preserve"><value>Cancel</value></data>
+  <data name="WD_NO_SQUEE" xml:space="preserve"><value>WD-NoSquee</value></data>
+  <data name="CHARACTER_ACTIVATION_DISTANCE" xml:space="preserve"><value>Character Activation Distance</value></data>
+  <data name="NEW_INSTANCES" xml:space="preserve"><value>New Instances</value></data>
+  <data name="DEFAULT" xml:space="preserve"><value>Default</value></data>
+  <data name="NOCLIP" xml:space="preserve"><value>Noclip</value></data>
+  <data name="NOTICE" xml:space="preserve"><value>Notice</value></data>
+  <data name="RISING_SPEED" xml:space="preserve"><value>Rising Speed</value></data>
+  <data name="DETENTION_TIME_INCREASE" xml:space="preserve"><value>Detention Time Increase</value></data>
+  <data name="SCRABBLE" xml:space="preserve"><value>Scrabble</value></data>
+  <data name="ADD_NEW_RULE" xml:space="preserve"><value>Add new Rule</value></data>
+  <data name="ACTIVATION_TIME" xml:space="preserve"><value>Activation Time</value></data>
+  <data name="INFINITE_STAMINA" xml:space="preserve"><value>Infinite Stamina</value></data>
+  <data name="GAMEPLAY_MODIFIERS" xml:space="preserve"><value>Gameplay</value></data>
+  <data name="CLEAN_UP_BALLOONS" xml:space="preserve"><value>Clean Up Balloons</value></data>
+  <data name="HOTKEY__KEY" xml:space="preserve"><value>Hotkey: {0}</value></data>
+  <data name="HOTKEY_NAME" xml:space="preserve"><value>Hotkey Name</value></data>
+  <data name="FACULTY_NAMETAG" xml:space="preserve"><value>Faculty Nametag</value></data>
+  <data name="EVENT_STOP" xml:space="preserve"><value>Stop Event</value></data>
+  <data name="CAMERA_MODE_UNLOCKED" xml:space="preserve"><value>Unlocked (3D)</value></data>
+  <data name="MOVEMENT_MULTIPLIER" xml:space="preserve"><value>Movement Multiplier</value></data>
+  <data name="GUILT_TIME" xml:space="preserve"><value>Guilt Time</value></data>
+  <data name="CHALKLES" xml:space="preserve"><value>Chalkles</value></data>
+  <data name="PRINCIPAL_OF_THE_THING" xml:space="preserve"><value>Principal of the Thing</value></data>
+  <data name="HEIGHT" xml:space="preserve"><value>Height</value></data>
+  <data name="VELOCITY_START" xml:space="preserve"><value>Starting Velocity</value></data>
+  <data name="AUDIO_VOMIT" xml:space="preserve"><value>Audio Vomit</value></data>
+  <data name="CLOWN_VOMIT_ON_SPRITES" xml:space="preserve"><value>Clown Vomit on Sprites</value></data>
+  <data name="SCENE_MODIFIERS" xml:space="preserve"><value>Scenes</value></data>
+  <data name="CLOWN_VOMIT_ON_ENVIRONMENT" xml:space="preserve"><value>Clown Vomit on Environment</value></data>
+  <data name="MIN_TIME_ACTIVE" xml:space="preserve"><value>Min. Time Active</value></data>
+  <data name="THE_TEST" xml:space="preserve"><value>The Test</value></data>
+  <data name="RESTORE_DEFAULT_VALUES_WARNING_TEXT" xml:space="preserve"><value>This will attempt to reset all possible values to their defaults.
+This does not include any of the menu's own settings.
+
+&lt;b&gt;Are you sure you want to proceed?&lt;/b&gt;</value></data>
+  <data name="MRS_POMP" xml:space="preserve"><value>Mrs. Pomp</value></data>
+  <data name="VERTEX_GLITCHING" xml:space="preserve"><value>Vertex Glitching</value></data>
+  <data name="DESPAWN_ALL_INSTANCES" xml:space="preserve"><value>Despawn All Instances</value></data>
+  <data name="MIN_WHIRLPOOLS" xml:space="preserve"><value>Min. Whirlpools</value></data>
+  <data name="MIN_RESPAWN_TIME" xml:space="preserve"><value>Min. Respawn Time</value></data>
+  <data name="ALLOW_ON_ANY_WALL" xml:space="preserve"><value>Allow On Any Wall</value></data>
+  <data name="MAX_WHIRLPOOLS" xml:space="preserve"><value>Max. Whirlpools</value></data>
+  <data name="REMOVE" xml:space="preserve"><value>✕</value></data>
+  <data name="DIRTY_CHALK_ERASER" xml:space="preserve"><value>Dirty Chalk Eraser</value></data>
+  <data name="GRAPPLING_HOOK" xml:space="preserve"><value>Grappling Hook</value></data>
+  <data name="STAMINA_MULTIPLIER" xml:space="preserve"><value>Stamina Multiplier</value></data>
+  <data name="ALARM_TIMER_MULTIPLIER" xml:space="preserve"><value>Alarm Timer Multiplier</value></data>
+  <data name="MAX_STAMINA" xml:space="preserve"><value>Max. Stamina</value></data>
+  <data name="OVERRIDE_JUMPROPE_VALUES" xml:space="preserve"><value>Override Jumprope Values</value></data>
+  <data name="SILENT" xml:space="preserve"><value>Silent</value></data>
+  <data name="MAX_HEIGHT" xml:space="preserve"><value>Max. Height</value></data>
+  <data name="LIGHT_COLOR" xml:space="preserve"><value>Light Color</value></data>
+  <data name="INVISIBLE" xml:space="preserve"><value>Invisible</value></data>
+  <data name="SPECIAL" xml:space="preserve"><value>Special</value></data>
+  <data name="MIN_HALL_LENGTH" xml:space="preserve"><value>Min. Hall Length</value></data>
+  <data name="MIDI_SOUNDFONT" xml:space="preserve"><value>MIDI SoundFont</value></data>
+  <data name="MUSIC_CORRUPTION" xml:space="preserve"><value>Music Corruption</value></data>
+  <data name="NOTEBOOK__INDEX" xml:space="preserve"><value>Notebook {0}</value></data>
+  <data name="EMITS_LIGHT_DURING_LIGHTS_OUT" xml:space="preserve"><value>Emits Light during Lights Out</value></data>
+  <data name="GUM_STUCK_TIME" xml:space="preserve"><value>Gum Stuck Time</value></data>
+  <data name="RULE_TO_BREAK" xml:space="preserve"><value>Rule to Break</value></data>
+  <data name="MAX_HALLTIME" xml:space="preserve"><value>Max. Hall Time</value></data>
+  <data name="SETTINGS" xml:space="preserve"><value>Settings</value></data>
+  <data name="DRUM_BANK" xml:space="preserve"><value>Drum Bank</value></data>
+  <data name="SLAP_SPEED" xml:space="preserve"><value>Slap Speed</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER" xml:space="preserve"><value>Ignores Player Trigger</value></data>
+  <data name="RULE_ID" xml:space="preserve"><value>Rule ID</value></data>
+  <data name="SAVE_CURRENT_PRESET" xml:space="preserve"><value>Save Current Settings as Preset</value></data>
+  <data name="BALDIS_LEAST_FAVORITE_TAPE" xml:space="preserve"><value>Baldi's Least Favorite Tape</value></data>
+  <data name="SECRETS" xml:space="preserve"><value>Secrets</value></data>
+  <data name="NPC_TIMESCALE" xml:space="preserve"><value>NPC Timescale</value></data>
+  <data name="ROTATION_SPEED_MULTIPLIER" xml:space="preserve"><value>Rotation Speed Multiplier</value></data>
+  <data name="STOP_MUSIC" xml:space="preserve"><value>Stop music</value></data>
+  <data name="SELECTED_INSTANCE" xml:space="preserve"><value>Selected Instance</value></data>
+  <data name="SONG__TYPE_CLIP" xml:space="preserve"><value>{0} (Clip)</value></data>
+  <data name="SONG__TYPE_MIDI" xml:space="preserve"><value>{0} (MIDI)</value></data>
+  <data name="TELEPORT_PLAYER_TO_SELECTED_INSTANCE" xml:space="preserve"><value>Teleport Player to Selected Instance</value></data>
+  <data name="MAX_COOLDOWN" xml:space="preserve"><value>Max. Cooldown</value></data>
+  <data name="MAX_EVENT_TIME" xml:space="preserve"><value>Max. Event Time</value></data>
+  <data name="CORRUPTION_STRENGTH" xml:space="preserve"><value>Corruption Strength</value></data>
+  <data name="REFRESH_PRESETS" xml:space="preserve"><value>Refresh Preset List</value></data>
+  <data name="MODMENU_KEY__KEY" xml:space="preserve"><value>Menu key: {0}</value></data>
+  <data name="INFINITE_ITEMS" xml:space="preserve"><value>Infinite Items</value></data>
+  <data name="GENERAL" xml:space="preserve"><value>General</value></data>
+  <data name="REFRESH_SOUNDFONT_LIST" xml:space="preserve"><value>Refresh SoundFont list</value></data>
+  <data name="GRAVITY_EVENT" xml:space="preserve"><value>Gravity Event</value></data>
+  <data name="MAX_FLIPPERS" xml:space="preserve"><value>Max. Flippers</value></data>
+  <data name="PLAY_SELECTED_SONG" xml:space="preserve"><value>Play selected song</value></data>
+  <data name="BIT_DEPTH" xml:space="preserve"><value>Bit Depth</value></data>
+  <data name="CAMERA_MODE" xml:space="preserve"><value>Camera Mode</value></data>
+  <data name="FOG_EVENT" xml:space="preserve"><value>Fog Event</value></data>
+  <data name="FOG_STRENGTH" xml:space="preserve"><value>Fog Strength</value></data>
+  <data name="RULER_EVENT" xml:space="preserve"><value>Ruler Event</value></data>
+  <data name="FOG_COLOR" xml:space="preserve"><value>Fog Color</value></data>
+  <data name="MIN_STAY_TIME" xml:space="preserve"><value>Min. Stay Time</value></data>
+  <data name="SAFETY_SCISSORS" xml:space="preserve"><value>Safety Scissors</value></data>
+  <data name="SWAP_TIME" xml:space="preserve"><value>Swap Time</value></data>
+  <data name="CLASS_TIMER_LENGTH" xml:space="preserve"><value>Class Timer Length</value></data>
+  <data name="INSTANCE_EDITOR" xml:space="preserve"><value>Instance Editor</value></data>
+  <data name="TELEPORT_CHARACTER_TO_PLAYER" xml:space="preserve"><value>Teleport Character to Player</value></data>
+  <data name="SAVE_HOTKEY" xml:space="preserve"><value>Save Hotkey</value></data>
+  <data name="MAX_TIME_ACTIVE" xml:space="preserve"><value>Max. Time Active</value></data>
+  <data name="ADD" xml:space="preserve"><value>Add</value></data>
+  <data name="EXITS" xml:space="preserve"><value>Exits</value></data>
+  <data name="FIRST_PRIZE" xml:space="preserve"><value>First Prize</value></data>
+  <data name="APPLE" xml:space="preserve"><value>Apple</value></data>
+  <data name="DISCO" xml:space="preserve"><value>Disco</value></data>
+  <data name="GUILT" xml:space="preserve"><value>Guilt</value></data>
+  <data name="BEANS" xml:space="preserve"><value>Beans</value></data>
+  <data name="BALDI" xml:space="preserve"><value>Baldi</value></data>
+  <data name="BLIND" xml:space="preserve"><value>Blind</value></data>
+  <data name="BSODA" xml:space="preserve"><value>BSODA</value></data>
+  <data name="CLOSE" xml:space="preserve"><value>Close</value></data>
+  <data name="OTHER" xml:space="preserve"><value>Other</value></data>
+  <data name="JUMPS" xml:space="preserve"><value>Jumps</value></data>
+  <data name="LIGHT_STRENGTH" xml:space="preserve"><value>Light Strength</value></data>
+  <data name="TIMER" xml:space="preserve"><value>Timer</value></data>
+  <data name="GUM_SPEED" xml:space="preserve"><value>Gum Speed</value></data>
+  <data name="RULES" xml:space="preserve"><value>Rules</value></data>
+  <data name="TELEPORT_PLAYER_TO_EXIT" xml:space="preserve"><value>Teleport Player to Exit</value></data>
+  <data name="SPEED" xml:space="preserve"><value>Speed</value></data>
+  <data name="SPAWN" xml:space="preserve"><value>Spawn</value></data>
+  <data name="SCALE" xml:space="preserve"><value>Scale</value></data>
+  <data name="EVENT_START" xml:space="preserve"><value>Start Event</value></data>
+  <data name="DESPAWN_SELECTED_INSTANCE" xml:space="preserve"><value>Despawn Selected Instance</value></data>
+  <data name="SCENE_MANAGER" xml:space="preserve"><value>Scene Manager</value></data>
+  <data name="DELETE_HOTKEY" xml:space="preserve"><value>Delete Hotkey</value></data>
+  <data name="VIDEO_DIARRHEA" xml:space="preserve"><value>Video Diarrhea</value></data>
+  <data name="BALLOON_COUNT" xml:space="preserve"><value>Balloon Count</value></data>
+  <data name="VECTOR2_CORRUPTION" xml:space="preserve"><value>Vector2 Corruption</value></data>
+  <data name="TELEPORT_NOTEBOOK_TO_PLAYER" xml:space="preserve"><value>Teleport Notebook to Player</value></data>
+  <data name="SWINGING_DOOR_LOCK" xml:space="preserve"><value>Swinging Door Lock</value></data>
+  <data name="FOG_MAX_DIST" xml:space="preserve"><value>Max. Distance</value></data>
+  <data name="CREATE_NEW_PRESET" xml:space="preserve"><value>Create new Preset</value></data>
+  <data name="TELEPORT_PLAYER_TO_CHARACTER" xml:space="preserve"><value>Teleport Player to Character</value></data>
+  <data name="INSTRUMENT_BANK" xml:space="preserve"><value>Instrument Bank</value></data>
+  <data name="WAITING_FOR_INPUT__TIME" xml:space="preserve"><value>Waiting for Input... ({0})</value></data>
+  <data name="MUSIC_MANAGER" xml:space="preserve"><value>Music Manager</value></data>
+  <data name="INVENTORY_SLOT_EDITOR" xml:space="preserve"><value>Inventory Slot Editor</value></data>
+  <data name="HOTKEYS" xml:space="preserve"><value>Hotkeys</value></data>
+  <data name="SWEEP_MOVEMENT_MULTIPLIER" xml:space="preserve"><value>Sweep Movement Multiplier</value></data>
+  <data name="PLAYTIME" xml:space="preserve"><value>Playtime</value></data>
+  <data name="ITEM_MODIFIERS" xml:space="preserve"><value>Items</value></data>
+  <data name="COLLECT" xml:space="preserve"><value>Collect</value></data>
+  <data name="CLOWN_VOMIT" xml:space="preserve"><value>Clown Vomit</value></data>
+  <data name="COOLDOWN" xml:space="preserve"><value>Cooldown</value></data>
+  <data name="CREATE_NEW_HOTKEY" xml:space="preserve"><value>Create new Hotkey</value></data>
+  <data name="SHOW_ENTITY_DISTANCE" xml:space="preserve"><value>Show Entity Distance</value></data>
+  <data name="EXIT__INDEX" xml:space="preserve"><value>Exit {0}</value></data>
+  <data name="PRESET_CONTROL_PANEL" xml:space="preserve"><value>Preset Control Panel</value></data>
+  <data name="MAX_PRESSURE" xml:space="preserve"><value>Max. Pressure</value></data>
+  <data name="MAX_RESPAWN_TIME" xml:space="preserve"><value>Max. Respawn Time</value></data>
+  <data name="MIN_FLIPPERS" xml:space="preserve"><value>Min. Flippers</value></data>
+  <data name="ALARM_CLOCK" xml:space="preserve"><value>Alarm Clock</value></data>
+  <data name="PARTY_EVENT" xml:space="preserve"><value>Party Event</value></data>
+  <data name="SOUNDFONT" xml:space="preserve"><value>SoundFont</value></data>
+  <data name="ENABLED" xml:space="preserve"><value>Enabled</value></data>
+  <data name="CAMERA_MODE_LOCKED" xml:space="preserve"><value>Locked (2D)</value></data>
+  <data name="AUDIO_MODIFIERS" xml:space="preserve"><value>Audio Modifiers</value></data>
+  <data name="CAMERA_FOV" xml:space="preserve"><value>Camera FOV</value></data>
+  <data name="FULLBRIGHT" xml:space="preserve"><value>Full Bright</value></data>
+  <data name="TELEPORT_SELECTED_INSTANCE_TO_PLAYER" xml:space="preserve"><value>Teleport Selected Instance to Player</value></data>
+  <data name="MIRROR_MODE" xml:space="preserve"><value>Mirrored</value></data>
+  <data name="FIRST_PRIZE_CRAZY_TIME" xml:space="preserve"><value>First Prize Crazy Time</value></data>
+  <data name="SUPER_HOT" xml:space="preserve"><value>SUPER HOT</value></data>
+  <data name="INITIAL_RESPAWN_TIME" xml:space="preserve"><value>Initial Spawn Delay</value></data>
+  <data name="OVERRIDE_VERTEX_GLITCHING" xml:space="preserve"><value>Override Vertex Glitching</value></data>
+  <data name="RESTORE_DEFAULT_VALUES" xml:space="preserve"><value>Restore Default Values</value></data>
+  <data name="VELOCITY_INCREASE" xml:space="preserve"><value>Velocity Increase</value></data>
+  <data name="SAVE_HOTKEY_STATE" xml:space="preserve"><value>Save Hotkey State</value></data>
+  <data name="CHARACTER_MODIFIERS" xml:space="preserve"><value>Characters</value></data>
+  <data name="SHOW_FPS" xml:space="preserve"><value>Show FPS</value></data>
+  <data name="GLITCH_INTENSITY" xml:space="preserve"><value>Glitch Intensity</value></data>
+  <data name="FOG_START_DIST" xml:space="preserve"><value>Start Distance</value></data>
+  <data name="ITS_A_BULLY" xml:space="preserve"><value>It's a Bully</value></data>
+  <data name="TELEPORT_ALL_INSTANCES_TO_PLAYER" xml:space="preserve"><value>Teleport All Instances to Player</value></data>
+  <data name="VECTOR3_CORRUPTION" xml:space="preserve"><value>Vector3 Corruption</value></data>
+  <data name="BIG_OL_BOOTS" xml:space="preserve"><value>Big Ol' Boots</value></data>
+  <data name="FUN_SETTINGS" xml:space="preserve"><value>Fun Settings</value></data>
+  <data name="TIMESCALE" xml:space="preserve"><value>Timescale</value></data>
+  <data name="FLOOD_EVENT" xml:space="preserve"><value>Flood Event</value></data>
+  <data name="MOVEMENT" xml:space="preserve"><value>Movement</value></data>
+  <data name="MIDI_SPEED" xml:space="preserve"><value>Speed</value></data>
+  <data name="MIDI_PITCH" xml:space="preserve"><value>Pitch</value></data>
+  <data name="PLAYER_MODIFIERS" xml:space="preserve"><value>Player</value></data>
+  <data name="GOTTA_SWEEP" xml:space="preserve"><value>Gotta Sweep</value></data>
+  <data name="RESET_DELAY" xml:space="preserve"><value>Reset Delay</value></data>
+  <data name="HOTKEY_CONTROL_PANEL" xml:space="preserve"><value>Hotkey Control Panel</value></data>
+  <data name="CLOUDY_COPTER" xml:space="preserve"><value>Cloudy Copter</value></data>
+  <data name="HOTKEY_INFORMATION" xml:space="preserve"><value>Hotkey Information</value></data>
+  <data name="MIN_EVENT_TIME" xml:space="preserve"><value>Min. Event Time</value></data>
+  <data name="HOTKEY_NO_RECORDABLE_CHANGES_NOTICE" xml:space="preserve"><value>There were no recordable changes between the former and current state. The state will not be saved.</value></data>
+  <data name="ENERGY_FLAVORED_ZESTY_BAR" xml:space="preserve"><value>Energy Flavored Zesty Bar</value></data>
+  <data name="EVENT_MODIFIERS" xml:space="preserve"><value>Events</value></data>
+  <data name="BREAK_RULE" xml:space="preserve"><value>Break Rule</value></data>
+  <data name="SWEEP_POWER_MULTIPLIER" xml:space="preserve"><value>Sweep Power Multiplier</value></data>
+  <data name="JUMPROPE_SPEED_MULTIPLIER" xml:space="preserve"><value>Jumprope Speed Multiplier</value></data>
+  <data name="EDIT_SLOT__INDEX" xml:space="preserve"><value>Edit Slot {0}</value></data>
+  <data name="DEAF" xml:space="preserve"><value>Deaf</value></data>
+  <data name="MIDI" xml:space="preserve"><value>MIDI</value></data>
+  <data name="NONE" xml:space="preserve"><value>None</value></data>
+  <data name="SAVE" xml:space="preserve"><value>Save</value></data>
+  <data name="SAMPLE_RATE" xml:space="preserve"><value>Sample Rate</value></data>
+  <data name="MIDI_LOOP" xml:space="preserve"><value>Loop</value></data>
+    <data name="SILENCE_RADIUS" xml:space="preserve"><value>Silence radius</value></data>
+  <data name="MAIN_FLOORS" xml:space="preserve"><value>Main Floors</value></data>
+  <data name="ENDLESS_MODE" xml:space="preserve"><value>Endless Mode</value></data>
+  <data name="CHALLENGES" xml:space="preserve"><value>Challenges</value></data>
+  <data name="NOT_AVAILABLE_NOW" xml:space="preserve"><value>Not available right now.</value></data>
+  <data name="ALL_CHARACTERS" xml:space="preserve"><value>All characters</value></data>
+  <data name="ALL_ITEMS" xml:space="preserve"><value>All items</value></data>
+  <data name="PAGE_RANGE" xml:space="preserve"><value>{0}-{1} of {2}</value></data>
+  <data name="PAGE_INDEX" xml:space="preserve"><value>{0} of {1}</value></data>
+  <data name="RESET_PAGE" xml:space="preserve"><value>Reset page</value></data>
+  <data name="DEFAULT_VALUE" xml:space="preserve"><value>Default: {0}</value></data>
+  <data name="CLICK_TO_RESET" xml:space="preserve"><value>Click to reset to default ({0})</value></data>
+  <data name="SEARCH_PLACEHOLDER" xml:space="preserve"><value>Search all settings...</value></data>
+  <data name="SEARCH_RESULTS" xml:space="preserve"><value>{0} results</value></data>
+  <data name="SEARCH_RESULTS_LIMITED" xml:space="preserve"><value>First {0} of {1} results</value></data>
+  <data name="SEARCH_NOTHING" xml:space="preserve"><value>Nothing found.</value></data>
+  <data name="SEARCH_HINT" xml:space="preserve"><value>Click a name to open its page.</value></data>
+  <data name="MENU_SETTINGS" xml:space="preserve"><value>Menu Settings</value></data>
+  <data name="LOAD_PRESET" xml:space="preserve"><value>Load</value></data>
+  <data name="DELETE_PRESET_CONFIRM" xml:space="preserve"><value>Delete the preset "{0}"?</value></data>
+  <data name="DELETE_HOTKEY_CONFIRM" xml:space="preserve"><value>Delete the hotkey "{0}"?</value></data>
+  <data name="HOTKEY_NOT_RECORDING" xml:space="preserve"><value>Start recording a hotkey first.</value></data>
+  <data name="LANGUAGE_AUTO" xml:space="preserve"><value>Auto</value></data>
+  <data name="LANGUAGE_ENGLISH" xml:space="preserve"><value>English</value></data>
+  <data name="LANGUAGE_RUSSIAN" xml:space="preserve"><value>Russian</value></data>
+  <data name="RUSSIAN_NEEDS_CYRILLICPLUS" xml:space="preserve"><value>Russian needs CyrillicPlus</value></data>
+  <data name="RUSSIAN_NEEDS_CYRILLICPLUS_TEXT" xml:space="preserve"><value>The game's fonts have no Cyrillic letters. Install the CyrillicPlus mod into BepInEx/plugins and restart the game; until then the menu stays in English.</value></data>
+  <data name="VALUE_ON" xml:space="preserve"><value>On</value></data>
+  <data name="VALUE_OFF" xml:space="preserve"><value>Off</value></data>
+  <data name="HL1_MOVEMENT" xml:space="preserve"><value>HL1 Movement</value></data>
+  <data name="HL1_DUCK_KEY__KEY" xml:space="preserve"><value>Duck key: {0}</value></data>
+  <data name="HL1_USE_KEY__KEY" xml:space="preserve"><value>Pick up key: {0}</value></data>
+  <data name="HL1_UNAVAILABLE" xml:space="preserve"><value>Off while HL1 Movement is on</value></data>
+  <data name="JUMP_KEY__KEY" xml:space="preserve"><value>Jump key: {0}</value></data>
+  <data name="BIND_HINT" xml:space="preserve"><value>Right-click: bind a key</value></data>
+  <data name="BIND_KEY__KEY" xml:space="preserve"><value>Key: {0} (right-click to change)</value></data>
+  <data name="BIND_WAITING__TIME" xml:space="preserve"><value>Press a key ({0}), Esc removes the bind</value></data>
+  <data name="SURVIVAL" xml:space="preserve"><value>Survival</value></data>
+  <data name="WORLD" xml:space="preserve"><value>World</value></data>
+  <data name="MAP" xml:space="preserve"><value>Map</value></data>
+  <data name="DOORS_AND_WINDOWS" xml:space="preserve"><value>Doors and windows</value></data>
+  <data name="FLOOR" xml:space="preserve"><value>Floor</value></data>
+  <data name="SEED" xml:space="preserve"><value>Seed</value></data>
+  <data name="GOD_MODE" xml:space="preserve"><value>God Mode</value></data>
+  <data name="YTP" xml:space="preserve"><value>YTP</value></data>
+  <data name="LIVES" xml:space="preserve"><value>Lives</value></data>
+  <data name="GRADE" xml:space="preserve"><value>Grade</value></data>
+  <data name="NPC_MAP_ARROWS" xml:space="preserve"><value>Show characters on the map</value></data>
+  <data name="REVEAL_MAP" xml:space="preserve"><value>Reveal the whole map</value></data>
+  <data name="OPEN_ALL_DOORS" xml:space="preserve"><value>Open all doors</value></data>
+  <data name="LOCK_ALL_DOORS" xml:space="preserve"><value>Lock all doors</value></data>
+  <data name="UNLOCK_ALL_DOORS" xml:space="preserve"><value>Unlock all doors</value></data>
+  <data name="BREAK_ALL_WINDOWS" xml:space="preserve"><value>Break all windows</value></data>
+  <data name="OPEN_LOCKED_ROOMS" xml:space="preserve"><value>Open locked rooms</value></data>
+  <data name="OPEN_ALL_EXITS" xml:space="preserve"><value>Open all exits</value></data>
+  <data name="FINISH_FLOOR" xml:space="preserve"><value>Finish the floor</value></data>
+  <data name="USE_FIXED_SEED" xml:space="preserve"><value>Scene manager uses this seed</value></data>
+  <data name="FIXED_SEED" xml:space="preserve"><value>Seed</value></data>
+  <data name="CURRENT_SEED__SEED" xml:space="preserve"><value>Current seed: {0}</value></data>
+  <data name="CURRENT_SEED_NONE" xml:space="preserve"><value>Current seed: no game</value></data>
+  <data name="APPLY_SEED_TO_NEXT_FLOORS" xml:space="preserve"><value>Use the seed for the next floors</value></data>
+  <data name="DR_REFLEX" xml:space="preserve"><value>Dr. Reflex</value></data>
+  <data name="REFLEX_REWARD" xml:space="preserve"><value>Reward (YTP)</value></data>
+  <data name="REFLEX_PENALTY" xml:space="preserve"><value>Penalty per miss (YTP)</value></data>
+  <data name="THE_TEST_FOG_TIME" xml:space="preserve"><value>Blindness time</value></data>
+  <data name="THE_TEST_EXPLODE_CHANCE" xml:space="preserve"><value>Explode chance</value></data>
+  <data name="THE_TEST_FLEE_SPEED" xml:space="preserve"><value>Flee speed</value></data>
+  <data name="LOCKDOWN_EVENT" xml:space="preserve"><value>Lockdown Event</value></data>
+  <data name="MYSTERY_ROOM_EVENT" xml:space="preserve"><value>Mystery Room Event</value></data>
+  <data name="TIME_OUT_EVENT" xml:space="preserve"><value>Time Out Event</value></data>
+  <data name="BALDER_DASH_EVENT" xml:space="preserve"><value>BalderDash Event</value></data>
+  <data name="STUDENT_SHUFFLE_EVENT" xml:space="preserve"><value>Student Shuffle Event</value></data>
+  <data name="LOCKDOWN_MIN_DOORS" xml:space="preserve"><value>Min. doors</value></data>
+  <data name="LOCKDOWN_MAX_DOORS" xml:space="preserve"><value>Max. doors</value></data>
+  <data name="TIME_OUT_ANGER_RATE" xml:space="preserve"><value>Anger every (s)</value></data>
+  <data name="TIME_OUT_ANGER_AMOUNT" xml:space="preserve"><value>Anger added</value></data>
+  <data name="TIME_OUT_LIGHT_RATE" xml:space="preserve"><value>Light off every (s)</value></data>
+  <data name="BALDER_SPAWN_RATE" xml:space="preserve"><value>Spawn every (s)</value></data>
+  <data name="STUDENT_TOTAL_FOLLOWERS" xml:space="preserve"><value>Students</value></data>
+  <data name="STUDENT_PUSH_SPEED" xml:space="preserve"><value>Push speed</value></data>
+  <data name="STICKERS" xml:space="preserve"><value>Stickers</value></data>
+  <data name="STICKER_SLOTS" xml:space="preserve"><value>Applied stickers</value></data>
+  <data name="STICKER_INVENTORY" xml:space="preserve"><value>Sticker book</value></data>
+  <data name="STICKER_SLOT" xml:space="preserve"><value>Slot {0}</value></data>
+  <data name="STICKER_GLUE" xml:space="preserve"><value>Glue on slot {0}</value></data>
+  <data name="STICKER_NONE" xml:space="preserve"><value>None</value></data>
+  <data name="STICKER_TO_ADD" xml:space="preserve"><value>Sticker</value></data>
+  <data name="STICKER_ADD" xml:space="preserve"><value>Add to sticker book</value></data>
+  <data name="STICKER_OPEN_PACKS" xml:space="preserve"><value>Open all packs</value></data>
+  <data name="GRAVITY_GUN" xml:space="preserve"><value>Gravity Gun</value></data>
+  <data name="USE_ITEMS_ANYWHERE" xml:space="preserve"><value>Use items anywhere</value></data>
+  <data name="GRAVITY_GUN_ON_MAP" xml:space="preserve"><value>Gravity gun on the map</value></data>
+  <data name="GIVE_GRAVITY_GUN" xml:space="preserve"><value>Give gravity gun</value></data>
+  <data name="SOLVE_ALL_ACTIVITIES" xml:space="preserve"><value>Solve all activities</value></data>
+  <data name="FREE_STORE" xml:space="preserve"><value>Free store</value></data>
+  <data name="JOHNNYS_STORE" xml:space="preserve"><value>Johnny's store</value></data>
+  <data name="TOGGLE_ON" xml:space="preserve"><value>on</value></data>
+  <data name="TOGGLE_OFF" xml:space="preserve"><value>off</value></data>
+  <data name="FIELD_TRIPS" xml:space="preserve"><value>Field trips</value></data>
+  <data name="MINIGAME_AUTO_WIN" xml:space="preserve"><value>Auto-win minigames</value></data>
+  <data name="CLASSES" xml:space="preserve"><value>Classes</value></data>
+  <data name="TELEPORT_PLAYER_TO_CLASS" xml:space="preserve"><value>Teleport Player to Class</value></data>
+  <data name="CLASS__INDEX" xml:space="preserve"><value>Class {0}</value></data>
+  <data name="ELEVATOR" xml:space="preserve"><value>Elevator</value></data>
+  <data name="FAST_ELEVATOR" xml:space="preserve"><value>Fast elevator</value></data>
+  <data name="KEPT_TOAST__NAME" xml:space="preserve"><value>{0}: kept on after a restart</value></data>
+  <data name="UNKEPT_TOAST__NAME" xml:space="preserve"><value>{0}: no longer kept</value></data>
+  <data name="KEEP_HINT" xml:space="preserve"><value>Alt+click: keep it on after a restart</value></data>
+  <data name="KEPT_HINT" xml:space="preserve"><value>Kept on after a restart (Alt+click to stop)</value></data>
+  <data name="OLD_FILES_LEFT_TEXT" xml:space="preserve"><value>Files from an older Plus Mod Menu or the original ModMenu are still in BepInEx/plugins. The mod is now a single PlusModMenu.dll: delete these files and restart the game:
+{0}</value></data>
+</root>

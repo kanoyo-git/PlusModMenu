@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="LETHAL_TOUCH_ON_GUM_WAD_TEXT" xml:space="preserve"><value>This modifier causes Beans' Lethal Touch modifier to also apply to his gum wads.</value></data>
+  <data name="RANDOMIZE_ITEM_POSITIONS_TITLE" xml:space="preserve"><value>Randomize item positions</value></data>
+  <data name="SPEED_TITLE" xml:space="preserve"><value>Speed</value></data>
+  <data name="LETHAL_TOUCH_ON_GUM_WAD_TITLE" xml:space="preserve"><value>Lethal touch on gum wad</value></data>
+  <data name="EARTHQUAKE_STRENGTH_TEXT" xml:space="preserve"><value>The earthquake strength modifier allows you to control how much the camera shakes when the earthquake modifier is enabled.</value></data>
+  <data name="CUSTOM_JEALOUSY_TITLE" xml:space="preserve"><value>Custom jealousy</value></data>
+  <data name="INVISIBLE_TEXT" xml:space="preserve"><value>The visibility modifier allows you to control whether or not the character should be seen by the player. This does not affect how the character interacts with anything.</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER_TITLE" xml:space="preserve"><value>Ignores Player Trigger</value></data>
+  <data name="AGGRESSIVE_PLAYTIME_TITLE" xml:space="preserve"><value>Aggressive Playtime</value></data>
+  <data name="EARTHQUAKE_TITLE" xml:space="preserve"><value>Earthquake</value></data>
+  <data name="FLIPAROO_TITLE" xml:space="preserve"><value>Fliparoo</value></data>
+  <data name="SPEED_TEXT" xml:space="preserve"><value>The speed modifier manipulates the movement speed of a specific character.</value></data>
+  <data name="DECEPTION_TITLE" xml:space="preserve"><value>Deception</value></data>
+  <data name="ENABLE_PLAYER_CAMERA_TEXT" xml:space="preserve"><value>The enable player camera modifier forces your view to reset to the player if you have enabled a different camera.</value></data>
+  <data name="ACTIVATE_IN_SPOOP_MODE_TITLE" xml:space="preserve"><value>Activate in Spoop-Mode</value></data>
+  <data name="CUSTOM_JEALOUSY_TEXT" xml:space="preserve"><value>The custom jealousy modifier allows you to specify a custom notebook amount, after which Arts and Crafters gets jealous and attacks the player.
+This setting only takes effect when 'Override Jealousy' is enabled.</value></data>
+  <data name="EARTHQUAKE_TEXT" xml:space="preserve"><value>The earthquake modifier makes the camera shake as if it is affected by an earthquake.</value></data>
+  <data name="SKYBOX_COLOR_TEXT" xml:space="preserve"><value>The skybox color modifier allows you to change the tint of the current skybox.</value></data>
+  <data name="SILENT_TITLE" xml:space="preserve"><value>Silent</value></data>
+  <data name="STORMY_NIGHT_TITLE" xml:space="preserve"><value>Stormy night</value></data>
+  <data name="SLENDER_BALDI_TEXT" xml:space="preserve"><value>The Slender Baldi modifier makes Happy Baldi turn into a character you need to avoid. Happy Baldi moves whenever there is no line of sight between the player and Happy Baldi.</value></data>
+  <data name="ENABLED_TEXT" xml:space="preserve"><value>The enabled modifier allows you to control whether or not a character should currently be in the school house, without completely removing it.</value></data>
+  <data name="SCALE_TEXT" xml:space="preserve"><value>The scale modifier manipulates the size of a character.</value></data>
+  <data name="BLIND_TEXT" xml:space="preserve"><value>The blindness modifier allows you to control whether or not a character can see the player or any actions performed by either the player or other characters.</value></data>
+  <data name="LETHAL_TOUCH_TITLE" xml:space="preserve"><value>Lethal touch</value></data>
+  <data name="BLIND_TITLE" xml:space="preserve"><value>Blind</value></data>
+  <data name="OVERRIDE_JEALOUSY_TEXT" xml:space="preserve"><value>Overriding Arts and Crafters' jealousy forces Arts and Crafters to get jealous after the amount of Notebooks you specified. Having this option disabled will use the default behaviour.</value></data>
+  <data name="ACTIVATE_IN_SPOOP_MODE_TEXT" xml:space="preserve"><value>This modifier adjusts whether or not the character will be automatically enabled when the game switches into Spoop-Mode.</value></data>
+  <data name="LETHAL_TOUCH_TEXT" xml:space="preserve"><value>The lethal touch modifier allows you to die by touching a character that normally doesn't have this behaviour.</value></data>
+  <data name="ENFORCE_SELECTED_SKYBOX_TITLE" xml:space="preserve"><value>Enforce selected skybox</value></data>
+  <data name="JUMP_ANYWHERE_TEXT" xml:space="preserve"><value>The jump anywhere modifier allows you to jump whenever you want, instead of requiring you to be in Playtime's jumprope minigame. Jumps on the jump key (left mouse button by default), not on E.</value></data>
+  <data name="RANDOMIZE_CHARACTER_POSITIONS_TEXT" xml:space="preserve"><value>The randomize character positions modifier allows you to swap the positions of all characters in the school randomly.</value></data>
+  <data name="SLENDER_BALDI_TITLE" xml:space="preserve"><value>Slender Baldi</value></data>
+  <data name="ENFORCE_SELECTED_SKYBOX_TEXT" xml:space="preserve"><value>The enforce selected skybox modifier prevents a scene change from altering the selected skybox options.</value></data>
+  <data name="SKYBOX_COLOR_TITLE" xml:space="preserve"><value>Skybox color</value></data>
+  <data name="RANDOMIZE_ITEM_POSITIONS_TEXT" xml:space="preserve"><value>The randomize item positions modifier allows you to swap the positions of all items in the school randomly.</value></data>
+  <data name="MOVES_WHILE_BEING_LOOKED_AT_TITLE" xml:space="preserve"><value>Moves while being looked at</value></data>
+  <data name="AGGRESSIVE_PLAYTIME_TEXT" xml:space="preserve"><value>The aggressive Playtime modifier makes Playtime kill you if you fail a jumprope jump.</value></data>
+  <data name="INVISIBLE_TITLE" xml:space="preserve"><value>Invisible</value></data>
+  <data name="ENABLED_TITLE" xml:space="preserve"><value>Enabled</value></data>
+  <data name="SLAP_SPEED_RANDOMIZER_TEXT" xml:space="preserve"><value>The slap speed randomizer modifier manipulates the amount of time Baldi waits before slapping his ruler again randomly.</value></data>
+  <data name="RANDOMIZE_CHARACTER_POSITIONS_TITLE" xml:space="preserve"><value>Randomize character positions</value></data>
+  <data name="SILENT_TEXT" xml:space="preserve"><value>The silence modifier allows you to control whether or not a character will play any kind of sounds.</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER_TEXT" xml:space="preserve"><value>The "ignores player trigger" modifier allows you to control whether or not the character can directly interact with the player upon touching them.</value></data>
+  <data name="DECEPTION_TEXT" xml:space="preserve"><value>The deception modifier shuffles the sprites of all currently existing instances of every character.</value></data>
+  <data name="SCALE_TITLE" xml:space="preserve"><value>Scale</value></data>
+  <data name="OVERRIDE_JEALOUSY_TITLE" xml:space="preserve"><value>Override jealousy</value></data>
+  <data name="PLAYTIME_DELIVERY_SERVICE_TITLE" xml:space="preserve"><value>Playtime delivery service</value></data>
+  <data name="FLIPAROO_TEXT" xml:space="preserve"><value>The fliparoo modifier allows you to turn your camera upside down.
+Please note, however, that this modifier doesn't work like the gravity event.</value></data>
+  <data name="ENABLE_PLAYER_CAMERA_TITLE" xml:space="preserve"><value>Enable player camera</value></data>
+  <data name="EARTHQUAKE_STRENGTH_TITLE" xml:space="preserve"><value>Earthquake strength</value></data>
+  <data name="CUSTOM_DETENTION_TIMES_TEXT" xml:space="preserve"><value>The custom detention times modifier allows you to control the exact amount of time you have to stay in detention for every time you get caught.</value></data>
+  <data name="CUSTOM_DETENTION_TIMES_TITLE" xml:space="preserve"><value>Custom detention times</value></data>
+  <data name="PLAYTIME_DELIVERY_SERVICE_TEXT" xml:space="preserve"><value>The Playtime delivery service modifier makes Playtime bring you a random item after completing her jumprope minigame.</value></data>
+  <data name="JUMP_ANYWHERE_TITLE" xml:space="preserve"><value>Jump anywhere</value></data>
+  <data name="SLAP_SPEED_RANDOMIZER_TITLE" xml:space="preserve"><value>Slap speed randomizer</value></data>
+  <data name="STORMY_NIGHT_TEXT" xml:space="preserve"><value>The stormy night modifier makes the schoolhouse completely dark, only being illuminated every once in a while by thunder.</value></data>
+  <data name="MOVES_WHILE_BEING_LOOKED_AT_TEXT" xml:space="preserve"><value>This modifier changes whether or not Happy Baldi moves while the player is looking at him.
+
+This modifier requires "Slender Baldi" to be enabled, to have an effect.</value></data>
+  </root>

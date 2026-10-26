@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ENFORCE_SELECTED_SKYBOX" xml:space="preserve"><value>Закрепить выбранное небо</value></data>
+  <data name="ACTIVATE_IN_SPOOP_MODE" xml:space="preserve"><value>Включать в Spoop-режиме</value></data>
+  <data name="CAMERA" xml:space="preserve"><value>Камера</value></data>
+  <data name="ADD_DETENTION_TIME" xml:space="preserve"><value>Добавить время наказания</value></data>
+  <data name="CUSTOM_DETENTION_TIMES" xml:space="preserve"><value>Своё время наказания</value></data>
+  <data name="JUMP_ANYWHERE" xml:space="preserve"><value>Прыжок где угодно</value></data>
+  <data name="REMOVE" xml:space="preserve"><value>Удалить</value></data>
+  <data name="PLAYTIME_DELIVERY_SERVICE" xml:space="preserve"><value>Доставка от Playtime</value></data>
+  <data name="SILENT" xml:space="preserve"><value>Бесшумный</value></data>
+  <data name="SKYBOX" xml:space="preserve"><value>Небо</value></data>
+  <data name="INVISIBLE" xml:space="preserve"><value>Невидимый</value></data>
+  <data name="HAPPY_BALDI" xml:space="preserve"><value>Happy Baldi</value></data>
+  <data name="EARTHQUAKE" xml:space="preserve"><value>Землетрясение</value></data>
+  <data name="SLENDER_BALDI" xml:space="preserve"><value>Slender Baldi</value></data>
+  <data name="MOVES_WHILE_BEING_LOOKED_AT" xml:space="preserve"><value>Двигается, когда на него смотрят</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER" xml:space="preserve"><value>Не реагирует на игрока</value></data>
+  <data name="CUSTOM_JEALOUSY" xml:space="preserve"><value>Своя ревность</value></data>
+  <data name="RANDOMIZE_CHARACTER_POSITIONS" xml:space="preserve"><value>Перемешать персонажей</value></data>
+  <data name="OVERRIDE_JEALOUSY" xml:space="preserve"><value>Заменить ревность</value></data>
+  <data name="AGGRESSIVE_PLAYTIME" xml:space="preserve"><value>Агрессивная Playtime</value></data>
+  <data name="ADD_NEW_CAMERA" xml:space="preserve"><value>Добавить камеру</value></data>
+  <data name="GENERAL" xml:space="preserve"><value>Общее</value></data>
+  <data name="STORMY_NIGHT" xml:space="preserve"><value>Грозовая ночь</value></data>
+  <data name="LETHAL_TOUCH" xml:space="preserve"><value>Смертельное касание</value></data>
+  <data name="BLIND" xml:space="preserve"><value>Слепой</value></data>
+  <data name="OTHER" xml:space="preserve"><value>Другие</value></data>
+  <data name="SPEED" xml:space="preserve"><value>Скорость</value></data>
+  <data name="SCALE" xml:space="preserve"><value>Размер</value></data>
+  <data name="SLAP_SPEED_RANDOMIZER" xml:space="preserve"><value>Случайная скорость шлепков</value></data>
+  <data name="DECEPTION" xml:space="preserve"><value>Обман</value></data>
+  <data name="ENABLE_PLAYER_CAMERA" xml:space="preserve"><value>Вернуть камеру игрока</value></data>
+  <data name="CAMERAS" xml:space="preserve"><value>Камеры</value></data>
+  <data name="SKYBOX_COLOR" xml:space="preserve"><value>Цвет неба</value></data>
+  <data name="LETHAL_TOUCH_ON_GUM_WAD" xml:space="preserve"><value>Смертельная жвачка</value></data>
+  <data name="DETENTION_TIME__INDEX" xml:space="preserve"><value>Наказание {0}</value></data>
+  <data name="CAMERA_MODIFIERS" xml:space="preserve"><value>Камеры</value></data>
+  <data name="EARTHQUAKE_STRENGTH" xml:space="preserve"><value>Сила землетрясения</value></data>
+  <data name="ENABLED" xml:space="preserve"><value>Включён</value></data>
+  <data name="FLIPAROO" xml:space="preserve"><value>Fliparoo</value></data>
+  <data name="RANDOMIZE_ITEM_POSITIONS" xml:space="preserve"><value>Перемешать предметы</value></data>
+    <data name="CAMERA__INDEX" xml:space="preserve"><value>Камера {0}</value></data>
+  <data name="REMOVE_CAMERA__INDEX" xml:space="preserve"><value>Удалить камеру {0}</value></data>
+  <data name="REMOVE_DETENTION_TIME__INDEX" xml:space="preserve"><value>Удалить наказание {0}</value></data>
+</root>

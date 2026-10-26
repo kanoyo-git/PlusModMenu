@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ZESTY_BAR_STAMINA_MULTIPLIER_TEXT" xml:space="preserve"><value>Сколько дополнительной выносливости даёт съеденный Zesty Bar.</value></data>
+  <data name="MAX_EVENT_TIME_TITLE" xml:space="preserve"><value>Макс. длительность события</value></data>
+  <data name="MIDI_PITCH_TITLE" xml:space="preserve"><value>Высота тона</value></data>
+  <data name="PLAYER_HEIGHT_TITLE" xml:space="preserve"><value>Высота</value></data>
+  <data name="FOURTY_TWO_TEXT" xml:space="preserve"><value>Пока включено, любой ответ засчитывается как верный, будто вы ответили 42: любой шарик в математической машине, счёт в Balloon Buster и второй шарик в Match.</value></data>
+  <data name="DETENTION_TIME_INCREASE_TEXT" xml:space="preserve"><value>Сколько времени добавляется к наказанию, когда тебя ловит Principal of the Thing.</value></data>
+  <data name="MAX_WHIRLPOOLS_TEXT" xml:space="preserve"><value>Сколько водоворотов может быть одновременно во время наводнения, самое большее.</value></data>
+  <data name="MAX_STAY_TIME_TEXT" xml:space="preserve"><value>Сколько времени Cloudy Copter дует на одном месте, самое большее.</value></data>
+  <data name="MAX_TIME_ACTIVE_TITLE" xml:space="preserve"><value>Макс. время работы</value></data>
+  <data name="SWING_DOOR_LOCK_TIME_TEXT" xml:space="preserve"><value>Сколько времени качающиеся двери остаются запертыми.</value></data>
+  <data name="VECTOR3_CORRUPTION_TEXT" xml:space="preserve"><value>Слегка сдвигает значения каждого создаваемого Vector3 (x, y и z).
+
+&lt;b&gt;ЭТО МОЖЕТ СЛОМАТЬ ТЕКУЩУЮ ИГРУ! ВКЛЮЧАЙ НА СВОЙ СТРАХ И РИСК!&lt;/b&gt;</value></data>
+  <data name="MAX_FLIPPERS_TEXT" xml:space="preserve"><value>Сколько переворачивателей может появиться во время события гравитации, самое большее.</value></data>
+  <data name="BSODA_LIFE_SPAN_TITLE" xml:space="preserve"><value>Время жизни</value></data>
+  <data name="MAX_HALLTIME_TEXT" xml:space="preserve"><value>Сколько It's a Bully стоит в коридоре, пока ему не надоест.</value></data>
+  <data name="FIRST_PRIZE_CRAZY_TIME_TITLE" xml:space="preserve"><value>Время безумия 1st Prize</value></data>
+  <data name="SPEED_TITLE" xml:space="preserve"><value>Скорость</value></data>
+  <data name="MIN_FLIPPERS_TEXT" xml:space="preserve"><value>Сколько переворачивателей должно появиться во время события гравитации, самое меньшее.</value></data>
+  <data name="SAMPLE_RATE_TITLE" xml:space="preserve"><value>Частота дискретизации</value></data>
+  <data name="MIDI_SPEED_TEXT" xml:space="preserve"><value>Темп текущей MIDI-песни.
+
+Закрытый замок держит это значение постоянно.</value></data>
+  <data name="DRUM_BANK_TEXT" xml:space="preserve"><value>В SoundFont обычно несколько «банков» с разными наборами звуков.
+Здесь выбирается банк для ударных в песне.</value></data>
+  <data name="MOVEMENT_MULTIPLIER_TITLE" xml:space="preserve"><value>Множитель скорости</value></data>
+  <data name="FOG_MAX_DIST_TEXT" xml:space="preserve"><value>На каком расстоянии от камеры туман становится самым плотным.</value></data>
+  <data name="GOTTA_SWEEP_MIN_COOLDOWN_TEXT" xml:space="preserve"><value>Сколько времени должно пройти, прежде чем Gotta Sweep снова выйдет мести школу, самое меньшее.</value></data>
+  <data name="INVISIBLE_TEXT" xml:space="preserve"><value>Видит ли игрок этого персонажа. На то, как персонаж себя ведёт, это не влияет.</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER_TITLE" xml:space="preserve"><value>Не реагирует на игрока</value></data>
+  <data name="CAMERA_FOV_TITLE" xml:space="preserve"><value>Угол обзора</value></data>
+  <data name="INITIAL_RESPAWN_TIME_TITLE" xml:space="preserve"><value>Задержка первого появления</value></data>
+  <data name="MIN_EVENT_TIME_TITLE" xml:space="preserve"><value>Мин. длительность события</value></data>
+  <data name="PLAYTIME_COOLDOWN_TEXT" xml:space="preserve"><value>Сколько времени пройдёт, прежде чем Playtime снова захочет поиграть.</value></data>
+  <data name="BEANS_COOLDOWN_TEXT" xml:space="preserve"><value>Сколько Beans ждёт перед следующим плевком жвачкой.</value></data>
+  <data name="TELEPORT_PLAYER_TO_CHARACTER_TEXT" xml:space="preserve"><value>Переносит игрока к выбранному экземпляру персонажа.
+
+ВНИМАНИЕ: в разделе «Телепорт» игрок переносится к первому созданному экземпляру.</value></data>
+  <data name="FIRST_PRIZE_CRAZY_TIME_TEXT" xml:space="preserve"><value>Сколько 1st Prize беспорядочно крутится после того, как на нём использовали Safety Scissors.</value></data>
+  <data name="SPEED_TEXT" xml:space="preserve"><value>Скорость передвижения персонажа.</value></data>
+  <data name="GUM_SPEED_TITLE" xml:space="preserve"><value>Скорость жвачки</value></data>
+  <data name="ROTATION_SPEED_MULTIPLIER_TEXT" xml:space="preserve"><value>Как быстро 1st Prize разворачивается к своей цели.</value></data>
+  <data name="FOG_START_DIST_TITLE" xml:space="preserve"><value>Ближняя граница тумана</value></data>
+  <data name="CLASS_TIMER_LENGTH_TITLE" xml:space="preserve"><value>Длина урока</value></data>
+  <data name="APPRAISAL_TIME_TEXT" xml:space="preserve"><value>Сколько Baldi остаётся «довольным» после верно решённого примера в математической машине.</value></data>
+  <data name="MIDI_LOOP_TEXT" xml:space="preserve"><value>Повторяется ли текущая MIDI-песня.
+
+Закрытый замок держит это значение постоянно.</value></data>
+  <data name="EVENT_START_TITLE" xml:space="preserve"><value>Запустить событие</value></data>
+  <data name="DISCO_MAX_COOLDOWN_TEXT" xml:space="preserve"><value>Сколько времени может пройти, прежде чем свет обязательно перекрасится снова, самое большее.</value></data>
+  <data name="DEAF_TEXT" xml:space="preserve"><value>Слышат ли персонажи, что ты делаешь, и реагируют ли на это.</value></data>
+  <data name="MIN_WHIRLPOOLS_TITLE" xml:space="preserve"><value>Мин. водоворотов</value></data>
+  <data name="MAX_RESPAWN_TIME_TEXT" xml:space="preserve"><value>Через сколько секунд переворачиватели появляются снова, самое большее.</value></data>
+  <data name="INFINITE_STAMINA_TITLE" xml:space="preserve"><value>Бесконечная выносливость</value></data>
+  <data name="ACTIVATION_TIME_TITLE" xml:space="preserve"><value>Время активации</value></data>
+  <data name="AUDIO_VOMIT_TEXT" xml:space="preserve"><value>Перемешивает все звуки игры.</value></data>
+  <data name="BIT_CRUSHER_TITLE" xml:space="preserve"><value>Bit Crusher</value></data>
+  <data name="ROTATION_SPEED_MULTIPLIER_TITLE" xml:space="preserve"><value>Множитель скорости поворота</value></data>
+  <data name="NAMETAG_TIMER_TEXT" xml:space="preserve"><value>Сколько Faculty Nametag остаётся на игроке.</value></data>
+  <data name="DEBUG_MODE_TEXT" xml:space="preserve"><value>Показывает панель отладки мода в левом верхнем углу: сид и этаж, клетку под игроком (стены, навигация, комната), план событий этажа со временем каждого, гнев и скорость Baldi.
+
+Plus хранит флаг отладки в сохранении, но больше нигде его не читает, поэтому мод вешает на него эту панель.</value></data>
+  <data name="OVERRIDE_JUMPROPE_VALUES_TEXT" xml:space="preserve"><value>Playtime использует твои значения для скакалки вместо стандартных.</value></data>
+  <data name="MIN_STAY_TIME_TITLE" xml:space="preserve"><value>Мин. время на месте</value></data>
+  <data name="TAPE_ANTI_HEARING_TIME_TEXT" xml:space="preserve"><value>Сколько времени Baldi не слышит звуков, которые издаёт игрок.</value></data>
+  <data name="MIN_HALL_LENGTH_TITLE" xml:space="preserve"><value>Мин. длина коридора</value></data>
+  <data name="ALLOW_ON_ANY_WALL_TEXT" xml:space="preserve"><value>Portal Poster можно вешать и на стены, которые игра считает неподходящими.</value></data>
+  <data name="MAX_STAY_TIME_TITLE" xml:space="preserve"><value>Макс. время на месте</value></data>
+  <data name="HOTKEYS_TEXT" xml:space="preserve"><value>Горячая клавиша запоминает набор настроек меню и применяет его по нажатию.
+
+В клавише может быть несколько шагов: каждое нажатие переключает на следующий.
+
+&lt;b&gt;Как создать горячую клавишу&lt;/b&gt;
+1) Нажми «Новая горячая клавиша».
+2) Выставь в меню настройки такими, какими они должны стать после нажатия.
+3) Нажми «Запомнить шаг».
+4) Повтори шаги 2 и 3 для каждого нужного шага.
+5) Нажми «Сохранить клавишу», введи название и нажми «Сохранить».
+6) В новой группе нажми «Клавиша: Нет» и нажми клавишу, которую хочешь использовать.</value></data>
+  <data name="CHALKLES_LOCK_TIME_TEXT" xml:space="preserve"><value>Сколько игрок остаётся запертым в комнате Chalkles.</value></data>
+  <data name="SWAP_TIME_TITLE" xml:space="preserve"><value>Время обмена</value></data>
+  <data name="ZESTY_BAR_STAMINA_MULTIPLIER_TITLE" xml:space="preserve"><value>Множитель выносливости</value></data>
+  <data name="OVERRIDE_VERTEX_GLITCHING_TEXT" xml:space="preserve"><value>Эффект дрожания вершин, как у NULL, применяется к играющей фоновой музыке.
+ВНИМАНИЕ: эффект срабатывает на любые MIDI-ноты, а не только на особые события боя с NULL.</value></data>
+  <data name="ALLOW_ON_ANY_WALL_TITLE" xml:space="preserve"><value>На любую стену</value></data>
+  <data name="INSTRUMENT_BANK_TEXT" xml:space="preserve"><value>В SoundFont обычно несколько «банков» с разными наборами звуков.
+Здесь выбирается банк для основных инструментов в песне.</value></data>
+  <data name="JUMPS_TITLE" xml:space="preserve"><value>Прыжки</value></data>
+  <data name="GLITCH_INTENSITY_TITLE" xml:space="preserve"><value>Сила глитча</value></data>
+  <data name="DEAF_TITLE" xml:space="preserve"><value>Глухой</value></data>
+  <data name="SILENT_TITLE" xml:space="preserve"><value>Бесшумный</value></data>
+  <data name="BULLY_MIN_COOLDOWN_TEXT" xml:space="preserve"><value>Сколько времени должно пройти, прежде чем It's a Bully снова встанет в коридоре, самое меньшее.</value></data>
+  <data name="FOG_STRENGTH_TEXT" xml:space="preserve"><value>Насколько плотный туман во время события тумана.</value></data>
+  <data name="MIN_RESPAWN_TIME_TEXT" xml:space="preserve"><value>Через сколько секунд переворачиватели появляются снова, самое меньшее.</value></data>
+  <data name="MOVEMENT_MULTIPLIER_TEXT" xml:space="preserve"><value>Множитель скорости игрока во время наводнения.</value></data>
+  <data name="MIN_FLIPPERS_TITLE" xml:space="preserve"><value>Мин. переворачивателей</value></data>
+  <data name="VELOCITY_START_TITLE" xml:space="preserve"><value>Начальная скорость</value></data>
+  <data name="ENABLED_TEXT" xml:space="preserve"><value>Есть ли персонаж сейчас в школе. Выключение прячет его, но не удаляет совсем.</value></data>
+  <data name="DESPAWN_TEXT" xml:space="preserve"><value>Убирает выбранный экземпляр персонажа или все его экземпляры.</value></data>
+  <data name="SCALE_TEXT" xml:space="preserve"><value>Размер персонажа.</value></data>
+  <data name="MUSIC_CORRUPTION_TEXT" xml:space="preserve"><value>Заменяет MIDI-ноты разными звуками из игры.
+
+Закрытый замок держит это значение постоянно.</value></data>
+  <data name="WIND_FORCE_SPEED_TEXT" xml:space="preserve"><value>Насколько сильно дует Cloudy Copter.</value></data>
+  <data name="VIDEO_DIARRHEA_MIN_COOLDOWN_TEXT" xml:space="preserve"><value>Сколько времени должно пройти, прежде чем материалы перемешаются снова, самое меньшее.</value></data>
+  <data name="MAX_EVENT_TIME_TEXT" xml:space="preserve"><value>Сколько событие может длиться, самое большее.</value></data>
+  <data name="CLOWN_VOMIT_ON_SPRITES_TITLE" xml:space="preserve"><value>Клоунская рвота на спрайтах</value></data>
+  <data name="CLASS_TIMER_LENGTH_TEXT" xml:space="preserve"><value>Сколько времени есть, чтобы дойти до класса Mrs. Pomp, пока она не разозлится.</value></data>
+  <data name="BLIND_TEXT" xml:space="preserve"><value>Видит ли персонаж игрока и то, что делают игрок и другие персонажи.</value></data>
+  <data name="AUTHENTIC_MODE_TEXT" xml:space="preserve"><value>Включает оверлей аутентичного режима.
+
+То же самое, что ввести 10181996 в YCTP.
+
+ВНИМАНИЕ: переключение во время игры может вызвать побочные эффекты.</value></data>
+  <data name="ENVIRONMENT_TIMESCALE_TEXT" xml:space="preserve"><value>Как быстро живёт мир вокруг: события, двери и всё остальное.</value></data>
+  <data name="MIN_TIME_ACTIVE_TEXT" xml:space="preserve"><value>Сколько Gotta Sweep метёт школу, прежде чем вернуться отдыхать, самое меньшее.</value></data>
+  <data name="LIGHT_COLOR_TITLE" xml:space="preserve"><value>Цвет света</value></data>
+  <data name="CORRUPTION_STRENGTH_TITLE" xml:space="preserve"><value>Сила порчи</value></data>
+  <data name="SHOW_ENTITY_DISTANCE_TITLE" xml:space="preserve"><value>Показывать расстояние</value></data>
+  <data name="SHOW_ENTITY_DISTANCE_TEXT" xml:space="preserve"><value>Показывает, как далеко от тебя каждый персонаж.
+Работает, только если включён «GPS сущностей».</value></data>
+  <data name="BLIND_TITLE" xml:space="preserve"><value>Слепой</value></data>
+  <data name="RISING_SPEED_TEXT" xml:space="preserve"><value>Как быстро поднимается вода, когда начинается наводнение.</value></data>
+  <data name="CAMERA_MODE_TITLE" xml:space="preserve"><value>Режим камеры</value></data>
+  <data name="VECTOR2_CORRUPTION_TITLE" xml:space="preserve"><value>Порча Vector2</value></data>
+  <data name="BIG_OL_BOOTS_TIMER_TEXT" xml:space="preserve"><value>Сколько игрок носит Big Ol' Boots.</value></data>
+  <data name="ACTIVATION_TIME_TEXT" xml:space="preserve"><value>Сколько игрок должен пробыть в комнате, прежде чем Chalkles её запрёт.</value></data>
+  <data name="SCRABBLE_TITLE" xml:space="preserve"><value>Scrabble</value></data>
+  <data name="CORRUPTION_STRENGTH_TEXT" xml:space="preserve"><value>Насколько сильной будет порча.
+
+&lt;b&gt;ЧЕМ БОЛЬШЕ ЗНАЧЕНИЕ, ТЕМ ВЫШЕ ШАНС СЛОМАТЬ ТЕКУЩУЮ ИГРУ!&lt;/b&gt;</value></data>
+  <data name="GUILT_TIME_TEXT" xml:space="preserve"><value>Сколько персонаж считается виновным после нарушения правила.</value></data>
+  <data name="MAX_PRESSURE_TEXT" xml:space="preserve"><value>Какое натяжение может накопиться между Grappling Hook и игроком, прежде чем трос лопнет.</value></data>
+  <data name="CHALK_ERASER_TIMER_TEXT" xml:space="preserve"><value>Сколько облако мела остаётся в мире, прежде чем исчезнуть.</value></data>
+  <data name="BSODA_LIFE_SPAN_TEXT" xml:space="preserve"><value>Сколько BSODA остаётся в мире, прежде чем исчезнуть.</value></data>
+  <data name="CAMERA_FOV_TEXT" xml:space="preserve"><value>Угол обзора камеры игрока.</value></data>
+  <data name="MIN_EVENT_TIME_TEXT" xml:space="preserve"><value>Сколько событие должно длиться, самое меньшее.</value></data>
+  <data name="EVENT_STOP_TITLE" xml:space="preserve"><value>Остановить событие</value></data>
+  <data name="DEBUG_MODE_TITLE" xml:space="preserve"><value>Режим отладки</value></data>
+  <data name="VIDEO_DIARRHEA_MAX_COOLDOWN_TITLE" xml:space="preserve"><value>Макс. перезарядка</value></data>
+  <data name="CLOWN_VOMIT_ON_ENVIRONMENT_TEXT" xml:space="preserve"><value>Включает глитч шейдеров из раннего доступа Baldi's Basics Plus. Действует на окружение: стены, пол, мебель и так далее.</value></data>
+  <data name="BREAK_RULE_TEXT" xml:space="preserve"><value>Помечает любого персонажа как нарушившего выбранное правило. Principal погонится за ним и отведёт в свой кабинет.
+
+Новые правила добавляются в настройках Principal of the Thing.</value></data>
+  <data name="SWEEP_POWER_MULTIPLIER_TEXT" xml:space="preserve"><value>С какой силой Gotta Sweep толкает персонажей, которых сметает.</value></data>
+  <data name="OVERRIDE_JUMPROPE_VALUES_TITLE" xml:space="preserve"><value>Свои значения скакалки</value></data>
+  <data name="LIGHT_STRENGTH_TITLE" xml:space="preserve"><value>Яркость света</value></data>
+  <data name="MIN_WHIRLPOOLS_TEXT" xml:space="preserve"><value>Сколько водоворотов должно быть одновременно во время наводнения, самое меньшее.</value></data>
+  <data name="INFINITE_ITEMS_TEXT" xml:space="preserve"><value>Предметы не тратятся при использовании.</value></data>
+  <data name="GUM_SPEED_TEXT" xml:space="preserve"><value>Как быстро летит выплюнутая жвачка.</value></data>
+  <data name="MAX_STAMINA_TITLE" xml:space="preserve"><value>Макс. выносливость</value></data>
+  <data name="VIDEO_DIARRHEA_TEXT" xml:space="preserve"><value>Перемешивает материалы всех объектов на сцене.
+Выключение не возвращает материалы обратно: для этого сцену нужно перезапустить.</value></data>
+  <data name="VIDEO_DIARRHEA_TITLE" xml:space="preserve"><value>Видеопонос</value></data>
+  <data name="MAX_RESPAWN_TIME_TITLE" xml:space="preserve"><value>Макс. время появления</value></data>
+  <data name="MIN_HALL_LENGTH_TEXT" xml:space="preserve"><value>Какой длины должен быть коридор, чтобы Cloudy Copter мог в нём дуть, самое меньшее.</value></data>
+  <data name="JUMPS_TEXT" xml:space="preserve"><value>Сколько раз нужно прыгнуть, когда тебя поймала Playtime.
+Выше 10 Playtime перестаёт считать вслух: для этого нет озвучки.
+
+ВНИМАНИЕ: значение используется, только если включено «Свои значения скакалки».</value></data>
+  <data name="SCRABBLE_TEXT" xml:space="preserve"><value>Случайно перемешивает весь текст на сцене.
+Лучше всего включить до входа на уровень.
+Выключение не возвращает текст обратно.</value></data>
+  <data name="SUPER_HOT_TITLE" xml:space="preserve"><value>SUPER HOT</value></data>
+  <data name="SHOW_FPS_TEXT" xml:space="preserve"><value>Показывает простой счётчик кадров в левом верхнем углу экрана.</value></data>
+  <data name="SHOW_FPS_TITLE" xml:space="preserve"><value>Показывать FPS</value></data>
+  <data name="SWING_DOOR_LOCK_TIME_TITLE" xml:space="preserve"><value>Время блокировки</value></data>
+  <data name="FOG_COLOR_TEXT" xml:space="preserve"><value>Цвет тумана во время события тумана.</value></data>
+  <data name="BSODA_VELOCITY_TEXT" xml:space="preserve"><value>Как быстро летит BSODA.</value></data>
+  <data name="MIDI_SPEED_TITLE" xml:space="preserve"><value>Темп</value></data>
+  <data name="GOTTA_SWEEP_MAX_COOLDOWN_TEXT" xml:space="preserve"><value>Сколько времени может пройти, прежде чем Gotta Sweep снова выйдет мести школу, самое большее.</value></data>
+  <data name="DISABLE_HUD_TEXT" xml:space="preserve"><value>Скрывает элементы на экране: инвентарь, шкалу выносливости и так далее.</value></data>
+  <data name="FOG_MAX_DIST_TITLE" xml:space="preserve"><value>Дальняя граница тумана</value></data>
+  <data name="FOURTY_TWO_TITLE" xml:space="preserve"><value>42</value></data>
+  <data name="BIT_DEPTH_TITLE" xml:space="preserve"><value>Разрядность</value></data>
+  <data name="SELECT_SONG_TEXT" xml:space="preserve"><value>Выбор песни из игры для проигрывания.
+
+Закрытый замок не даёт самой игре включать и выключать песни.</value></data>
+  <data name="NOCLIP_TEXT" xml:space="preserve"><value>Можно ли проходить сквозь стены и другие преграды.</value></data>
+  <data name="FOG_START_DIST_TEXT" xml:space="preserve"><value>На каком расстоянии от камеры начинается туман.</value></data>
+  <data name="CAMERA_MODE_TEXT" xml:space="preserve"><value>Как может двигаться камера.
+Фиксированная — только по одной оси.
+Свободная — по двум осям.</value></data>
+  <data name="LIGHT_STRENGTH_TEXT" xml:space="preserve"><value>Насколько ярко светит персонаж в режиме «Отключение света».</value></data>
+  <data name="ALARM_TIMER_MULTIPLIER_TITLE" xml:space="preserve"><value>Множитель таймера Alarm Clock</value></data>
+  <data name="GOTTA_SWEEP_MIN_COOLDOWN_TITLE" xml:space="preserve"><value>Мин. перезарядка</value></data>
+  <data name="EMITS_LIGHT_DURING_LIGHTS_OUT_TEXT" xml:space="preserve"><value>Носит ли персонаж с собой свет, когда включён режим «Отключение света».</value></data>
+  <data name="BULLY_MAX_COOLDOWN_TEXT" xml:space="preserve"><value>Сколько времени может пройти, прежде чем It's a Bully снова встанет в коридоре, самое большее.</value></data>
+  <data name="INVISIBLE_TITLE" xml:space="preserve"><value>Невидимый</value></data>
+  <data name="CLOWN_VOMIT_ON_ENVIRONMENT_TITLE" xml:space="preserve"><value>Клоунская рвота на окружении</value></data>
+  <data name="JUMP_HEIGHT_MULTIPLIER_TEXT" xml:space="preserve"><value>Как высоко прыгает игрок в мини-игре со скакалкой Playtime.
+
+ВНИМАНИЕ: значение используется, только если включено «Свои значения скакалки».</value></data>
+  <data name="CLEAN_UP_BALLOONS_TEXT" xml:space="preserve"><value>Убирает все шарики, которые появились во время вечеринки.</value></data>
+  <data name="GOTTA_SWEEP_MAX_COOLDOWN_TITLE" xml:space="preserve"><value>Макс. перезарядка</value></data>
+  <data name="DISABLE_HUD_TITLE" xml:space="preserve"><value>Скрыть интерфейс</value></data>
+  <data name="SAMPLE_RATE_TEXT" xml:space="preserve"><value>Сколько отсчётов звука проигрывается в секунду. Чем выше частота, тем качественнее звук.</value></data>
+  <data name="EMITS_LIGHT_DURING_LIGHTS_OUT_TITLE" xml:space="preserve"><value>Светится без света</value></data>
+  <data name="EVENT_START_TEXT" xml:space="preserve"><value>Запускает ещё одно такое событие.</value></data>
+  <data name="INFINITE_STAMINA_TEXT" xml:space="preserve"><value>Тратится ли выносливость при беге.</value></data>
+  <data name="SWEEP_MOVEMENT_MULTIPLIER_TITLE" xml:space="preserve"><value>Скорость при сметании</value></data>
+  <data name="VECTOR3_CORRUPTION_TITLE" xml:space="preserve"><value>Порча Vector3</value></data>
+  <data name="VELOCITY_INCREASE_TITLE" xml:space="preserve"><value>Прибавка скорости</value></data>
+  <data name="MAX_STAMINA_TEXT" xml:space="preserve"><value>Сколько выносливости может быть у игрока без бонусов, самое большее.</value></data>
+  <data name="ENABLED_TITLE" xml:space="preserve"><value>Включён</value></data>
+  <data name="GUM_MOVEMENT_MULTIPLIER_TEXT" xml:space="preserve"><value>Множитель скорости игрока или персонажа, в которого попала жвачка Beans.</value></data>
+  <data name="FOG_STRENGTH_TITLE" xml:space="preserve"><value>Плотность тумана</value></data>
+  <data name="MAX_TIME_ACTIVE_TEXT" xml:space="preserve"><value>Сколько Gotta Sweep метёт школу, прежде чем вернуться отдыхать, самое большее.</value></data>
+  <data name="INITIAL_RESPAWN_TIME_TEXT" xml:space="preserve"><value>Через сколько секунд появляются первые переворачиватели.</value></data>
+  <data name="INFINITE_ITEMS_TITLE" xml:space="preserve"><value>Бесконечные предметы</value></data>
+  <data name="APPLE_TIMER_TEXT" xml:space="preserve"><value>Сколько Baldi ест Apple.</value></data>
+  <data name="MIDI_PITCH_TEXT" xml:space="preserve"><value>Высота тона текущей MIDI-песни.
+
+Закрытый замок держит это значение постоянно.</value></data>
+  <data name="ADD_NEW_RULE_TEXT" xml:space="preserve"><value>Правила, за нарушение которых Principal ругает. Если какой-то мод добавляет свои правила, их можно добавить и сюда.
+
+ВНИМАНИЕ: названия правил — это их внутренние ID. Чтобы добавить правило мода, нужно узнать, какой ID он использует.</value></data>
+  <data name="SILENT_TEXT" xml:space="preserve"><value>Издаёт ли персонаж хоть какие-то звуки.</value></data>
+  <data name="RISING_SPEED_TITLE" xml:space="preserve"><value>Скорость подъёма</value></data>
+  <data name="SLAP_SPEED_TITLE" xml:space="preserve"><value>Скорость шлепков</value></data>
+  <data name="EVENT_STOP_TEXT" xml:space="preserve"><value>Останавливает все идущие события этого типа.</value></data>
+  <data name="VIDEO_DIARRHEA_MAX_COOLDOWN_TEXT" xml:space="preserve"><value>Сколько времени может пройти, прежде чем материалы обязательно перемешаются снова, самое большее.</value></data>
+  <data name="APPLE_TIMER_TITLE" xml:space="preserve"><value>Таймер</value></data>
+  <data name="IGNORES_PLAYER_TRIGGER_TEXT" xml:space="preserve"><value>Может ли персонаж что-то сделать с игроком, когда касается его.</value></data>
+  <data name="DISCO_TITLE" xml:space="preserve"><value>Диско</value></data>
+  <data name="GUM_STUCK_TIME_TITLE" xml:space="preserve"><value>Время в жвачке</value></data>
+  <data name="CLOWN_VOMIT_ON_SPRITES_TEXT" xml:space="preserve"><value>Включает глитч шейдеров из раннего доступа Baldi's Basics Plus. Действует на спрайты: персонажей, растения, шарики и так далее.</value></data>
+  <data name="MAX_PRESSURE_TITLE" xml:space="preserve"><value>Макс. давление</value></data>
+  <data name="NPC_TIMESCALE_TITLE" xml:space="preserve"><value>Скорость NPC</value></data>
+  <data name="NPC_TIMESCALE_TEXT" xml:space="preserve"><value>Как быстро живут персонажи.</value></data>
+  <data name="FOG_COLOR_TITLE" xml:space="preserve"><value>Цвет тумана</value></data>
+  <data name="JUMPROPE_SPEED_MULTIPLIER_TEXT" xml:space="preserve"><value>Как быстро крутится скакалка.
+
+ВНИМАНИЕ: значение используется, только если включено «Свои значения скакалки».</value></data>
+  <data name="CHALKLES_LOCK_TIME_TITLE" xml:space="preserve"><value>Время блокировки</value></data>
+  <data name="TELEPORT_CHARACTER_TO_PLAYER_TEXT" xml:space="preserve"><value>Переносит к игроку выбранный экземпляр персонажа или все его экземпляры.
+
+ВНИМАНИЕ: в разделе «Телепорт» к игроку переносятся все экземпляры персонажа.</value></data>
+  <data name="VELOCITY_START_TEXT" xml:space="preserve"><value>С какой силой игрока тянет сразу после того, как Grappling Hook зацепился.</value></data>
+  <data name="DETENTION_TIME_INCREASE_TITLE" xml:space="preserve"><value>Прибавка к наказанию</value></data>
+  <data name="APPRAISAL_TIME_TITLE" xml:space="preserve"><value>Время оценки</value></data>
+  <data name="BIT_DEPTH_TEXT" xml:space="preserve"><value>Сколько бит хранит громкость каждого отсчёта звука. Чем больше разрядность, тем шире динамический диапазон и качественнее звук.</value></data>
+  <data name="SLAP_SPEED_TEXT" xml:space="preserve"><value>Пауза Baldi между ударами линейкой.</value></data>
+  <data name="SCALE_TITLE" xml:space="preserve"><value>Размер</value></data>
+  <data name="PLAYTIME_COOLDOWN_TITLE" xml:space="preserve"><value>Перезарядка</value></data>
+  <data name="JUMP_HEIGHT_MULTIPLIER_TITLE" xml:space="preserve"><value>Множитель высоты прыжка</value></data>
+  <data name="MIN_RESPAWN_TIME_TITLE" xml:space="preserve"><value>Мин. время появления</value></data>
+  <data name="BIT_CRUSHER_TEXT" xml:space="preserve"><value>Принудительно приводит весь звук к заданным параметрам.</value></data>
+  <data name="SWEEP_POWER_MULTIPLIER_TITLE" xml:space="preserve"><value>Сила сметания</value></data>
+  <data name="LIGHT_COLOR_TEXT" xml:space="preserve"><value>Цвет света, который носит персонаж в режиме «Отключение света».</value></data>
+  <data name="NOCLIP_TITLE" xml:space="preserve"><value>Noclip</value></data>
+  <data name="DISCO_TEXT" xml:space="preserve"><value>Перекрашивает весь свет на сцене в случайные цвета.</value></data>
+  <data name="BEANS_COOLDOWN_TITLE" xml:space="preserve"><value>Перезарядка</value></data>
+  <data name="AUTHENTIC_MODE_TITLE" xml:space="preserve"><value>Аутентичный режим</value></data>
+  <data name="LIGHTS_OUT_TITLE" xml:space="preserve"><value>Отключение света</value></data>
+  <data name="JUMPROPE_SPEED_MULTIPLIER_TITLE" xml:space="preserve"><value>Скорость скакалки</value></data>
+  <data name="CLEAN_UP_BALLOONS_TITLE" xml:space="preserve"><value>Убрать шарики</value></data>
+  <data name="MIDI_SOUNDFONT_TEXT" xml:space="preserve"><value>SoundFont задаёт «звучание» MIDI-песен в игре.
+Поддерживаются только файлы .sf2.
+
+Новые SoundFont клади в эту папку: &lt;i&gt;{0}&lt;/i&gt;</value></data>
+  <data name="AUDIO_VOMIT_TITLE" xml:space="preserve"><value>Звуковая каша</value></data>
+  <data name="DISCO_MIN_COOLDOWN_TEXT" xml:space="preserve"><value>Сколько времени должно пройти, прежде чем свет перекрасится снова, самое меньшее.</value></data>
+  <data name="BALLOON_COUNT_TEXT" xml:space="preserve"><value>Сколько шариков появляется в кабинете Principal во время вечеринки.</value></data>
+  <data name="BSODA_VELOCITY_TITLE" xml:space="preserve"><value>Скорость</value></data>
+  <data name="MIRROR_MODE_TITLE" xml:space="preserve"><value>Зеркальный режим</value></data>
+  <data name="ENTITY_GPS_TITLE" xml:space="preserve"><value>GPS сущностей</value></data>
+  <data name="MUSIC_CORRUPTION_TITLE" xml:space="preserve"><value>Порча музыки</value></data>
+  <data name="SWAP_TIME_TEXT" xml:space="preserve"><value>Через сколько времени клоунская рвота перемешивается снова.</value></data>
+  <data name="ALARM_TIMER_MULTIPLIER_TEXT" xml:space="preserve"><value>Как быстро идёт время на Alarm Clock.</value></data>
+  <data name="RESET_DELAY_TITLE" xml:space="preserve"><value>Задержка сброса</value></data>
+  <data name="MAX_FLIPPERS_TITLE" xml:space="preserve"><value>Макс. переворачивателей</value></data>
+  <data name="MAX_WHIRLPOOLS_TITLE" xml:space="preserve"><value>Макс. водоворотов</value></data>
+  <data name="WIND_FORCE_SPEED_TITLE" xml:space="preserve"><value>Сила ветра</value></data>
+  <data name="MIRROR_MODE_TEXT" xml:space="preserve"><value>Включает зеркальный режим прямо во время игры.
+
+ВНИМАНИЕ: включённая настройка действует на этом и следующих уровнях. Чтобы это прекратить, выключи её в меню.</value></data>
+  <data name="RESET_DELAY_TEXT" xml:space="preserve"><value>Через сколько времени Mrs. Pomp снова начнёт охотиться за игроком.</value></data>
+  <data name="MAX_HALLTIME_TITLE" xml:space="preserve"><value>Макс. время в коридоре</value></data>
+  <data name="OVERRIDE_VERTEX_GLITCHING_TITLE" xml:space="preserve"><value>Своё дрожание вершин</value></data>
+  <data name="MAX_HEIGHT_TITLE" xml:space="preserve"><value>Макс. высота</value></data>
+  <data name="MIN_STAY_TIME_TEXT" xml:space="preserve"><value>Сколько времени Cloudy Copter дует на одном месте, самое меньшее.</value></data>
+  <data name="GLITCH_INTENSITY_TEXT" xml:space="preserve"><value>Как далеко сдвигаются вершины на каждом MIDI-событии.</value></data>
+  <data name="VECTOR2_CORRUPTION_TEXT" xml:space="preserve"><value>Слегка сдвигает значения каждого создаваемого Vector2 (x и y).
+
+&lt;b&gt;ЭТО МОЖЕТ СЛОМАТЬ ТЕКУЩУЮ ИГРУ! ВКЛЮЧАЙ НА СВОЙ СТРАХ И РИСК!&lt;/b&gt;</value></data>
+  <data name="MIDI_LOOP_TITLE" xml:space="preserve"><value>Повтор</value></data>
+  <data name="SWEEP_MOVEMENT_MULTIPLIER_TEXT" xml:space="preserve"><value>Как быстро можно самому двигаться, пока тебя везёт Gotta Sweep.</value></data>
+  <data name="BALLOON_COUNT_TITLE" xml:space="preserve"><value>Число шариков</value></data>
+  <data name="LIGHTS_OUT_TEXT" xml:space="preserve"><value>Включает режим «Отключение света» прямо во время игры.
+
+ВНИМАНИЕ: включённая настройка действует на этом и следующих уровнях. Чтобы это прекратить, выключи её в меню.</value></data>
+  <data name="COLLECT_NOTEBOOKS_TEXT" xml:space="preserve"><value>Добавляет заданное число тетрадей к собранным.
+Тетради на этаже при этом остаются на местах, и их можно собрать сверху.</value></data>
+  <data name="MAX_HEIGHT_TEXT" xml:space="preserve"><value>До какой высоты поднимается вода во время наводнения.</value></data>
+  <data name="PLAYER_HEIGHT_TEXT" xml:space="preserve"><value>На какой высоте находится камера игрока.</value></data>
+  <data name="TAPE_ANTI_HEARING_TIME_TITLE" xml:space="preserve"><value>Время без слуха</value></data>
+  <data name="ENVIRONMENT_TIMESCALE_TITLE" xml:space="preserve"><value>Скорость окружения</value></data>
+  <data name="VIDEO_DIARRHEA_MIN_COOLDOWN_TITLE" xml:space="preserve"><value>Мин. перезарядка</value></data>
+  <data name="SUPER_HOT_TEXT" xml:space="preserve"><value>Время идёт, только когда ты двигаешься.</value></data>
+  <data name="MIN_TIME_ACTIVE_TITLE" xml:space="preserve"><value>Мин. время работы</value></data>
+  <data name="GUM_STUCK_TIME_TEXT" xml:space="preserve"><value>Сколько действует жвачка Beans на того, в кого она попала.</value></data>
+  <data name="ENTITY_GPS_TEXT" xml:space="preserve"><value>Показывает сквозь стены, где находятся все персонажи: под каждым видно его имя.</value></data>
+  <data name="SPAWN_TEXT" xml:space="preserve"><value>Создаёт заданное число новых экземпляров персонажа там, где стоит игрок.
+Новые экземпляры неактивны, пока игрок не отойдёт от них достаточно далеко.
+Это расстояние задаётся в &lt;b&gt;Настройках меню&lt;/b&gt; настройкой &lt;b&gt;Дистанция активации персонажей&lt;/b&gt;.</value></data>
+  <data name="GUM_MOVEMENT_MULTIPLIER_TITLE" xml:space="preserve"><value>Скорость в жвачке</value></data>
+    <data name="WD_NOSQUEE_TIMER_TEXT" xml:space="preserve"><value>Сколько вокруг игрока сохраняется тишина после использования WD-NoSquee.</value></data>
+  <data name="WD_NOSQUEE_SILENCE_RADIUS_TITLE" xml:space="preserve"><value>Радиус тишины</value></data>
+  <data name="WD_NOSQUEE_SILENCE_RADIUS_TEXT" xml:space="preserve"><value>Сколько клеток вокруг игрока заглушает WD-NoSquee.</value></data>
+  <data name="LANGUAGE_TEXT" xml:space="preserve"><value>«Авто» выбирает русский, если установлен мод CyrillicPlus, иначе английский.</value></data>
+  <data name="HL1_MOVEMENT_TITLE" xml:space="preserve"><value>HL1 Movement</value></data>
+  <data name="HL1_MOVEMENT_TEXT" xml:space="preserve"><value>Движение из Half-Life 1 (WON): баннихоп без ограничения скорости, автопрыжок при зажатой левой кнопке мыши, присед, перенос предметов, небольшой мебели и декора клавишей «Взять» и yes clip сквозь стены с предметом в руках. Разблокирует камеру и заменяет стаминометр спидометром.</value></data>
+  <data name="GOD_MODE_TITLE" xml:space="preserve"><value>Режим бога</value></data>
+  <data name="GOD_MODE_TEXT" xml:space="preserve"><value>Балди не может поймать (встроенный в игру флаг неуязвимости), смертельное касание из Classic, Yet Again тоже не действует. Яблоко он при этом не забирает.</value></data>
+  <data name="YTP_TEXT" xml:space="preserve"><value>Ваши YTP. Заданное значение не идёт в итог этажа и не умножается.</value></data>
+  <data name="LIVES_TEXT" xml:space="preserve"><value>Сколько жизней осталось в забеге.</value></data>
+  <data name="GRADE_TEXT" xml:space="preserve"><value>Оценка, которую ставит игра, от A+ до F-.</value></data>
+  <data name="NPC_MAP_ARROWS_TITLE" xml:space="preserve"><value>Персонажи на карте</value></data>
+  <data name="NPC_MAP_ARROWS_TEXT" xml:space="preserve"><value>Стрелки всех персонажей на карте, как Принципал в челлендже Stealthy: Балди зелёный, остальные красные.</value></data>
+  <data name="REVEAL_MAP_TEXT" xml:space="preserve"><value>Открывает все клетки карты, как карта из магазина Джонни.</value></data>
+  <data name="OPEN_LOCKED_ROOMS_TEXT" xml:space="preserve"><value>Снимает замки с запертых комнат, как будто вы открыли их ключами.</value></data>
+  <data name="OPEN_ALL_EXITS_TEXT" xml:space="preserve"><value>Все лифты открываются на выход, ни один не сломан. Блокноты при этом не считаются собранными.</value></data>
+  <data name="FINISH_FLOOR_TEXT" xml:space="preserve"><value>Заканчивает этаж, как будто вы вошли в лифт. На последнем этаже сюжета не работает.</value></data>
+  <data name="USE_FIXED_SEED_TITLE" xml:space="preserve"><value>Менеджер сцен берёт этот сид</value></data>
+  <data name="USE_FIXED_SEED_TEXT" xml:space="preserve"><value>Этажи из менеджера сцен строятся по сиду ниже, а не по случайному: один и тот же сид даёт одну и ту же школу.</value></data>
+  <data name="FIXED_SEED_TITLE" xml:space="preserve"><value>Сид</value></data>
+  <data name="FIXED_SEED_TEXT" xml:space="preserve"><value>Сид для менеджера сцен и для кнопки ниже. Игра строит этаж N по сиду + N.</value></data>
+  <data name="CURRENT_SEED_TEXT" xml:space="preserve"><value>Сид этого забега, как на экране лифта. Нажмите, чтобы скопировать его в поле выше.</value></data>
+  <data name="APPLY_SEED_TO_NEXT_FLOORS_TEXT" xml:space="preserve"><value>Ставит забегу сид из поля выше. Этот этаж остаётся как есть, следующие строятся по новому сиду.</value></data>
+  <data name="REFLEX_COOLDOWN_TITLE" xml:space="preserve"><value>Перезарядка</value></data>
+  <data name="REFLEX_COOLDOWN_TEXT" xml:space="preserve"><value>Сколько секунд после теста Dr. Reflex ждёт до следующего.</value></data>
+  <data name="REFLEX_REWARD_TITLE" xml:space="preserve"><value>Награда</value></data>
+  <data name="REFLEX_REWARD_TEXT" xml:space="preserve"><value>С каким числом YTP начинается тест; каждый промах снимает штраф.</value></data>
+  <data name="REFLEX_PENALTY_TITLE" xml:space="preserve"><value>Штраф за промах</value></data>
+  <data name="REFLEX_PENALTY_TEXT" xml:space="preserve"><value>Сколько YTP снимается с награды за каждый промах или медленный ответ.</value></data>
+  <data name="THE_TEST_FOG_TIME_TITLE" xml:space="preserve"><value>Время слепоты</value></data>
+  <data name="THE_TEST_FOG_TIME_TEXT" xml:space="preserve"><value>Сколько секунд держится туман, когда The Test ослепляет.</value></data>
+  <data name="THE_TEST_EXPLODE_CHANCE_TITLE" xml:space="preserve"><value>Шанс взрыва</value></data>
+  <data name="THE_TEST_EXPLODE_CHANCE_TEXT" xml:space="preserve"><value>Шанс (от 0 до 1), что The Test взорвётся, а не ослепит.</value></data>
+  <data name="THE_TEST_FLEE_SPEED_TITLE" xml:space="preserve"><value>Скорость бегства</value></data>
+  <data name="THE_TEST_FLEE_SPEED_TEXT" xml:space="preserve"><value>Как быстро The Test убегает после того, как ослепил.</value></data>
+  <data name="LOCKDOWN_MIN_DOORS_TITLE" xml:space="preserve"><value>Мин. дверей</value></data>
+  <data name="LOCKDOWN_MIN_DOORS_TEXT" xml:space="preserve"><value>Сколько дверей карантина событие ставит в коридорах как минимум (0–50).</value></data>
+  <data name="LOCKDOWN_MAX_DOORS_TITLE" xml:space="preserve"><value>Макс. дверей</value></data>
+  <data name="LOCKDOWN_MAX_DOORS_TEXT" xml:space="preserve"><value>Сколько дверей карантина событие ставит как максимум. На этаже с короткими коридорами их выйдет меньше.</value></data>
+  <data name="MYSTERY_ROOM_START_TEXT" xml:space="preserve"><value>Снова открывает таинственную комнату. Комната строится вместе с этажом, поэтому кнопка работает только на этаже, где она есть.</value></data>
+  <data name="TIME_OUT_ANGER_RATE_TITLE" xml:space="preserve"><value>Интервал гнева</value></data>
+  <data name="TIME_OUT_ANGER_RATE_TEXT" xml:space="preserve"><value>Раз в сколько секунд Baldi злится сильнее, пока школа закрыта.</value></data>
+  <data name="TIME_OUT_ANGER_AMOUNT_TITLE" xml:space="preserve"><value>Прибавка гнева</value></data>
+  <data name="TIME_OUT_ANGER_AMOUNT_TEXT" xml:space="preserve"><value>Сколько гнева Baldi получает каждый раз.</value></data>
+  <data name="TIME_OUT_LIGHT_RATE_TITLE" xml:space="preserve"><value>Интервал света</value></data>
+  <data name="TIME_OUT_LIGHT_RATE_TEXT" xml:space="preserve"><value>Раз в сколько секунд тускнеет ещё одна лампа в коридоре.</value></data>
+  <data name="TIME_OUT_START_TEXT" xml:space="preserve"><value>Закрывает школу прямо сейчас: Baldi злится всё сильнее, свет гаснет. Закончить это в игре нельзя, оно длится до конца этажа.</value></data>
+  <data name="BALDER_SPAWN_RATE_TITLE" xml:space="preserve"><value>Интервал появления</value></data>
+  <data name="BALDER_SPAWN_RATE_TEXT" xml:space="preserve"><value>Раз в сколько секунд из каждой комнаты-спавнера выходит Балдер.</value></data>
+  <data name="STUDENT_TOTAL_FOLLOWERS_TITLE" xml:space="preserve"><value>Учеников</value></data>
+  <data name="STUDENT_TOTAL_FOLLOWERS_TEXT" xml:space="preserve"><value>Сколько учеников идёт за лидером толпы (0–512).</value></data>
+  <data name="STUDENT_PUSH_SPEED_TITLE" xml:space="preserve"><value>Сила толчка</value></data>
+  <data name="STUDENT_PUSH_SPEED_TEXT" xml:space="preserve"><value>Как сильно толпа толкает игрока и персонажей на пути.</value></data>
+  <data name="STICKER_SLOT_TEXT" xml:space="preserve"><value>Стикер в этом слоте. Стикеры, которые меняют генерацию этажа (больше предметов, карта больше), действуют со следующего этажа.</value></data>
+  <data name="STICKER_GLUE_TEXT" xml:space="preserve"><value>Слот с клеем сохраняет стикер от этажа к этажу, как с клеем-карандашом.</value></data>
+  <data name="STICKER_ADD_TEXT" xml:space="preserve"><value>Кладёт выбранный стикер в альбом. Наклеить его можно в Pitstop.</value></data>
+  <data name="GRAVITY_GUN_DESC" xml:space="preserve"><value>Gravity Gun
+Использование: поднять мебель перед вами (шкафчики, парты, столы) или бросить то, что держите. E — поставить, зажатое колесо мыши — вращать. Не тратится.</value></data>
+  <data name="USE_ITEMS_ANYWHERE_TITLE" xml:space="preserve"><value>Предметы где угодно</value></data>
+  <data name="USE_ITEMS_ANYWHERE_TEXT" xml:space="preserve"><value>Предметы можно использовать там, где игра запрещает: в Pitstop и магазине Джонни, за пределами карты.</value></data>
+  <data name="GRAVITY_GUN_ON_MAP_TITLE" xml:space="preserve"><value>Gravity Gun на карте</value></data>
+  <data name="GRAVITY_GUN_ON_MAP_TEXT" xml:space="preserve"><value>На каждом новом этаже среди предметов лежит Gravity Gun. Используйте его, чтобы поднять любую мебель (шкафчики, парты, столы), и ещё раз, чтобы бросить; клавиша «Взять» (E) ставит предмет, а если зажать колесо мыши и двигать мышью, предмет вращается. Задачи, блокноты, двери и лифты не поднимаются.</value></data>
+  <data name="GIVE_GRAVITY_GUN_TEXT" xml:space="preserve"><value>Кладёт Gravity Gun в инвентарь.</value></data>
+  <data name="SOLVE_ALL_ACTIVITIES_TEXT" xml:space="preserve"><value>Все математические машины, шарики подсчёта и Match на этаже решаются правильно, как будто это сделал игрок: очки, пауза Балди, блокноты появляются.</value></data>
+  <data name="FREE_STORE_TITLE" xml:space="preserve"><value>Бесплатный магазин</value></data>
+  <data name="FREE_STORE_TEXT" xml:space="preserve"><value>Скидка 100% на всё в магазине Джонни: предметы, паки стикеров, карта, клей и обновление ассортимента стоят 0 YTP.</value></data>
+  <data name="MINIGAME_AUTO_WIN_TITLE" xml:space="preserve"><value>Автовин мини-игр</value></data>
+  <data name="MINIGAME_AUTO_WIN_TEXT" xml:space="preserve"><value>Мини-игра экскурсии (Campfire Frenzy, Picnic Panic) засчитывается идеальной победой сразу после заставки: бонус за идеальную игру, экран победы и предметы экскурсии. Повторы из таблицы рекордов играются как обычно.</value></data>
+  <data name="FAST_ELEVATOR_TITLE" xml:space="preserve"><value>Быстрый лифт</value></data>
+  <data name="FAST_ELEVATOR_TEXT" xml:space="preserve"><value>Лифт между этажами идёт в восемь раз быстрее: приближение, двери, доска результатов и ожидание перед следующим этажом.</value></data>
+</root>

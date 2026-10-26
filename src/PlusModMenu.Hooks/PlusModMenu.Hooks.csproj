@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>PlusModMenu.Hooks</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
